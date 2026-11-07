@@ -299,3 +299,9 @@ repository.
 
 *Built with Python, pandas, yfinance, and seaborn. Reference data sourced from public
 SEC filings and index methodology documents.*
+
+## Known limitations
+
+- **Signal lag.** `lag_dataframe` shifts rows, which is correct for a wide one-row-per-date frame but does *not* lag a long-format signal (many tickers per date). The exploratory notebook previously used it that way, so entries effectively happened at the signal-generating close. Use `lag_signal_dates(signal, prices.index, periods=1)`; notebook cell 27 now does. **Notebook outputs and any quoted Sharpe/return figures were produced before this change and must be re-run.**
+- **Entry price.** `_forward_return` starts from the close of the (lagged) entry date; execution at the open or with slippage is not modelled.
+- **Static targets and floats.** Target weights and float shares are single snapshots, so measured drift contains a slow-moving bias (z-scoring mitigates, but does not remove it).

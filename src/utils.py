@@ -92,6 +92,8 @@ def lag_dataframe(df: pd.DataFrame, periods: int = 1) -> pd.DataFrame:
         logger.warning("lag_dataframe called with periods=0 — no lag applied.")
         return df.copy()
 
+    # NOTE: shifts ROWS. For long-format signals (many tickers per date) use
+    # ``lag_signal_dates`` instead, otherwise the signal is effectively unlagged.
     lagged = df.shift(periods)
     logger.debug(
         "lag_dataframe: shifted %d columns by %d period(s); "
@@ -104,6 +106,36 @@ def lag_dataframe(df: pd.DataFrame, periods: int = 1) -> pd.DataFrame:
 # ---------------------------------------------------------------------------
 # winsorize_df
 # ---------------------------------------------------------------------------
+
+def lag_signal_dates(
+    signal_df: pd.DataFrame,
+    trading_dates: pd.DatetimeIndex,
+    periods: int = 1,
+    date_col: str = "date",
+) -> pd.DataFrame:
+    """Delay a long-format signal by ``periods`` trading days (look-ahead guard).
+
+    ``lag_dataframe`` shifts *rows*, which is only correct for a wide frame with
+    one row per date.  A long-format signal (many tickers per date) must instead
+    have its ``date`` column moved forward on the trading calendar, so a signal
+    computed from the close of day *t* is first tradable at day *t + periods*.
+
+    Rows whose lagged date falls beyond the last trading date are dropped.
+    """
+    if periods < 0:
+        raise ValueError(f"periods must be >= 0, got {periods}.")
+    cal = pd.DatetimeIndex(sorted(pd.to_datetime(trading_dates).unique()))
+    out = signal_df.copy()
+    out[date_col] = pd.to_datetime(out[date_col])
+    pos = cal.get_indexer(out[date_col])
+    if (pos < 0).any():
+        raise ValueError("signal dates not found in trading_dates calendar")
+    new_pos = pos + periods
+    keep = new_pos < len(cal)
+    out = out.loc[keep].copy()
+    out[date_col] = cal[new_pos[keep]]
+    return out.reset_index(drop=True)
+
 
 def winsorize_df(
     df: pd.DataFrame,
