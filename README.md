@@ -1,5 +1,7 @@
 # Index Rebalancing Slippage Harvesting via Float-Adjusted Weight Drift
 
+[![CI](https://github.com/rxj0102/index-drift-alpha/actions/workflows/ci.yml/badge.svg)](https://github.com/rxj0102/index-drift-alpha/actions/workflows/ci.yml)
+
 > *A systematic, patient-capital strategy for extracting alpha from the mechanical
 > rebalancing pressure that is structurally guaranteed to resolve — but timing-uncertain
 > enough that fast money leaves it on the table.*
@@ -218,17 +220,7 @@ sensitivity analysis:
 
 ## Key Findings
 
-*Populate after running `01_exploratory_analysis.ipynb`. Placeholders below:*
-
-| Metric | SP500 | SP400 |
-|---|---|---|
-| Annualised Return (net) | — | — |
-| Sharpe Ratio | — | — |
-| Maximum Drawdown | — | — |
-| Calmar Ratio | — | — |
-| Win Rate | — | — |
-| IC (10-day, combined) | — | — |
-| SP400/SP500 Sharpe ratio | — | — (≥1.30× supports HFT thesis) |
+**Status:** no results are published yet. They depend on live data that was not available when this repository was last updated. Run `notebooks/01_exploratory_analysis.ipynb` to generate them. Results will be added here only from that run. Pre-stated threshold: an SP400/SP500 Sharpe ratio of at least 1.30x supports the thesis.
 
 ---
 
