@@ -67,9 +67,9 @@ def _forward_return(
 
 
 def _compute_drawdown(cumret_series: pd.Series) -> pd.Series:
-    """Return a drawdown series (0 to -∞) from a cumulative return series."""
+    """Drawdown (0 to -1) from an equity curve that starts at 1.0."""
     rolling_max = cumret_series.cummax()
-    dd = (cumret_series - rolling_max) / (rolling_max + 1.0)
+    dd = (cumret_series - rolling_max) / rolling_max.clip(lower=1e-10)
     return dd
 
 
