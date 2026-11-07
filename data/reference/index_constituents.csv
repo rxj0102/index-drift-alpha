@@ -1,0 +1,51 @@
+ticker,company_name,index_name,target_weight,float_shares,market_cap,sector,gics_sub_industry,as_of_date
+EME,EMCOR Group Inc,SP400,0.026772,82364341,8500000000,Industrials,Construction & Engineering,2023-09-30
+OSK,Oshkosh Corporation,SP400,0.024567,84415584,7800000000,Industrials,Construction Machinery & Heavy Transportation,2023-09-30
+TTC,The Toro Company,SP400,0.028661,106308411,9100000000,Industrials,Agricultural & Farm Machinery,2023-09-30
+LECO,Lincoln Electric Holdings,SP400,0.023307,55430712,7400000000,Industrials,Industrial Machinery & Supplies,2023-09-30
+MSM,MSC Industrial Direct Co,SP400,0.020472,56620209,6500000000,Industrials,Industrial Machinery & Supplies,2023-09-30
+RHI,Robert Half International,SP400,0.025512,112033195,8100000000,Industrials,Human Resource & Employment Services,2023-09-30
+SSD,Simpson Manufacturing Co,SP400,0.016378,44558698,5200000000,Industrials,Construction Materials,2023-09-30
+ACM,AECOM,SP400,0.022677,80989876,7200000000,Industrials,Construction & Engineering,2023-09-30
+HI,Hillenbrand Inc,SP400,0.017323,136815920,5500000000,Industrials,Industrial Machinery & Supplies,2023-09-30
+EXPO,Exponent Inc,SP400,0.015118,56737589,4800000000,Industrials,Research & Consulting Services,2023-09-30
+CBSH,Commerce Bancshares Inc,SP400,0.028031,156690141,8900000000,Financials,Regional Banks,2023-09-30
+EVR,Evercore Inc,SP400,0.020157,44975404,6400000000,Financials,Investment Banking & Brokerage,2023-09-30
+VOYA,Voya Financial Inc,SP400,0.022992,109445277,7300000000,Financials,Multi-line Insurance,2023-09-30
+ORI,Old Republic International,SP400,0.024567,318367347,7800000000,Financials,Multi-line Insurance,2023-09-30
+FHN,First Horizon National Corp,SP400,0.022047,534351145,7000000000,Financials,Regional Banks,2023-09-30
+BOKF,BOK Financial Corporation,SP400,0.021417,69105691,6800000000,Financials,Regional Banks,2023-09-30
+SNV,Synovus Financial Corp,SP400,0.017323,158959538,5500000000,Financials,Regional Banks,2023-09-30
+PNFP,Pinnacle Financial Partners,SP400,0.019213,69160998,6100000000,Financials,Regional Banks,2023-09-30
+OZK,Bank OZK,SP400,0.018268,128035320,5800000000,Financials,Regional Banks,2023-09-30
+UMBF,UMB Financial Corporation,SP400,0.016378,52684904,5200000000,Financials,Regional Banks,2023-09-30
+DKS,Dick's Sporting Goods Inc,SP400,0.032126,113839286,10200000000,Consumer Discretionary,Specialty Retail,2023-09-30
+ANF,Abercrombie & Fitch Co,SP400,0.017008,73770492,5400000000,Consumer Discretionary,Apparel Retail,2023-09-30
+HRB,H&R Block Inc,SP400,0.019843,166666667,6300000000,Consumer Discretionary,Diversified Consumer Services,2023-09-30
+WEN,The Wendy's Company,SP400,0.015118,224299065,4800000000,Consumer Discretionary,Restaurants,2023-09-30
+SIG,Signet Jewelers Limited,SP400,0.016063,49275362,5100000000,Consumer Discretionary,Specialty Retail,2023-09-30
+SKX,Skechers USA Inc,SP400,0.022362,158129176,7100000000,Consumer Discretionary,Footwear,2023-09-30
+KBH,KB Home,SP400,0.016378,76696165,5200000000,Consumer Discretionary,Homebuilding,2023-09-30
+TMHC,Taylor Morrison Home Corp,SP400,0.014488,104072398,4600000000,Consumer Discretionary,Homebuilding,2023-09-30
+RPM,RPM International Inc,SP400,0.028976,128851541,9200000000,Materials,Specialty Chemicals,2023-09-30
+ATI,ATI Inc,SP400,0.017638,144702842,5600000000,Materials,Steel,2023-09-30
+CMC,Commercial Metals Company,SP400,0.020472,124282983,6500000000,Materials,Steel,2023-09-30
+CLF,Cleveland-Cliffs Inc,SP400,0.024567,500000000,7800000000,Materials,Steel,2023-09-30
+WLK,Westlake Corporation,SP400,0.026457,74204947,8400000000,Materials,Commodity Chemicals,2023-09-30
+NEU,NewMarket Corporation,SP400,0.014173,10031208,4500000000,Materials,Specialty Chemicals,2023-09-30
+PRGO,Perrigo Company plc,SP400,0.022677,176470588,7200000000,Health Care,Pharmaceuticals,2023-09-30
+ACHC,Acadia Healthcare Company,SP400,0.019213,89181287,6100000000,Health Care,Health Care Facilities,2023-09-30
+ENSG,The Ensign Group Inc,SP400,0.017638,56451613,5600000000,Health Care,Health Care Facilities,2023-09-30
+MMSI,Merit Medical Systems Inc,SP400,0.015118,57347670,4800000000,Health Care,Health Care Equipment,2023-09-30
+IPAR,Inter Parfums Inc,SP400,0.013228,32183908,4200000000,Consumer Staples,Personal Care Products,2023-09-30
+INGR,Ingredion Incorporated,SP400,0.026772,71790541,8500000000,Consumer Staples,Agricultural Products & Services,2023-09-30
+CASY,Casey's General Stores Inc,SP400,0.027717,39532794,8800000000,Consumer Staples,Food Retail,2023-09-30
+SM,SM Energy Company,SP400,0.015748,176056338,5000000000,Energy,Oil & Gas Exploration & Production,2023-09-30
+CIVI,Civitas Resources Inc,SP400,0.018268,94308943,5800000000,Energy,Oil & Gas Exploration & Production,2023-09-30
+SWN,Southwestern Energy Company,SP400,0.013228,688524590,4200000000,Energy,Oil & Gas Exploration & Production,2023-09-30
+NBR,Nabors Industries Ltd,SP400,0.014173,51546392,4500000000,Energy,Oil & Gas Drilling,2023-09-30
+EGP,EastGroup Properties Inc,SP400,0.017323,32679739,5500000000,Real Estate,Industrial REITs,2023-09-30
+HIW,Highwoods Properties Inc,SP400,0.015118,136363636,4800000000,Real Estate,Office REITs,2023-09-30
+FR,First Industrial Realty Trust,SP400,0.019528,113138686,6200000000,Real Estate,Industrial REITs,2023-09-30
+BKH,Black Hills Corporation,SP400,0.014173,74750831,4500000000,Utilities,Multi-Utilities,2023-09-30
+NJR,New Jersey Resources Corporation,SP400,0.013228,95890411,4200000000,Utilities,Gas Utilities,2023-09-30

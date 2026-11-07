@@ -1,0 +1,14 @@
+etf_ticker,index_name,fund_family,aum_billion_usd,expense_ratio,avg_daily_volume_mm,creation_unit_shares
+SPY,SP500,State Street SPDR,400.2,0.0945,25000.0,50000
+IVV,SP500,iShares (BlackRock),310.5,0.0300,5800.0,50000
+VOO,SP500,Vanguard,290.8,0.0300,4200.0,50000
+MDY,SP400,State Street SPDR,18.6,0.2400,420.0,50000
+IJH,SP400,iShares (BlackRock),62.4,0.0500,960.0,50000
+IWB,Russell1000,iShares (BlackRock),32.1,0.1500,380.0,50000
+IWF,Russell1000 Growth,iShares (BlackRock),68.5,0.1900,620.0,50000
+IWM,Russell2000,iShares (BlackRock),58.3,0.1900,7800.0,50000
+IWN,Russell2000 Value,iShares (BlackRock),11.2,0.2400,230.0,50000
+XLK,SP500 InfoTech,State Street SPDR,44.8,0.1000,1800.0,50000
+XLF,SP500 Financials,State Street SPDR,33.6,0.1000,4200.0,50000
+XLV,SP500 HealthCare,State Street SPDR,38.2,0.1000,960.0,50000
+XLE,SP500 Energy,State Street SPDR,28.4,0.1000,2400.0,50000
