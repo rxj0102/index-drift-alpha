@@ -3,7 +3,7 @@
 [![CI](https://github.com/rxj0102/index-drift-alpha/actions/workflows/ci.yml/badge.svg)](https://github.com/rxj0102/index-drift-alpha/actions/workflows/ci.yml)
 
 > *A systematic, patient-capital strategy for extracting alpha from the mechanical
-> rebalancing pressure that is structurally guaranteed to resolve — but timing-uncertain
+> rebalancing pressure that is structurally guaranteed to resolve - but timing-uncertain
 > enough that fast money leaves it on the table.*
 
 ---
@@ -11,10 +11,11 @@
 ## Abstract
 
 The explosive growth of passive investing has transformed index funds from price-takers
-into price-makers. As of 2024, passive equity AUM in the United States exceeds $15 trillion,
-with S&P 500 ETFs alone commanding over $1 trillion in daily turnover. When daily price
+into price-makers. Passive equity vehicles now hold a large share of US equity assets, and
+S&P 500 ETFs trade heavily every day (market-size figures are deliberately left out here
+because they are not sourced in this repo). When daily price
 movements push constituent realized weights away from their index-mandated target weights,
-a mechanical rebalancing pressure builds — not at the next reconstitution, but continuously,
+a mechanical rebalancing pressure builds - not at the next reconstitution, but continuously,
 every trading day. This pressure is deterministic in direction but uncertain in timing: the
 index fund manager must eventually trade to restore target weights, and the closer the
 scheduled rebalance date, the more predictable the direction and magnitude of that flow.
@@ -22,7 +23,7 @@ scheduled rebalance date, the more predictable the direction and magnitude of th
 This repository implements a float-adjusted weight drift strategy that quantifies this
 continuous mechanical pressure, ranks constituents by drift urgency, and constructs a
 daily-refreshed long/short portfolio designed to capture the pre-rebalance mean reversion.
-The core empirical question — tested explicitly in the backtests — is whether this
+The core empirical question - tested explicitly in the backtests - is whether this
 mechanical signal is more exploitable in mid-cap (S&P 400) than in large-cap (S&P 500),
 where HFT front-running of passive flows is more pervasive. The methodology introduces
 a drift z-score framework for cross-sectional signal normalization, an ETF flow
@@ -54,11 +55,11 @@ HFT penetration in mid-cap passive flows.
 > of buying stocks the moment they are announced for addition to the S&P 500 (and selling
 > them on the effective date) was documented by Shleifer (1986) and Chen, Noronha &
 > Singal (2004). By 2015, the front-running was so severe that the "index premium"
-> had inverted in large-cap indices — latecomers were left holding expensive shares
+> had inverted in large-cap indices - latecomers were left holding expensive shares
 > that experienced a predictable post-addition reversal.
 >
 > **Instead, this strategy exploits the silent, continuous drift of realized weights away
-> from target weights within existing constituents** — a mechanical pressure that is
+> from target weights within existing constituents** - a mechanical pressure that is
 > structurally guaranteed to resolve but timing-uncertain, creating an exploitable edge
 > for patient, size-appropriate capital. No front-running of public announcements is
 > required. The signal is derived entirely from observable price data, the publicly
@@ -123,14 +124,14 @@ $$\text{flow}_i(t) = \delta_i(t) \times \text{AUM}_{\text{ETF}}(t)$$
 ## Factor Crash Validation
 
 This strategy is **NOT** a crisis alpha strategy. Its edge arises from the mechanical
-predictability of index fund rebalancing flows — a signal that requires functioning,
+predictability of index fund rebalancing flows - a signal that requires functioning,
 liquid markets where passive funds can and do execute their mandated rebalancing.
 During severe market dislocations (March 2020, Q4 2018, Q1 2022), two effects typically
 overwhelm the mechanical drift signal:
 
-1. **Correlation collapse** — All constituents move together in the same direction,
+1. **Correlation collapse** - All constituents move together in the same direction,
    compressing cross-sectional drift variation (σ→0 in the denominator of the z-score).
-2. **Fund flow reversals** — Redemption pressure forces index funds to sell everything
+2. **Fund flow reversals** - Redemption pressure forces index funds to sell everything
    regardless of drift direction, decoupling realized flows from drift predictions.
 
 The strategy's drawdown periods in the backtest align with these systemic risk episodes.
@@ -179,7 +180,7 @@ cd index-drift-alpha
 pip install -r requirements.txt
 ```
 
-### 2. Smoke Test — Drift Pipeline
+### 2. Smoke Test - Drift Pipeline
 
 Run the full drift computation for the default universe (SP400) and print
 the top 10 highest-drift names for the most recent available date:
@@ -226,35 +227,35 @@ sensitivity analysis:
 
 ## Limitations
 
-1. **Float share staleness** — The reconstitution file is updated at most quarterly.
+1. **Float share staleness** - The reconstitution file is updated at most quarterly.
    Intraday buybacks, secondary offerings, and block sales change float shares daily but
    are not captured. This introduces a slow-moving bias in the realized-weight denominator.
    Mitigation: refresh float shares from 13F filings quarterly and monitor the sensitivity
    of drift signals to ±5% float perturbations.
 
-2. **Timing uncertainty — the strategy's existential risk** — The rebalancing pressure
+2. **Timing uncertainty - the strategy's existential risk** - The rebalancing pressure
    this strategy captures is *directionally* certain but *temporally* uncertain. An index
    fund manager who decides to rebalance two weeks early (or two weeks late) relative to
    the scheduled date invalidates the expected entry/exit timing. Suggested mitigation:
    implement a confidence decay function that reduces position size by 20% for each day
    held past day 5 without a fresh drift signal or flow confirmation.
 
-3. **ETF AUM proxy quality** — yfinance `shares_outstanding` for ETFs reports total
+3. **ETF AUM proxy quality** - yfinance `shares_outstanding` for ETFs reports total
    authorized shares, not shares actually outstanding. The divergence between this figure
    and true NAV × shares data can be ±20–40%. Flow estimates are directionally correct
    but should not be used for precise dollar-flow projections without proper fund
    administrator data feeds.
 
-4. **Transaction cost sensitivity in mid-cap** — The 8 bps one-way assumption is
+4. **Transaction cost sensitivity in mid-cap** - The 8 bps one-way assumption is
    optimistic for SP400 names with average daily volume (ADV) below $50M. For names
    in the bottom ADV quartile, 15–25 bps is more realistic. Stress-testing at 25 bps
    is essential before allocating real capital.
 
-5. **HFT arms race** — The alpha documented here assumes that the drift signal is not
+5. **HFT arms race** - The alpha documented here assumes that the drift signal is not
    yet fully crowded in mid-cap. If the number of participants running similar strategies
    in the SP400 exceeds a critical threshold, the alpha decays to zero net of costs.
    Capacity should be estimated as roughly 10% of the estimated daily flow for each
-   constituent — exceeding this fraction makes the strategy self-defeating.
+   constituent - exceeding this fraction makes the strategy self-defeating.
 
 ---
 
@@ -273,7 +274,7 @@ sensitivity analysis:
 
 * **Wurgler, J., & Zhuravskaya, E. (2002).** "Does Arbitrage Flatten Demand Curves for
   Stocks?" *Journal of Business*, 75(4), 583–608. [Why addition effects are larger for
-  stocks with no close substitutes — relevant to the mid-cap vs. large-cap comparison.]
+  stocks with no close substitutes - relevant to the mid-cap vs. large-cap comparison.]
 
 ---
 
