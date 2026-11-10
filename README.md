@@ -221,7 +221,38 @@ sensitivity analysis:
 
 ## Key Findings
 
-**Status:** no results are published yet. They depend on live data that was not available when this repository was last updated. Run `notebooks/01_exploratory_analysis.ipynb` to generate them. Results will be added here only from that run. Pre-stated threshold: an SP400/SP500 Sharpe ratio of at least 1.30x supports the thesis.
+No backtest results are reported. A review of the design (November 2026) found three issues that would make any backtest result misleading, so they are documented here before any results.
+
+### 1. In a cap-weighted index, price moves do not create rebalancing trades
+
+With float shares held fixed, `realized_weight_i(t) = p_i(t) f_i / sum_j p_j(t) f_j`. If the target is the snapshot weight, then
+
+`drift_i(t) = w_i(0) x (R_i(t) / R_index(t) - 1)`
+
+where `R` is the gross return since the snapshot. Drift is therefore the stock's return relative to the index since the snapshot date, scaled by its starting weight. A fund tracking a float-adjusted cap-weighted index already holds the right shares after any price move, so it has no reason to sell an outperformer or buy an underperformer. Passive flow comes from index additions and deletions, float and share-count changes, and buybacks or issuance, not from price drift. A backtest of this signal would measure short-term reversal relative to the index, not passive rebalancing demand.
+
+### 2. Look-ahead and survivorship bias
+
+The backtest window is `BACKTEST_START` = 2015-01-01 to `BACKTEST_END` = 2023-12-31, but `data/reference/index_constituents.csv` is a 50-name snapshot dated 2023-09-30. Applying 2023 membership and float to 2015 selects survivors and uses information not available at the time.
+
+### 3. Reference data does not match SEC filings
+
+`scripts/check_constituent_shares.py` compares each `float_shares` value with SEC-reported shares outstanding (dei:EntityCommonStockSharesOutstanding, latest value in 2023 H2). Of the 40 tickers that matched, 11 differ by more than 20 percent, and several exceed total shares outstanding, which a float cannot do (for example EME 1.75x, NBR 5.45x, SM 1.51x, ANF 1.46x). Several values are round fractions such as 166,666,667 and 500,000,000. Full comparison: `results/constituent_share_check.csv`.
+
+### What a testable version looks like
+
+The passive-flow effect that the literature does document is the index inclusion and deletion effect (Shleifer 1986; Harris and Gurel 1986), where index funds must trade on a known date. S&P 400 and S&P 500 membership changes are public, so an event study around announcement and effective dates is testable with free data.
+
+### Signal documentation
+
+| Field | Value |
+|---|---|
+| Signal | Drift z-score: (realized weight minus target weight), standardized over `DRIFT_LOOKBACK_DAYS` = 20 |
+| Expected sign | Negative: overweight names are shorted, underweight names bought |
+| Inputs | Daily prices (yfinance), constituent float and target weights (`data/reference/index_constituents.csv`) |
+| Timing | Rebalanced daily, held `HOLDING_PERIOD_DAYS` = 10 |
+| Code | `src/drift_engine.py`, `src/signal.py`, `src/backtest.py` |
+| Status | Not run: see issues 1 to 3 above |
 
 ---
 
