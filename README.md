@@ -263,12 +263,24 @@ Market-adjusted cumulative abnormal returns (stock minus MDY) around S&P 400 eff
 | All additions, origin unknown | 158 of 282 | +0.71% (t = 1.43) | +0.67% (t = 1.43) | +0.22% (t = 1.24) | +0.04% (t = 0.08) | +1.18% (t = 1.56) | +0.80% |
 | All non-M&A deletions, destination unknown | 57 of 116 | +0.76% (t = 0.46) | -2.85% (t = -3.19) | -0.22% (t = -0.66) | +0.75% (t = 0.60) | -1.57% (t = -0.62) | -1.99% |
 
-Price coverage: 68% of additions and 71% of non-M&A deletions have yfinance prices for the full window. Firms that later delisted or changed ticker drop out, so results lean toward survivors. Moves to the S&P 600 are matched with the S&P 600 changes table; moves to the S&P 500 only with current S&P 500 members, so up-moves by firms that later left the S&P 500 sit in the unclassified group. Wikipedia gives effective dates, not announcement dates, so the NEAR window mixes the announcement reaction with the index-fund trade. Event list: `results/index_events.csv`; per-event CARs: `results/event_study_car.csv`.
+**Announcement decomposition, events with a dated S&P announcement (2012 to 2025)**
+
+S&P announces after the close, so the reaction day A0 is the first trading day after the announcement date. 449 events have an announcement date and prices; the median gap from A0 to the effective date is 4 trading days. RUNUP runs from the close of A0 to the close of the day before the effective date, when index funds trade; it is the part an investor could capture after seeing the announcement.
+
+| Group | Events | Before A0 [-10,-1] | Reaction A0 | RUNUP (A0, E-1] | AFTER [E, E+10] |
+|---|---|---|---|---|---|
+| New additions (not from the S&P 600) | 126 | +1.29% (t = 1.78) | +6.10% (t = 10.87) | -0.39% (t = -0.85) | -0.06% (t = -0.06) |
+| Additions moved up from the S&P 600 | 42 | -0.37% (t = -0.22) | -4.71% (t = -7.59) | -0.05% (t = -0.05) | +0.68% (t = 0.49) |
+| Deletions moved down to the S&P 600 | 121 | +0.29% (t = 0.28) | +4.63% (t = 8.55) | -0.50% (t = -1.35) | -0.97% (t = -1.12) |
+| All additions, origin unknown | 72 | +0.76% (t = 1.01) | +0.99% (t = 2.53) | -0.35% (t = -1.51) | +0.66% (t = 0.99) |
+| All non-M&A deletions, destination unknown | 28 | -2.28% (t = -1.18) | -0.93% (t = -1.17) | -0.15% (t = -0.28) | +0.96% (t = 0.38) |
+
+Price coverage: 68% of additions and 71% of non-M&A deletions have yfinance prices for the full window. Firms that later delisted or changed ticker drop out, so results lean toward survivors. Moves to the S&P 600 are matched with the S&P 600 changes table; moves to the S&P 500 only with current S&P 500 members, so up-moves by firms that later left the S&P 500 sit in the unclassified group. In the first tables the NEAR window mixes the announcement reaction with the index-fund trade; the decomposition separates them for events with a dated announcement (2015 to 2018 citations mostly lack dates). Event list: `results/index_events.csv`; per-event CARs: `results/event_study_car.csv`.
 <!-- event-study:end -->
 
 Reading the table (the numbers above are regenerated on every run; this paragraph only states directions):
 
-- The price effect sits in the NEAR window, the days between announcement and the close of day -1 when index funds trade. Day 0 and POST are not significant, so there is nothing left to capture by trading on or after the effective date.
+- The price effect sits in the NEAR window, and the announcement decomposition places almost all of it on the reaction day after S&P announces the change. The run-up from that close to the index-fund trade, and the days after the effective date, are not significant. The market prices the coming index demand on the announcement itself, so an investor who trades on the public announcement, or on the effective date, captures nothing in this sample.
 - In 2020 to 2025 the sign follows net passive demand, not just whether a stock enters or leaves the S&P 400. New additions rise. Stocks that move up from the S&P 600 fall, and stocks that move down to the S&P 600 rise. That pattern is consistent with S&P 600 trackers holding a larger share of a small stock's float than S&P 400 trackers hold of a mid-cap's, so the small-cap side of a migration dominates. That explanation is a hypothesis; this repo does not measure index-fund ownership.
 - Pooling 2012 to 2019 without origin and destination mixes these opposite flows, which is why the pooled rows are weaker.
 - Testing the original claim that the effect is stronger in the S&P 400 than in the S&P 500 needs an S&P 500 change history with dates, which the Wikipedia article no longer carries.

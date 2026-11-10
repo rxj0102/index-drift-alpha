@@ -1,629 +1,630 @@
 # S&P 400 membership changes, from the changes table of the Wikipedia article List of S&P 400 companies.
-# Retrieved 2026-11-10 by scripts/index_event_study.py. Dates are effective dates.
-date,added_ticker,added_security,removed_ticker,removed_security,reason
-2026-11-04,GKOS,Glaukos,OKTA,"Okta, Inc.",Market capitalization change.
-2026-10-06,FORM,FormFactor,TWLO,Twilio,Market capitalization change.
-2026-10-06,CTVA,Corteva,OLN,Olin Corporation,Market capitalization change.
-2026-09-21,HUBS,HubSpot,SAM,Boston Beer Company,Market capitalization change.
-2026-09-21,AGNC,AGNC Investment,CPRI,Capri Holdings,Market capitalization change.
-2026-09-21,CORT,Corcept Therapeutics,P,Everpure,Market capitalization change.
-2026-09-21,EAT,Brinker International,ILMN,"Illumina, Inc.",Market capitalization change.
-2026-08-20,SUI,Sun Communities,WBS,Webster Bank,Banco Santander S.A. acquired Webster Financial.
-2026-07-24,KRYS,Krystal Biotech,TMHC,Taylor Morrison,S&P 500 & 100 constituent Berkshire Hathaway acquired Taylor Morrison Home.
-2026-07-22,MOH,Molina Healthcare,NSA,National Storage Affiliates Trust,S&P 500 constituent Public Storage acquired National Storage Affiliates Trust.
-2026-07-17,BTSG,BrightSpring Health Services,GTLS,Chart Industries,S&P 500 constituent Baker Hughes Co. acquired Chart Industries.
-2026-07-06,ALSN,Allison Transmission,GT,Goodyear Tire & Rubber,Market capitalization change.
-2026-07-01,TOST,"Toast, Inc.",BLD,TopBuild Corp.,"QXO, Inc. acquired TopBuild Corp."
-2026-07-01,IESC,IES Holdings,JHG,Janus Henderson,"Janus Henderson taken private by Trian Fund Management, L.P., General Catalyst Group Management, LLC, and Qatar Investment Authority."
-2026-06-22,ROKU,"Roku, Inc.",FLEX,Flex Ltd.,Market capitalization change.
-2026-06-22,CDE,Coeur Mining,BRBR,BellRing Brands,Market capitalization change.
-2026-06-22,SMTC,Semtech,COTY,Coty,Market capitalization change.
-2026-06-22,SANM,Sanmina Corporation,CNXC,Concentrix,Market capitalization change.
-2026-06-22,VIAV,Viavi Solutions,BLKB,Blackbaud,Market capitalization change.
-2026-06-11,SIRI,SiriusXM,MASI,Masimo,S&P 500 & 100 constituent Danaher Corporation acquired Masimo.
-2026-05-18,SN,SharkNinja,FLO,Flowers Foods,Market capitalization change.
-2026-04-09,DOCN,DigitalOcean,CASY,Casey's,Market capitalization change.
-2026-03-23,SOLS,Solstice Advanced Materials,LITE,Lumentum,Market capitalization change.
-2026-03-23,SITM,SiTime,COHR,Coherent Corp.,Market capitalization change.
-2026-03-23,MOG.A,Moog Inc.,SATS,EchoStar,Market capitalization change.
-2026-03-23,IDCC,InterDigital,GTM,ZoomInfo,Market capitalization change.
-2026-03-23,VICR,Vicor Corporation,ASGN,ASGN Inc.,Market capitalization change.
-2026-03-23,CTRE,CareTrust REIT,KMPR,Kemper Corporation,Market capitalization change.
-2026-02-09,ARWR,Arrowhead Pharmaceuticals,CIEN,Ciena,Market capitalization change.
-2026-02-02,BROS,Dutch Bros Inc.,PCH,PotlatchDeltic,S&P MidCap 400 constituent Rayonier Inc. acquired PotlatchDeltic.
-2026-02-02,AEIS,Advanced Energy,CMA,Comerica,S&P 500 constituent Fifth Third Bancorp acquired Comerica.
-2026-02-02,AHR,American Healthcare REIT,CADE,Cadence Bank,S&P 500 constituent Huntington Bancshares Inc. acquired Cadence Bank.
-2026-01-30,TTMI,TTM Technologies,CIVI,Civitas Resources,S&P SmallCap 600 constituent SM Energy Company acquired Civitas Resources.
-2026-01-22,SARO,StandardAero,FYBR,Frontier Communications,S&P 500 & S&P 100 constituent Verizon Communications Inc. acquired Frontier Communications Parent.
-2026-01-02,PATH,UiPath,SNV,Synovus,S&P MidCap 400 constituent Pinnacle Financial Partners Inc. acquired Synovus Financial Corp.
-2025-12-22,ULS,UL Solutions,FIX,Comfort Systems USA,Market capitalization change.
-2025-12-22,PINS,Pinterest,UAA/UA,Under Armour,Market capitalization change.
-2025-12-22,BAH,Booz Allen Hamilton,POWI,Power Integrations,Market capitalization change.
-2025-12-22,SPXC,SPX Technologies,PRGO,Perrigo,Market capitalization change.
-2025-12-22,DY,Dycom Industries,IRDM,Iridium Communications,Market capitalization change.
-2025-12-22,BWA,BorgWarner,VAC,Marriott Vacations Worldwide,Market capitalization change.
-2025-12-22,HL,Hecla Mining,NSP,Insperity,Market capitalization change.
-2025-12-17,CRBG,Corebridge Financial,ALE,"Allete, Inc.",Canada Pension Plan Investment Board and Global Infrastructure Partners acquired Allete.
-2025-11-13,STRL,Sterling Infrastructure,LNW,Light & Wonder,Light & Wonder delisted from the NASDAQ Stock Exchange but kept its primary listing exclusively in Australia.
-2025-10-06,BSY,Bentley Systems,WU,Western Union,Market capitalization change.
-2025-09-22,KTOS,Kratos Defense & Security Solutions,MAN,ManpowerGroup,Market capitalization change.
-2025-09-22,MP,MP Materials,ACHC,Acadia Healthcare,Market capitalization change.
-2025-09-22,TRU,TransUnion,WEN,Wendy's,Market capitalization change.
-2025-09-22,NTNX,Nutanix,EME,Emcor,Market capitalization change.
-2025-09-12,FTI,TechnipFMC,SKX,Skechers,3G Capital acquired Skechers USA.
-2025-09-02,ELAN,Elanco,SRPT,Sarepta Therapeutics,Market capitalization change.
-2025-08-28,TLN,Talen Energy,IBKR,Interactive Brokers,Market capitalization change.
-2025-08-19,TWLO,Twilio,AMED,Amedisys,S&P 500 and S&P 100 constituent UnitedHealth Group acquired Amedisys.
-2025-07-18,AVAV,AeroVironment,CHX,ChampionX,S&P 500 constituent Schlumberger Ltd. acquired ChampionX.
-2025-06-24,APG,APi Group,X,U.S. Steel,Nippon Steel Corp. acquired United States Steel.
-2025-05-22,PEGA,Pegasystems,JWN,Nordstrom,The Nordstrom family and El Puerto de Liverpool acquired Nordstrom.
-2025-05-01,OKTA,"Okta, Inc.",BERY,Berry Global,S&P 500 constituent Amcor plc acquired Berry Global Group.
-2025-03-31,CAVA,Cava Group,ALTR,Altair Engineering,Siemens AG acquired Altair Engineering.
-2025-03-24,VFC,VF Corporation,TKO,TKO Group Holdings,Market capitalization change.
-2025-03-24,ALK,Alaska Air Group,WSM,"Williams-Sonoma, Inc.",Market capitalization change.
-2025-03-24,HIMS,Hims & Hers Health,EXE,Expand Energy,Market capitalization change.
-2025-03-24,BBWI,"Bath & Body Works, Inc.",CC,Chemours,Market capitalization change.
-2025-03-24,ATI,ATI Inc.,TDC,Teradata,Market capitalization change.
-2025-03-24,SATS,EchoStar,NEOG,Neogen,Market capitalization change.
-2025-03-11,ACI,Albertsons,AZPN,Aspen Technology,S&P 500 constituent Emerson Electric acquired Aspen Technology.
-2025-03-06,ENTG,Entegris,ALTM,Arcadium Lithium,Rio Tinto acquired Arcadium Lithium.
-2025-01-27,GWRE,Guidewire Software,ARWR,Arrowhead Pharmaceuticals,Market capitalization change.
-2025-01-14,CART,Maplebear Inc.,ENOV,Enovis,Market capitalization change.
-2024-12-23,CMA,Comerica,VSH,Vishay Intertechnology,Market capitalization change.
-2024-12-23,CRS,Carpenter Technology,CRI,Carter's,Market capitalization change.
-2024-12-23,BILL,BILL Holdings,LII,Lennox International,Market capitalization change.
-2024-11-26,MLI,Mueller Industries,TPL,Texas Pacific Land Corporation,Market capitalization change.
-2024-11-25,FLEX,Flex Ltd.,AZTA,Azenta,Market capitalization change.
-2024-11-20,FOUR,Shift4,RCM,R1 RCM,"TowerBrook Capital Partners and Clayton, Dubilier & Rice acquired R1 RCM."
-2024-11-06,CHWY,Chewy,SRCL,Stericycle,"S&P 500 constituent Waste Management, Inc. acquired Stericycle."
-2024-10-11,DOCU,Docusign,MDU,MDU Resources,Market capitalization change.
-2024-10-01,ENSG,Ensign Group,SWN,Southwestern Energy,S&P MidCap 400 constituent Chesapeake Energy Corp. acquired Southwestern Energy. The combined company renamed to Expand Energy Corporation.
-2024-09-23,BIO,Bio-Rad Laboratories,ERIE,Erie Indemnity,Market capitalization change.
-2024-09-23,CNH,CNH Industrial,MP,MP Materials,Market capitalization change.
-2024-09-23,WAL,Western Alliance Bancorporation,PGNY,Progyny,Market capitalization change.
-2024-09-23,PSN,Parsons Corporation,ADNT,Adient,Market capitalization change.
-2024-09-23,HLNE,Hamilton Lane,WOLF,Wolfspeed,Market capitalization change.
-2024-09-23,VNOM,Viper Energy,HELE,Helen of Troy Limited,Market capitalization change.
-2024-09-23,FN,Fabrinet,ZD,Ziff Davis,Market capitalization change.
-2024-09-23,AAL,American Airlines Group,TGNA,Tegna Inc.,Market capitalization change.
-2024-07-26,AVTR,Avantor,QDEL,QuidelOrtho,Market capitalization change.
-2024-07-22,ANF,Abercrombie & Fitch,ETRN,Equitrans Midstream,S&P 500 constituent EQT Corporation acquired Equitrans Midstream.
-2024-06-28,RYAN,Ryan Specialty,AIRC,Apartment Income REIT,Blackstone Inc. acquired Apartment Income REIT.
-2024-06-24,TPL,Texas Pacific Land Corporation,WERN,Werner Enterprises,Market capitalization change.
-2024-06-24,BMRN,BioMarin Pharmaceutical,IART,Integra LifeSciences,Market capitalization change.
-2024-06-24,WMG,Warner Music Group,PENN,Penn Entertainment,Market capitalization change.
-2024-06-24,NXT,Nextracker,GO,Grocery Outlet,Market capitalization change.
-2024-06-24,ALTR,Altair Engineering,LEG,Leggett & Platt,Market capitalization change.
-2024-06-24,RBA,RB Global,HTZ,Hertz,Market capitalization change.
-2024-06-24,ILMN,"Illumina, Inc.",GDDY,GoDaddy,Market capitalization change.
-2024-06-03,SRPT,Sarepta Therapeutics,SWAV,Shockwave Medical,S&P 500 constituent Johnson & Johnson acquired Shockwave Medical.
-2024-05-03,AAON,AAON,VST,Vistra,Market capitalization change.
-2024-04-22,DUOL,Duolingo,CABO,Cable One,Market capitalization change.
-2024-04-03,XRAY,Dentsply Sirona,FOXF,Fox Factory,Market capitalization change.
-2024-04-01,ROIV,Roivant Sciences,RUN,Sunrun,Market capitalization change.
-2024-04-01,APPF,AppFolio,NARI,Inari Medical,Market capitalization change.
-2024-03-18,WHR,Whirlpool,SMCI,Supermicro,Market capitalization change.
-2024-03-18,ZION,Zions Bancorporation,DECK,Deckers Brands,Market capitalization change.
-2024-03-18,CYTK,Cytokinetics,CALX,Calix,Market capitalization change.
-2024-03-18,AIT,Applied Industrial Technologies,MPW,Medical Properties Trust,Market capitalization change.
-2024-03-01,AMH,American Homes 4 Rent,DOC,Physicians Realty Trust,S&P 500 constituent Healthpeak Properties acquired Physicians Realty Trust.
-2024-01-23,ELF,e.l.f. Beauty,SRC,Spirit Realty,S&P 500 constituent Realty Income acquired Spirit Realty Capital.
-2024-01-05,PSTG,Pure Storage,PDCO,Patterson Companies,Market capitalization change.
-2024-01-02,ALTM,Arcadium Lithium,VYX,NCR Voyix,Market capitalization change.
-2023-12-18,RMBS,Rambus,JBL,Jabil,Market capitalization change.
-2023-12-18,FIX,Comfort Systems USA,BLDR,Builders FirstSource,Market capitalization change.
-2023-12-18,HLI,Houlihan Lokey,MODG,Topgolf Callaway Brands,Market capitalization change.
-2023-12-18,EQH,Equitable Holdings,VSTS,Vestis,Market capitalization change.
-2023-11-30,CG,Carlyle Group,ICUI,ICU Medical,Market capitalization change.
-2023-11-30,WPC,W. P. Carey,WOR,Worthington Industries,Market capitalization change.
-2023-11-13,CNM,Core & Main,ACIW,ACI Worldwide,Market capitalization change.
-2023-11-07,BURL,Burlington Stores,ENV,Envestnet,Market capitalization change.
-2023-10-20,FND,Floor & Decor,VICR,Vicor,Market capitalization change.
-2023-10-18,ONTO,Onto Innovation,HUBB,Hubbell Incorporated,Market capitalization change.
-2023-10-12,H,Hyatt,NATI,National Instruments,S&P 500 constituent Emerson Electric acquired National Instruments.
-2023-10-03,,,KSS,Kohl's,Market capitalization change.
-2023-10-02,VSTS,Vestis,,,S&P MidCap 400 constituent Aramark spun off Vestis.
-2023-09-29,CIVI,Civitas Resources,SYNH,Syneos Health,Elliott Investment Management acquired Syneos Health.
-2023-09-18,RBC,RBC Bearings,HE,Hawaiian Electric Industries,Market capitalization change.
-2023-09-18,FNF,Fidelity National Financial,FL,Foot Locker,Market capitalization change.
-2023-09-18,WFRD,Weatherford International,JBLU,JetBlue,Market capitalization change.
-2023-09-18,ST,Sensata Technologies,TRIP,Tripadvisor,Market capitalization change.
-2023-09-18,MTN,Vail Resorts,HIW,Highwoods Properties,Market capitalization change.
-2023-09-18,VST,Vistra Corp,XRX,Xerox,Market capitalization change.
-2023-09-18,ALLY,Ally Financial,ENR,Energizer,Market capitalization change.
-2023-09-18,MORN,"Morningstar, Inc.",CATY,Cathay Bank,Market capitalization change.
-2023-09-18,GDDY,GoDaddy,SXT,Sensient Technologies,Market capitalization change.
-2023-09-18,GLPI,Gaming and Leisure Properties,PZZA,Papa John's,Market capitalization change.
-2023-09-18,PR,Permian Resources,OMCL,Omnicell,Market capitalization change.
-2023-08-22,DLB,Dolby,STAA,STAAR Surgical,Market capitalization change.
-2023-08-21,CHK,Chesapeake Energy,MRCY,Mercury Systems,Market capitalization change.
-2023-08-08,ERIE,Erie Indemnity,PDCE,PDC Energy,S&P 500 & 100 constituent Chevron Corp. acquired PDC Energy.
-2023-08-04,PAG,Penske Automotive,UNVR,Univar Solutions,Apollo Global Management acquired Univar Solutions.
-2023-07-24,ELS,Equity Lifestyle Properties,LSI,Life Storage,S&P 500 constituent Extra Space Storage acquired Life Storage.
-2023-06-19,WCC,WESCO International,NAVI,Navient,Market capitalization change.
-2023-06-19,ZI,ZoomInfo,SITM,SiTime,Market capitalization change.
-2023-06-19,OVV,Ovintiv,MAC,Macerich,Market capitalization change.
-2023-06-19,GPK,Graphic Packaging,VSCO (now VSXY)[80],Victoria's Secret,Market capitalization change.
-2023-06-19,DBX,Dropbox,DEI,Douglas Emmett,Market capitalization change.
-2023-06-19,CCK,Crown Holdings,FULT,Fulton Financial Corporation,Market capitalization change.
-2023-06-19,PLNT,Planet Fitness,NGVT,Ingevity Corp.,Market capitalization change.
-2023-06-19,BWXT,BWX Technologies,SPWR,SunPower,Market capitalization change.
-2023-06-19,BERY,Berry Global,WLY,John Wiley & Sons,Market capitalization change.
-2023-06-19,DOCS,Doximity,DAN,Dana Incorporated,Market capitalization change.
-2023-06-01,KNF,Knife River Corporation,BOH,Bank of Hawaii,S&P MidCap 400 constituent MDU Resources Group Inc. (NYSE:MDU) spun off Knife River Corp. Bank of Hawaii moved due to market capitalization change.
-2023-05-04,STAG,STAG Industrial,AXON,Axon Enterprise,Market capitalization change.
-2023-04-05,,,PACW,PacWest Bancorp,Market capitalization change.
-2023-04-04,CR,Crane (new),,,"S&P MidCap 400 constituent Crane Holdings Co. (NYSE:CR) spun off new Crane. Following the spin-off, the parent Crane Holdings Co. will have a name change to Crane NXT Co., a symbol change to CXT, and will remain in the S&P MidCap 400."
-2023-03-22,EXPO,Exponent,IAA,"IAA, Inc.",Ritchie Bros. Auctioneers acquired IAA.
-2023-03-20,AXTA,Axalta,SLG,SL Green Realty,Market capitalization change.
-2023-03-20,VAL,Valaris,FICO,Fair Isaac,Market capitalization change.
-2023-03-20,ALV,Autoliv,CBRL,Cracker Barrel,Market capitalization change.
-2023-03-20,STWD,Starwood Property Trust,VSAT,Viasat,Market capitalization change.
-2023-03-20,SSB,South State Bank,WAFD,"WaFd, Inc.",Market capitalization change.
-2023-03-20,CHRD,Chord Energy,DY,Dycom Industries,Market capitalization change.
-2023-03-20,WMS,Advanced Drainage Systems,KMT,Kennametal,Market capitalization change.
-2023-03-20,HGV,Hilton Grand Vacations,JBGS,JBG Smith,Market capitalization change.
-2023-03-20,HTZ,Hertz,PEB,Pebblebrook Hotel Trust,Market capitalization change.
-2023-03-20,ARMK,Aramark,HBI,Hanesbrands,Market capitalization change.
-2023-03-20,USFD,US Foods,TNDM,Tandem Diabetes Care,Market capitalization change.
-2023-03-01,COLB,Columbia Banking System,UMPQ,Umpqua Bank,Columbia Banking System acquired Umpqua Bank.
-2023-02-23,UFPI,UFP Industries,LHCG,LHC Group,S&P 500 constituent UnitedHealth Group acquired LHC Group.
-2023-02-06,ADC,Agree Realty,STOR,Store Capital,Store Capital was acquired by GIC and Oak Street Capital.
-2023-01-05,VNO,Vornado Realty Trust,RXO,RXO,Market capitalization change.
-2022-12-22,SMCI,Supermicro,STLD,Steel Dynamics,Market capitalization change.
-2022-12-19,FBIN,Fortune Brands Innovations,FSLR,First Solar,Market capitalization change.
-2022-12-19,ALGM,Allegro Microsystems,SMTC,Semtech,Market capitalization change.
-2022-12-19,CUBE,CubeSmart,NUVA,NuVasive,Market capitalization change.
-2022-12-01,PBF,PBF Energy,NUS,Nu Skin Enterprises,Market capitalization change.
-2022-12-01,NXST,Nexstar Media Group,SABR,Sabre,Market capitalization change.
-2022-11-02,,,BFH,Bread Financial,Market capitalization change.
-2022-11-01,RXO,RXO,,,"S&P MidCap 400 constituent XPO, Inc. spun off RXO."
-2022-10-20,AR,Antero Resources,Y,Alleghany,S&P 500 constituent Berkshire Hathaway acquired Alleghany.
-2022-10-18,WLK,Westlake,MLKN,MillerKnoll,Market capitalization change.
-2022-10-12,LNTH,Lantheus Holdings,TRGP,Targa Resources,Market capitalization change.
-2022-10-03,FYBR,Frontier Communications,HAIN,Hain Celestial Group,Market capitalization change.
-2022-10-03,EXLS,EXL Service,EQT,EQT Corporation,Market capitalization change.
-2022-09-19,PVH,PVH Corp.,HPP,Hudson Pacific Properties,Market capitalization change.
-2022-09-19,PENN,Penn Entertainment,MCY,Mercury General,Market capitalization change.
-2022-09-19,DT,Dynatrace,AEO,American Eagle Outfitters,Market capitalization change.
-2022-09-19,NLY,Annaly Capital Management,MTX,Minerals Technologies,Market capitalization change.
-2022-08-17,MTSI,MACOM Technology Solutions,SAIL,SailPoint Technologies,Thoma Bravo acquired SailPoint Technologies Holdings.
-2022-08-10,CELH,Celsius Holdings,ACC,American Campus Communities,Blackstone Inc. acquired American Campus Communities.
-2022-07-27,MP,MP Materials,SAFM,Sanderson Farms,Cargill and Continental Grain Co. acquired Sanderson Farms.
-2022-07-26,NOVT,Novanta,SIX,Six Flags,Market capitalization change.
-2022-07-21,HTA,Healthcare Trust of America,HR,Healthcare Realty Trust,"Healthcare Trust of America acquired Healthcare Realty Trust. Post-merger, Healthcare Trust of America changed its name and symbol to Healthcare Realty Trust Inc. (NYSE: HR)."
-2022-07-20,COKE,Coca-Cola Consolidated,PSB,PS Business Parks,Blackstone Inc. acquired PS Business Parks.
-2022-07-07,ORA,Ormat Technologies,CCMP,CMC Materials,Entegris acquired CMC Materials.
-2022-07-06,SWN,Southwestern Energy,CDK,CDK Global,Brookfield Business Partners acquired CDK Global in a tender offer.
-2022-07-05,OMCL,Omnicell,COHR,Coherent,S&P MidCap 400 constituent II-VI Inc. acquired Coherent.
-2022-06-29,POR,Portland General Electric,APPS,Digital Turbine,Market capitalization change.
-2022-06-21,UA/UAA,Under Armour,TRN,Trinity Industries,Market capitalization change.
-2022-06-21,IPGP,IPG Photonics,YELP,Yelp,Market capitalization change.
-2022-06-21,SHC,Sotera Health,URBN,Urban Outfitters,Market capitalization change.
-2022-06-21,SWAV,Shockwave Medical,RAMP,LiveRamp,Market capitalization change.
-2022-05-19,IRT,IRT Living,MIME,Mimecast,Permira Holdings Ltd. acquired Mimecast.
-2022-05-03,NARI,Inari Medical,TPH,Tri Pointe Homes,Market capitalization change.
-2022-04-06,,,PRG,PROG Holdings,Market capitalization change.
-2022-04-05,ESAB,ESAB,,,S&P MidCap 400 constituent Colfax Corp. spun off ESAB.
-2022-04-04,MTDR,Matador Resources,CPT,Camden,Market capitalization change.
-2022-03-30,GTLS,Chart Industries,CONE,CyrusOne,Global Infrastructure Partners acquired CyrusOne.
-2022-03-14,BRBR,BellRing Brands,CRNC,Cerence,Market capitalization change.
-2022-03-02,RRC,Range Resources,MOH,Molina Healthcare,Market capitalization change.
-2022-02-18,ONB,Old National,UE,Urban Edge Properties,Market capitalization change.
-2022-02-15,PDCE,PDC Energy,NDSN,Nordson,Market capitalization change.
-2022-02-03,GPS,Gap,JACK,Jack in the Box,Market capitalization change.
-2022-02-01,EEFT,Euronet Worldwide,CMP,Compass Minerals,Market capitalization change.
-2022-02-01,WTS,Watts Water Technologies,STL,Sterling Bancorp,Webster Bank acquired Sterling Bancorp.
-2022-01-04,CALX,Calix,CIT,CIT Group,First Citizens BancShares acquired CIT Group.
-2021-12-28,VOYA,Voya Financial,COR,CoreSite,S&P 500/100 constituent American Tower acquired CoreSite Realty.
-2021-12-20,AA,Alcoa,HRC,Hillrom,S&P 500 constituent Baxter International acquired Hill-Rom.
-2021-12-20,LEG,Leggett & Platt,SBNY,Signature Bank,Market capitalization change.
-2021-12-20,HBI,Hanesbrands,SEDG,SolarEdge,Market capitalization change.
-2021-12-20,WU,Western Union,FDS,FactSet,Market capitalization change.
-2021-12-20,M,Macy's,TR,Tootsie Roll,Market capitalization change.
-2021-12-20,VICR,Vicor,TDS,Telephone and Data Systems,Market capitalization change.
-2021-12-20,POWI,Power Integrations,NKTR,Nektar Therapeutics,Market capitalization change.
-2021-12-02,BRKR,Bruker,KAR,KAR Auction Services,Market capitalization change.
-2021-11-30,SITM,SiTime,EBS,Emergent BioSolutions,Market capitalization change.
-2021-11-05,KD,Kyndryl,NTCT,NetScout Systems,S&P 500 and 100 constituent IBM spun off Kyndryl Holdings.
-2021-10-22,KRG,Kite Realty Group Trust,TREE,LendingTree,Market capitalization change.
-2021-10-05,SPWR,SunPower,XEC,Cimarex Energy,S&P 500 constituent Cabot Oil & Gas acquired Cimarex Energy.
-2021-09-20,UNM,Unum,CDAY,Ceridian,Market capitalization change.
-2021-09-20,NOV,NOV Inc.,BRO,Brown & Brown,Market capitalization change.
-2021-09-20,PRGO,Perrigo,WW,WW International,Market capitalization change.
-2021-09-20,TNDM,Tandem Diabetes Care,HCSG,Healthcare Services Group,Market capitalization change.
-2021-09-07,APPS,Digital Turbine,LGND,Ligand Pharmaceuticals,Market capitalization change.
-2021-09-03,PFGC,Performance Food Group,THS,TreeHouse Foods,Market capitalization change.
-2021-08-30,SAIA,Saia,TECH,Bio-Techne,Market capitalization change.
-2021-08-30,MIME,Mimecast,CNK,Cinemark Holdings,Market capitalization change.
-2021-08-30,OPCH,Option Care Health,TRMK,Trustmark Corporation,Market capitalization change.
-2021-08-04,VSCO (now VSXY)[80],Victoria's Secret,INT,World Fuel Services,S&P 500 constituent L Brands spun off Victoria's Secret.
-2021-08-04,GME,GameStop,WRI,Weingarten Realty,S&P 500 constituent Kimco Realty acquired Weingarten Realty.
-2021-08-03,,,STRA,"Strategic Education, Inc.",Market capitalization change.
-2021-08-02,GXO,GXO Logistics,,,"Spun off from XPO, Inc."
-2021-07-07,CRNC,Cerence,ATGE,Adtalem Global Education,Market capitalization change.
-2021-07-02,DTM,DT Midstream,PRAH,PRA Health Sciences,ICON plc acquired PRA Health Sciences.
-2021-06-15,ELY,Callaway Golf,GRUB,Grubhub,Just Eat Takeaway.com NV acquired GrubHub.
-2021-06-09,TRGP,Targa Resources,CLGX,CoreLogic,Stone Point Capital and Insight Partners acquired CoreLogic.
-2021-06-09,ENV,Envestnet,TCF,TCF Financial Corporation,S&P 500 constituent Huntington Bancshares acquired TCF Financial Corporation.
-2021-06-04,HFC,HollyFrontier,SVC,Service Properties Trust,Market capitalization change.
-2021-06-02,CROX,Crocs,CMD,Cantel Medical Corporation,S&P 500 constituent STERIS plc acquired Cantel Medical.
-2021-05-17,AZPN,Aspen Technology,AVNS,Avanos Medical,Market capitalization change.
-2021-05-14,NSA,National Storage Affiliates Trust,CRL,Charles River Laboratories,Charles River Laboratories replaced FLIR Systems in the S&P 500.
-2021-05-07,RCM,R1 RCM,PRSP,Perspecta Inc.,Veritas Capital acquired Perspecta.
-2021-05-03,G,Genpact,GNW,Genworth Financial,Market capitalization change.
-2021-04-20,LSCC,Lattice Semiconductor,PTC,PTC Inc.,PTC replaced Varian Medical Systems in the S&P 500.
-2021-04-20,PGNY,Progyny Inc.,UFS,Domtar,Market capitalization change.
-2021-04-12,NVST,Envista Holdings,IDCC,InterDigital,Market capitalization change.
-2021-03-30,NBIX,Neurocrine Biosciences,OI,O-I Glass,Market capitalization change.
-2021-03-22,FLS,Flowserve,EPC,Edgewell Personal Care,Market capitalization change.
-2021-03-22,SLG,SL Green Realty,PENN,Penn National Gaming,Market capitalization change.
-2021-03-22,XRX,Xerox,GNRC,Generac Holdings,Market capitalization change.
-2021-03-22,VNT,Vontier,CZR,Caesars Entertainment,Market capitalization change.
-2021-03-01,CLF,Cleveland-Cliffs,EV,Eaton Vance,S&P 500/100 constituent Morgan Stanley acquired Eaton Vance.
-2021-02-16,AMKR,Amkor Technology,HNI,HNI Corporation,Market capitalization change.
-2021-02-12,IRDM,Iridium Communications,MPWR,Monolithic Power Systems,Monolithic Power Systems replaced TechnipFMC in the S&P 500.
-2021-01-29,STAA,STAAR Surgical,PBH,Prestige Brands,Market capitalization change.
-2021-01-21,YETI,Yeti Holdings,TRMB,Trimble Inc.,Trimble Inc. replaced Concho Resources in the S&P 500.
-2021-01-07,CPRI,Capri Holdings,ENPH,Enphase Energy,Market capitalization change.
-2021-01-07,BRKS,Brooks Automation,WPX,WPX Energy,S&P 500 constituent Devon Energy acquired WPX Energy.
-2020-12-29,KNSL,Kinsale Capital Group,TCO,Taubman Centers,S&P 500/100 constituent Simon Property Group acquired Taubman Centers.
-2020-12-21,AIRC,Apartment Income REIT,DNKN,Dunkin' Brands,Inspire Brands acquired Dunkin' Brands Group.
-2020-12-02,,,AMCX,AMC Networks,Market capitalization change.
-2020-12-01,CNXC,Concentrix,,,S&P MidCap 400 constituent SYNNEX Corp. spun off Concentrix.
-2020-11-13,MTG,MGIC Investment Corporation,GEO,GEO Group,Market capitalization change.
-2020-11-13,HALO,Halozyme,MD,Mednax,Market capitalization change.
-2020-10-07,NEOG,Neogen,POOL,Pool Corporation,Market capitalization change.
-2020-10-07,SSD,Simpson Manufacturing,DLPH,Delphi Technologies,S&P 500 constituent BorgWarner acquired Delphi Technologies.
-2020-10-05,SAIL,SailPoint Technologies,SBH,Sally Beauty Holdings,Market capitalization change.
-2020-09-21,HRB,H&R Block,ETSY,Etsy,Market capitalization change.
-2020-09-21,COTY,Coty,TER,Teradyne,Market capitalization change.
-2020-09-21,KSS,Kohl's,CTLT,Catalent,Market capitalization change.
-2020-09-21,JAZZ,Jazz Pharmaceuticals,RIG,Transocean,Market capitalization change.
-2020-09-21,WING,Wingstop,PBF,PBF Energy,Market capitalization change.
-2020-09-21,MEDP,Medpace,ATI,Allegheny Technologies,Market capitalization change.
-2020-09-21,FOXF,Fox Factory,CLI,Mack-Cali Realty,Market capitalization change.
-2020-09-01,LAD,Lithia Motors,LOGM,LogMeIn,Francisco Partners and Elliott Management acquired LogMeIn.
-2020-08-17,BLDR,Builders FirstSource,CXW,CoreCivic,Market capitalization change.
-2020-08-03,RUN,Sunrun,LM,Legg Mason,S&P 500 constituent Franklin Resources acquired Legg Mason.
-2020-08-03,IAA,"IAA, Inc.",DLX,Deluxe Corporation,Market capitalization change.
-2020-08-03,REXR,Rexford Industrial Realty,CRS,Carpenter Technology,Market capitalization change.
-2020-07-24,EBS,Emergent BioSolutions,CZR,Caesars Entertainment,S&P MidCap 400 constituent Eldorado Resorts (NASD:ERI) acquired Caesars Entertainment.
-2020-06-30,BLD,TopBuild Corp.,TECD,Tech Data,Apollo Global Management acquired Tech Data.
-2020-06-25,GO,Grocery Outlet,EAT,Brinker International,Market capitalization change.
-2020-06-22,ADS,Alliance Data Systems,TDY,Teledyne Technologies,Market capitalization changes
-2020-06-22,JWN,Nordstrom,BIO,Bio-Rad Laboratories,Market capitalization changes
-2020-06-22,HOG,Harley-Davidson,TYL,Tyler Technologies,Market capitalization changes
-2020-06-22,MIDD,Middleby Corporation,DDS,Dillard's,Market capitalization changes
-2020-06-22,QDEL,Quidel Corp,DNOW,DNOW Inc.,Market capitalization changes
-2020-06-22,HXL,Hexcel,CAKE,Cheesecake Factory,Market capitalization changes
-2020-06-22,UNVR,Univar Solutions,REZI,Resideo Technologies,Market capitalization changes
-2020-06-22,STRA,Strategic Education,BBBY,Bed Bath & Beyond,Market capitalization changes
-2020-06-22,QLYS,Qualys Inc,MTDR,Matador Resources,Market capitalization changes
-2020-06-22,GBCI,Glacier Bancorp,MDRX,Allscripts Healthcare Solutions,Market capitalization changes
-2020-05-27,HPP,Hudson Pacific Properties,DHC,Diversified Healthcare Trust,Hudson Pacific Properties Inc. (NYSE:HPP) replaced Diversified Healthcare Trust (NASD:DHC).
-2020-05-26,ESNT,Essent Group Ltd,PTEN,Patterson-UTI Energy,Essent Group Ltd. (NYSE:ESNT) replaced Patterson-UTI Energy Inc. (NASD:PTEN).
-2020-05-18,DOC,Physicians Realty Trust,WST,West Pharmaceutical Services,Physicians Realty Trust replaced West Pharmaceutical Services.
-2020-05-06,STOR,Store Capital,DPZ,Domino's Pizza,STORE Capital Corp. (NYSE:STOR) replaced Domino's Pizza.
-2020-04-27,ENPH,Enphase Energy,CLB,Core Laboratories,S&P 400 to S&P 600 moves
-2020-04-27,PCTY,Paylocity Holding,MDP,Meredith Corp,S&P 400 to S&P 600 moves
-2020-04-13,LHCG,LHC Group,CY,Cypress Semiconductor,S&P SmallCap 600 constituent LHC Group Inc. (NASD: LHCG) replaced Cypress Semiconductor Corp. (NASD: CY).
-2020-02-27,XEC,Cimarex Energy,CHK,Chesapeake Energy,Market capitalization change.
-2020-02-07,GNRC,Generac Holdings,ALEX,Alexander & Baldwin,Generac Holdings Inc. (NYSE:GNRC) replaced Alexander & Baldwin Inc. (NYSE:ALEX).
-2020-01-31,TMHC,Taylor Morrison,GDOT,Green Dot Corp,Taylor Morrison Home Corp. (NYSE: TMHC) replaced Green Dot Corp. (NYSE: GDOT).
-2020-01-29,DAR,Darling Ingredients,LPT,Liberty Property Trust,S&P SmallCap 600 constituent Darling Ingredients Inc. (NYSE: DAR) replaced Liberty Property Trust (NYSE: LPT).
-2020-01-21,CIT,CIT Group,SKT,Tanger Factory Outlet Centers,"CIT Group Inc. (NYSE:CIT) replaced Tanger Factory Outlet Centers, Inc. (NYSE:SKT)."
-2019-12-26,RH,RH,GWR,Genesee & Wyoming,S&P SmallCap 600 constituent RH (NYSE: RH) replaced Genesee & Wyoming Inc. (NYSE: GWR).
-2019-12-17,COLM,Columbia Sportswear,UNIT,Uniti Group,Columbia Sportswear Company (NASD: COLM) replaced Uniti Group Inc. (NASD: UNIT).
-2019-12-13,AMG,Affiliated Managers Group,LYV,Live Nation Entertainment,Market capitalization changes.
-2019-12-13,TRIP,TripAdvisor,ZBRA,Zebra Technologies,Market capitalization changes.
-2019-12-13,MAC,Macerich Co.,STE,STERIS plc,Market capitalization changes.
-2019-12-13,LOPE,Grand Canyon Education,OAS,Oasis Petroleum,Market capitalization changes.
-2019-12-13,LEA,Lear Corp,SWN,Southwestern Energy,Market capitalization changes.
-2019-12-13,ARWR,Arrowhead Pharmaceuticals,GVA,Granite Construction,Market capitalization changes.
-2019-12-10,CHH,Choice Hotels,PLT,Plantronics,Choice Hotels International Inc. (NYSE: CHH) replaced Plantronics Inc. (NYSE: PLT).
-2019-12-02,CCMP,Cabot Microelectronics,ODFL,Old Dominion Freight Line,S&P SmallCap 600 constituent Cabot Microelectronics Corp. (NASD: CCMP) replaced Old Dominion Freight Line.
-2019-11-27,RLI,RLI Corp.,WRB,W.R. Berkley,S&P SmallCap 600 constituent RLI Corp. (NYSE:RLI) replaced W.R. Berkley.
-2019-10-30,CDAY,Ceridian,OII,Oceaneering International,Market capitalization changes.
-2019-10-30,BJ,BJ's Wholesale Club,CVET,Covetrus,Market capitalization changes.
-2019-10-24,FCN,FTI Consulting,MDSO,Medidata Solutions,Dassault Systèmes SA is acquiring Medidata Solutions in a transaction expected to be completed on or about that date pending final conditions.
-2019-10-18,SEDG,SolarEdge,ISCA,International Speedway,NASCAR Holdings Inc. acquired International Speedway.
-2019-10-08,MRCY,Mercury Systems,VSM,Versum Materials,Merck KGaAis acquiring Versum Materialsin a deal expected to be completed on or about that date pending final conditions.
-2019-10-03,NKTR,Nektar Therapeutics,BID,Sotheby's,Market capitalization change.
-2019-09-26,JEF,Jefferies Financial Group,NVR,NVR,Market capitalization changes.
-2019-09-26,IIVI,II-VI,CPE,Callon Petroleum,Market capitalization changes.
-2019-09-18,PK,Park Hotels & Resorts,INGN,Inogen,Market capitalization changes.
-2019-09-23,SIGI,Selective Insurance Group Inc.,SIG,Signet Jewelers Ltd,Market capitalization changes
-2019-09-23,RGEN,Repligen,RRC,Range Resources Corp,Market capitalization changes
-2019-09-23,FCFS,FirstCash,TUP,Tupperware Brands Corp,Market capitalization changes
-2019-09-23,ETSY,Etsy,MIK,The Michaels Companies,Market capitalization changes
-2019-09-23,PPC,Pilgrim's Pride,QEP,QEP Resources,Market capitalization changes
-2019-09-23,KAR,KAR Auction Services,VAL,Valaris Limited,Market capitalization changes
-2019-09-23,AM,Antero Midstream,MDR,McDermott International,Market capitalization changes
-2019-09-23,OC,Owens Corning,CARS,Cars.com,Market capitalization changes
-2019-09-23,PEN,"Penumbra, Inc.",MNK,Mallinckrodt,Market capitalization changes
-,GRUB,Grubhub,LDOS,Leidos Holdings,Market capitalization
-,FL,Foot Locker,IEX,IDEX Corp.,Market capitalization
-2019-08-01,TTEK,Tetra Tech,CHFC,Chemical Financial,Chemical Financial Corp. (NASD: CHFC) acquired TCF Financial Corporation and was renamed TCF Financial Corporation
-2019-07-09,SRC,Spirit Realty,SM,SM Energy,Market capitalization
-2019-07-01,AAXN,Axon Enterprise,MKTX,MarketAxess,MarketAxess Holdings Inc. (NASD:MKTX) will replace L3 Technologies Inc. (NYSE:LLL) in the S&P 500.
-2019-06-07,MAT,Mattel,BMS,Bemis Company,Amcor Limited (ASX: AMC) is merging with Bemis.
-2019-06-04,FLR,Fluor,RLGY,Realogy,Fluor has a market capitalization more representative of the mid-cap market space.
-2019-05-07,EGP,EastGroup Properties,ULTI,Ultimate Software Group,Hellman & Friedman acquired Ultimate Software Group.
-,SMTC,Semtech,ARRS,Arris International,CommScope Holding Company Inc.(NASD:COMM) acquired ARRIS International.
-,PSB,PS Business Parks,RDC,Rowan Companies,S&P MidCap 400 constituent Ensco plc (NYSE:ESV) is acquiring Rowan Companies.
-2019-04-03,BHF,Brighthouse Financial,PBI,Pitney Bowes,Pitney Bowes will replace Carbo Ceramics Inc. (NYSE:CRR) in the S&P SmallCap 600.
-2019-04-01,TREX,"Trex Company, Inc.",IDTI,Integrated Device Technology,Renesas Electronics Corp. acquired Integrated Device Technology.
-2019-03-22,FFIN,First Financial,MBFI,MB Financial,Fifth Third Bancorp (NASD: FITB) is acquiring MB Financial.
-,CFX,Colfax,BIG,Big Lots,Colfax Corp. (NYSE:CFX) will replace and Big Lots Inc. (NYSE:BIG) in the S&P MidCap 400.
-,NGVT,Ingevity,ESL,Esterline Technologies,TransDigm Group Inc. (NYSE:TDG) is acquiring Esterline Technologies.
-,XPO,"XPO, Inc.",DO,Diamond Offshore Drilling,Diamond Offshore Drilling will replace Maiden Holding Ltd. (NASD:MHLD) in the S&P SmallCap 600.
-,GT,Goodyear Tire & Rubber,WAB,Wabtec,The Goodyear Tire & Rubber will replace Wabtec in the S&P MidCap 400.
-2019-02-21,AMED,Amedisys,AHL,Aspen Insurance Holdings,Apollo Global Management (NYSE: APO) is acquiring Aspen Insurance Holdings.
-2019-02-11,CVET,Covetrus,DNB,Dun & Bradstreet Corp,Cannae Holdings Inc. (CNNE) is acquiring Dun & Bradstreet.
-2019-02-06,BRX,Brixmor Property Group,VVC,Vectren,CenterPoint Energy Inc. (NYSE:CNP)is acquiring Vectren.
-2019-02-04,CZR,Caesars Entertainment,DRQ,Dril-Quip,Dril-Quip will replace Essendant Inc. (NASD:ESND) in the S&P SmallCap 600.
-2019-01-18,GDOT,Green Dot,TFX,Teleflex,TeleflexInc.(NYSE:TFX) will replace PG&E Corp.(NYSE:PCG) in the S&P 500.
-2018-12-12,YELP,Yelp,GPOR,Gulfport Energy Corp,Gulfport Energy Corp.(NASD:GPOR) will replace OclaroInc. (NASD: OCLR) in the S&P SmallCap 600.
-2018-12-10,OLED,Universal Display,NBR,Nabors Industries,Nabors Industries Ltd. (NYSE: NBR) will replace Sonic Corp. (NASD: SONC) in the S&P SmallCap 600.
-,PEB,Pebblebrook Hotel Trust,LHO,LaSalle Hotel Properties,Pebblebrook Hotel Trust is acquiring LaSalle Hotel Properties.
-,SRCL,Stericycle,EGN,Energen,Stericycle replaced Energen Corp. (NYSE:EGN) in the S&P MidCap 400.
-,CACI,CACI International,LW,Lamb Weston Holdings,CACI International Inc. replaced Lamb Weston Holdings in the S&P MidCap 400.
-2018-11-14,,,SPN,Superior Energy Services,Superior Energy Services Inc. (NYSE: SPN) was removed from the S&P MidCap 400 and added to the S&P SmallCap 600.
-,LGND,Ligand Pharmaceuticals,KEYS,Keysight Technologies,Keysight replaced CA Inc. in the S&P 500.
-,EQT,EQT Corporation,JKHY,Jack Henry & Associates,EQT replaced Jack Henry & Associates in the S&P MidCap 400.
-,ETRN,Equitrans Midstream,,,Equitrans Midstream Corp. was added to the S&P MidCap 400.
-2018-11-12,MTZ,MasTec,UNFI,United Natural Foods,United Natural Foods will replace MiMedx Group Inc. (NASD: MDXG) in the S&P SmallCap 600.
-2018-11-06,NSP,Insperity,LPNT,LifePoint Health Inc.,Insperity will replace LifePointHealth Inc.
-2018-10-11,ASGN,ASGN Inc.,FTNT,Fortinet,Fortinet replaced Envision Healthcare Corp. in the S&P 500.
-2018-10-10,PENN,Penn National Gaming,CVG,Convergys,S&P MidCap 400 constituent SYNNEX Corporation acquired Convergys.
-2018-09-20,RLGY,Realogy,EDR,Education Realty Trust,Greystar Real Estate Partners acquired Education Realty Trust.
-2018-09-18,WTW,Weight Watchers,KLXI,KLX Inc.,S&P 500 constituent Boeing acquired KLX.
-2018-09-17,HQY,HealthEquity,WCG,WellCare,"WellCare Health Plans, Inc. replaced XL Group (NYSE: XL) in the S&P 500."
-2018-09-04,VAC,Marriott Vacations Worldwide,ILG,"ILG, Inc.",Marriott Vacations Worldwide acquired ILG.
-2018-08-22,ADNT,Adient,DCT,DCT Industrial Trust,S&P 500 constituent ProLogis Inc. acquired DCT Industrial Trust.
-2018-08-20,ERI,Eldorado Resorts,PAY,VeriFone,Francisco Partners acquired VeriFone Systems.
-2018-08-01,WWE,World Wrestling Entertainment,QCP,Quality Care Properties,S&P 500 constituent Welltower Inc. (NYSE:WELL) acquired Quality Care Properties.
-2018-07-11,VC,Visteon,WGL,WGL Holdings,AltaGas Ltd. (TSX:ALA) acquired WGL Holdings.
-2018-07-02,EXEL,Exelixis,CPRT,Copart,Copart replaced Dr Pepper Snapple Group Inc. (NYSE: DPS) in the S&P 500.
-2018-06-18,AYI,Acuity Brands,HFC,HollyFrontier,Market capitalization changes
-2018-06-18,RRC,Range Resources,BR,Broadridge Financial Solutions,Market capitalization changes
-2018-06-18,CHE,Chemed Corp.,ENDP,Endo International,Market capitalization changes
-2018-06-18,HAE,Haemonetics,CTB,Cooper Tire & Rubber Co.,Market capitalization changes
-2018-06-11,OLLI,Ollie's Bargain Outlet,OA,Orbital ATK,S&P 500 constituent Northrop Grumman Corp. (NYSE: NOC) acquired Orbital ATK.
-2018-06-05,NAVI,Navient Corp.,WR,Westar Energy (renamed Evergy),Navient had a market capitalization closer to the mid-cap market space.
-2018-06-05,IART,Integra LifeSciences,GXP,Great Plains Energy,Westar Energy acquired Great Plains Energy which moved the combined company to the S&P 500.
-2018-05-31,WYND,Wyndham Destinations,MSCC,Microsemi,S&P 500 constituent Microchip Technology Inc. (NASD:MCHP) acquired Microsemi.
-2018-05-31,PRAH,PRA Health Sciences,ABMD,Abiomed,ABIOMED Inc. replaced Wyndham Worldwide Corp. (NYSE:WYN) in the S&P 500.
-2018-05-10,APY,Apergy Corp.,DDD,3D Systems,S&P 500 constituent Dover Corp. (NYSE: DOV) spun off Apergy.
-2018-05-10,MDR,McDermott International,DBD,Diebold Nixdorf,McDermott International merged with Chicago Bridge & Iron Company N.V. (NYSE: CBI).
-2018-05-02,NVT,nVent Electric,KN,Knowles Corporation,S&P 500 constituent Pentair plc (NYSE: PNR) spun off nVent Electric.
-2018-05-01,OAS,Oasis Petroleum,WPG,Washington Prime Group,Market capitalization changes
-2018-04-19,FIVE,Five Below,DST,DST Systems,SS&C Technologies Holdings Inc. (NASD: SSNC) acquired DST Systems.
-2018-04-04,LITE,Lumentum,MSCI,MSCI Inc,MSCI Inc. replaced CSRA Inc. (NYSE: CSRA) in the S&P 500.
-2018-03-26,EVR,Evercore,LNCE,Snyder's-Lance,S&P 500 constituent Campbell's (NYSE:CPB) acquired Snyder's-Lance.
-2018-03-19,SIG,Signet Jewelers,TTWO,Take-Two Interactive,Market capitalization changes
-2018-03-19,PDCO,Patterson Companies,SIVB,SVB Financial,Market capitalization changes
-2018-03-19,CHK,Chesapeake Energy,DF,Dean Foods,Market capitalization changes
-2018-03-19,CMD,Cantel Medical,AVP,Avon Products,Market capitalization changes
-2018-03-19,ICUI,ICU Medical,OMI,Owens & Minor,Market capitalization changes
-2018-03-08,TREE,LendingTree,BIVV,Bioverativ,Sanofi acquired Bioverativ.
-2018-03-07,ALE,ALLETE Inc.,IPGP,IPG Photonics,IPG Photonics Corp. replaced Scripps Networks Interactive Inc. (NASD: SNI) in the S&P 500.
-2018-02-13,BYD,Boyd Gaming,CAA,CalAtlantic Homes,S&P 500 constituent Lennar acquired CalAtlantic.
-2018-02-05,HCSG,Healthcare Services Group,BWLD,Buffalo Wild Wings,Arby's Restaurant Group acquired Buffalo Wild Wings.
-2018-01-03,SGMS,Scientific Games,HII,Huntington Ingalls,Huntington Ingalls Industries Inc. replaced C. R. Bard Inc. (NYSE:BCR) in the S&P 500.
-2018-01-02,EHC,Encompass Health Corp.,HLS,HealthSouth,S&P 400 constituent HealthSouth (NYSE: HLS) renamed Encompass Health and changed to new symbol.
-2018-01-02,IBKR,Interactive Brokers,HSNI,HSN Inc,S&P 600 constituent Interactive Brokers Group Inc. replaced Home Shopping Network Inc. (HSN) after Liberty Interactive Corp acquired HSN.
-2017-12-06,DLPH,Delphi Technologies,FTR,Frontier Communications,"S&P 500 constituent Delphi Automotive plc (NYSE: DLPH), to be renamed Aptiv plc and trade under new symbol APTV, spun off Delphi Technologies."
-2017-11-22,MKSI,MKS Instruments,BRCD,Brocade Communications,S&P 500 constituent Broadcom Limited acquired Brocade Communications Systems.
-2017-10-02,SIX,Six Flags,PRXL,PAREXEL,Pamplona Capital Management acquired PAREXEL.
-2017-10-02,STL,Sterling Bancorp,OIS,Oil States International,Sterling Bancorp acquired Astoria Financial.
-2017-09-26,SAFM,Sanderson Farms,CAB,Cabela's,Bass Pro Shops acquired Cabela's.
-2017-09-18,ILG,"ILG, Inc.",CDNS,Cadence Design Systems,Cadence Design Systems replaced Staples Inc. in the S&P 500.
-2017-09-18,BCO,Brink's,WOOF,VCA Inc.,Mars Inc. acquired VCA.
-2017-09-18,CPE,Callon Petroleum,WBMD,WebMD,Internet Brands acquired WebMD Health.
-2017-08-17,SBRA,Sabra Health Care REIT,CCP,Care Capital Properties,Sabra Health Care REIT acquired Care Capital Properties.
-2017-08-10,COR,CoreSite Realty,NSR,Neustar,NeuStar was acquired by a private investment group led by Golden Gate Capital.
-2017-08-08,AN,AutoNation,FCN,FTI Consulting,Brighthouse Financial Inc. (NASD: BHF) replaced AutoNation in the S&P 500.
-2017-07-26,MNK,Mallinckrodt,RMD,ResMed,Market capitalization changes
-2017-07-26,MUR,Murphy Oil,PKG,Packaging Corporation of America,Market capitalization changes
-2017-07-26,BBBY,Bed Bath & Beyond,AOS,A.O. Smith,Market capitalization changes
-2017-07-26,RIG,Transocean,DRE,Duke Realty,Market capitalization changes
-2017-07-19,JBGS,JBG Smith,CHS,Chico's FAS,S&P 500 constituent Vornado Realty Trust (NYSE:VNO) spun off JBG SMITH Properties.
-2017-07-12,KNX,Knight Transportation,KATE,Kate Spade & Company,"S&P 500 constituent Coach, Inc. (NYSE:COH) acquired Kate Spade."
-2017-07-12,CLB,Core Laboratories,PNRA,Panera Bread,JAB Holdings B.V. acquired Panera Bread.
-2017-06-29,BLKB,Blackbaud,CST,CST Brands,Alimentation Couche-Tard acquired CST Brands.
-2017-06-26,MDSO,Medidata Solutions,PVTB,PrivateBancorp,Canadian Imperial Bank of Commerce acquired PrivateBancorp.
-2017-06-19,PNFP,Pinnacle Financial Partners,RE,Everest Re,Everest Re Group Ltd replaced Mead Johnson Nutrition Co. in the S&P 500.
-2017-06-19,TDC,Teradata,ALGN,Align Technology,Market capitalization changes
-2017-06-19,R,Ryder System,ANSS,ANSYS Inc,Market capitalization changes
-2017-06-02,CARS,Cars.com,TIME,Time Inc.,TEGNA spun off Cars.com.
-2017-06-02,TGNA,"Tegna, Inc.",JCP,J. C. Penney,IHS Markit Ltd. (NASD:INFO) replaced TEGNA Inc. in the S&P 500.
-2017-06-02,MTDR,Matador Resources,WNR,Western Refining,S&P 500 constituent Tesoro Corp. (NYSE:TSO) acquired Western Refining.
-2017-06-02,HOMB,Home BancShares,VAL,Valspar,S&P 500 constituent The Sherwin-Williams Co. (NYSE:SHW) acquired Valspar.
-2017-05-16,VVV,Valvoline Inc,NE,Noble Corporation,S&P MidCap 400 constituent Ashland Global Holdings Inc. (NYSE:ASH) spun off its remaining stake in Valvoline.
-2017-04-28,PBF,PBF Energy,WDR,Waddell & Reed,Waddell & Reed Financial replaced Stillwater Mining Co. (NYSE: SWC) in the S&P SmallCap 600.
-2017-04-19,SABR,Sabre Corp,BEAV,B/E Aerospace,S&P 500 constituent Rockwell Collins Inc. (NYSE:COL) acquired B/E Aerospace.
-2017-04-12,UBSI,United Bankshares,WWAV,WhiteWave Foods,Danone SA acquired WhiteWave Foods.
-2017-04-06,ACHC,Acadia Healthcare,JOY,Joy Global,Komatsu Limited acquired Joy Global.
-2017-04-05,DNB,Dun & Bradstreet,IT,Gartner,Gartner Inc. replaced The Dun & Bradstreet Corp. in the S&P 500.
-2017-04-05,INCR,INC Research,CEB,CEB Inc.,Gartner acquired CEB.
-2017-04-04,SWN,Southwestern Energy,CSC,Computer Sciences Corp.,Computer Sciences Corp. replaced Southwestern Energy Co. in the S&P 500.
-2017-04-03,WTFC,Wintrust Financial,MENT,Mentor Graphics,Siemens Industry Inc. acquired Mentor Graphics.
-2017-03-29,TCBI,Texas Capital Bancshares,ENH,Endurance Specialty Holdings,SOMPO Holdings Inc. acquired Endurance Specialty Holdings.
-2017-03-29,MIK,The Michaels Companies,WETF,WisdomTree Investments,WisdomTree Investments moved to the S&P SmallCap 600.
-2017-03-20,URBN,Urban Outfitters,AMD,Advanced Micro Devices,Market capitalization changes
-2017-03-20,FTR,Frontier Communications,RJF,Raymond James Financial,Market capitalization changes
-2017-03-20,FSLR,First Solar,ARE,Alexandria Real Estate Equities,Market capitalization changes
-2017-03-20,TTWO,Take-Two Interactive,FOSL,Fossil Group,Market capitalization changes
-2017-03-20,MASI,Masimo,DNR,Denbury Resources,Market capitalization changes
-2017-03-20,COHR,"Coherent, Inc.",VSTO,Vista Outdoor,Market capitalization changes
-2017-03-16,GEO,GEO Group,SNPS,Synopsys,Synopsys Inc. replaced Harman International Industries Inc. (NYSE:HAR) in the S&P 500.
-2017-03-02,ENDP,Endo International,REG,Regency Centers,Regency Centers acquired Equity One. S&P MidCap 400 constituent Regency Centers Corp. (NYSE:REG) replaced Endo International plc (NASD:ENDP) in the S&P 500.
-2017-03-02,NUS,Nu Skin,EQY,Equity One,Equity One acquired by Regency Centers.
-2017-03-01,PBI,Pitney Bowes,CBOE,CBOE Holdings,"CBOE acquired Bats Global Markets Inc. (BATS:BATS). Post acquisition, CBOE Holdings Inc. (NASD:CBOE) will replace Pitney Bowes Inc. (NYSE:PBI) in the S&P 500."
-2017-03-01,CONE,CyrusOne,CLC,CLARCOR Inc.,S&P 500 constituent Parker-Hannifin Corp. (NYSE:PH) acquired CLARCOR.
-2017-02-28,DDS,Dillard's,ISIL,Intersil,Renesas Electronics acquired Intersil.
-2017-02-13,CTB,Cooper Tire & Rubber,SCOR,comScore,NASDAQ announced that comScore will be delisted from its exchange due to non-compliance.
-2017-02-03,BIVV,Bioverativ,RH,Restoration Hardware,S&P 100 & 500 constituent Biogen Inc. (NASD: BIIB) spun off Bioverativ. RH replaced Ciber Inc. (NYSE:CBR) in the S&P SmallCap 600.
-2017-02-02,LOGM,LogMeIn,TGI,Triumph Group,"S&P 500 constituent Citrix Systems (NASD: CTXS) spun-off GetGo Inc., which was immediately acquired by LogMeIn."
-2017-01-04,CC,Chemours,IDXX,IDEXX Laboratories,"S&P 100 & 500 constituent Abbott Laboratories (NYSE:ABT) acquired St. Jude Medical. S&P MidCap 400 constituent IDEXX Laboratories, Inc. (NASD:IDXX) replaced St. Jude Medical, Inc. (NYSE:STJ) in the S&P 500."
-,UMBF,UMB Financial,IM,Ingram Micro,Tianjin Tianhai Investment Company Ltd acquired Ingram Micro.
-,GMED,Globus Medical,TLN,Talen Energy,Riverstone Holdings LLC acquired Talen Energy.
-,OI,Owens-Illinois,MAA,Mid-America Apartments,OI replaces MAA. Owens-Illinois is ranked near the bottom of the S&P 500 and has a market capitalization more representative of the mid-cap market space.
-,PZZA,Papa John's Intl,PPS,Post Properties,"S&P SmallCap 600 constituent Papa John's International Inc. (NASD: PZZA) will replace Post Properties Inc. (NYSE: PPS) in the S&P MidCap 400, and Wingstop Inc. (NASD: WING) will replace Papa John's International in the S&P SmallCap 600. Mid-America Apartment Communities is acquiring Post Properties"
-,LM,Legg Mason,AMSG,AmSurg Corp,"AmSurg Corp. (NASD: AMSG) will replace Legg Mason Inc. (NYSE: LM) in the S&P 500, and Legg Mason will replace AmSurg in the S&P MidCap 400. AmSurg is acquiring Envision Healthcare Holdings Inc. (NYSE: EVHC). Post merger, AmSurg will change its name to Envision Healthcare Corporation. Legg Mason is ranked near the bottom of the S&P 500 and has a market capitalization more representative of the mid-cap market space."
-2016-11-28,LFUS,Littelfuse,LXK,Lexmark International,Apex Technology and PAG Asia Capital acquired Lexmark International.
-2016-11-10,LW,Lamb Weston Holdings,ASNA,Ascena Retail Group,S&P 500 constituent ConAgra Foods Inc. (NYSE: CAG) spun off Lamb Weston Holdings.
-2016-11-03,HLS,HealthSouth,RAX,Rackspace,Apollo Global Management LLC acquired Rackspace Hosting.
-2016-11-01,QCP,Quality Care Properties,GES,Guess? Inc,S&P 500 constituent HCP Inc. (NYSE: HCP) is spinning off Quality Care Properties.
-2016-10-05,CUZ,Cousins Properties,CYH,Community Health Systems,Cousins Properties is acquiring Parkway Properties. Community Health Systems is ranked near the bottom of the S&P MidCap 400.
-2016-10-03,VSM,Versum Materials,ANF,Abercrombie & Fitch,S&P 500 constituent Air Products and Chemicals Inc. (NYSE: APD) is spinning off Versum Materials. Air Products and Chemicals will remain in the S&P 500 post spin-off.
-2016-09-30,DO,Diamond Offshore Drilling,PLCM,Polycom,"Siris Capital Group acquired Polycom. Coty, Inc. replaces Diamond Offshore in the S&P 500 index."
-2016-09-27,SBH,Sally Beauty,RRD,RR Donnelley,"R.R. Donnelly & Sons is spinning off certain operations and assets. Post spin-offs, the R.R. Donnelly & Sons stub will be more representative of the small-cap market space."
-,NWE,NorthWestern,COO,The Cooper Companies,The Cooper Companies Inc. (NYSE: COO) replaces Starwood Hotels & Resorts Worldwide Inc. (NYSE: HOT) in the S&P 500. S&P 500 constituent Marriott International Inc. (NASD: MAR) acquires Starwood.
-,NUVA,NuVasive,FEIC,FEI Company,S&P 500 constituent Thermo Fisher Scientific Inc. (NYSE: TMO) acquired FEI.
-2016-09-21,CRUS,Cirrus Logic,FCS,Fairchild Semiconductor,ON Semiconductor (NASD: ON) acquired Fairchild Semiconductor.
-2016-09-16,CAR,Avis Budget Group,STR,Questar,"S&P 500 constituent Dominion Resources, Inc. (NYSE: D) is acquiring Questar in a deal expected to be completed soon pending final approvals."
-2016-09-02,MPWR,Monolithic Power Systems,MTD,Mettler-Toledo,S&P MidCap 400 constituent Mettler-Toledo International Inc. (NYSE: MTD) replaced Johnson Controls Inc. (NYSE: JCI) in the S&P 500. S&P 500 constituent Tyco International plc (NYSE: TYC) acquired Johnson Controls in a merger of equals.
-2016-09-01,CHFC,Chemical Financial (later TCF Financial Corporation),SVU,SuperValu,Chemical Financial acquired Talmer Bancorp.
-2016-08-26,ENS,EnerSys,DWA,DreamWorks Animation,S&P 500 constituent Comcast Corp (NASD: CMCSA) acquired DreamWorks Animation.
-2016-08-19,DY,Dycom Industries,FMER,FirstMerit,S&P 500 constituent Huntington Bancshares Inc. (NASD:HBAN) acquired FirstMerit.
-2016-07-29,MBFI,MB Financial,FNFG,First Niagara Bank,S&P 500 constituent KeyCorp acquired First Niagara Bank.
-2016-06-30,EME,Emcor,ALB,Albemarle Corporation,Emera Inc. (TSX: EMA) is acquiring TECO Energy in a deal expected to be completed on or about that date pending final conditions.
-2016-06-30,SWX,Southwest Gas,LNT,Alliant Energy,S&P 100 & 500 constituent Southern Co. (NYSE:SO) is acquiring AGL Resources.
-2016-06-24,CHDN,Churchill Downs,FBHS,Fortune Brands Home & Security,S&P MidCap 400 constituent Fortune Brands Home & Security Inc. (NYSE:FBHS) replaced Cablevision Systems Corp. (NYSE:CVC) in the S&P 500 index. Altice NV acquired Cablevision.
-,HELE,Helen of Troy,WCN,Waste Connections,"Progressive Waste Solutions Ltd. (TSX:BIN, NYSE: BIN) and Waste Connections are merging to form a new company called Waste Connections. ""New"" Waste Connections will be considered to be domiciled in Canada for index purposes and will be ineligible for continued inclusion in the S&P MidCap 400."
-,BRCD,Brocade Communications,MDC,MDC Holdings,Brocade Communications Systems is acquiring Ruckus Wireless. MDC has a market capitalization more representative of the small-cap market space.
-2016-05-27,EDR,Education Realty Trust,AJG,Arthur J. Gallagher & Co.,Coca-Cola Enterprises has merged with Coca-Cola Iberian Partners SA and Coca-Cola Erfrischungsgetränke AG to form a new company called Coca-Cola European Partners Plc.
-2016-05-23,MPW,Medical Properties Trust,LKQ,LKQ Corp,S&P MidCap 400 constituent LKQ Corp. (NASD:LKQ) will replace Airgas Inc. (NYSE:ARG) in the S&P 500. Air Liquide SA acquired Airgas.
-2016-05-12,TXRH,Texas Roadhouse,ALK,Alaska Air Group,S&P 500 constituent Western Digital Corp. (NASD:WDC) is acquiring SanDisk Corp. in a deal expected to be completed on or about that date pending final conditions.
-2016-05-03,VSAT,ViaSat,AYI,Acuity Brands,"S&P MidCap 400 constituent Acuity Brands, Inc. (NYSE: AYI) will replace The ADT Corp. (NYSE: ADT) in the S&P 500. Apollo Global Management, LLC acquired The ADT Corp."
-2016-04-22,GME,GameStop,GPN,Global Payments Inc,"Global Payments is acquiring Heartland Payment Systems. Post-merger, Global Payment's market capitalization will be more representative of the large cap market space. GameStop is ranked near the bottom of the S&P 500 and has a market capitalization that is more representative of the mid-cap market space."
-2016-04-18,THC,Tenet Healthcare,JAH,Jarden,"S&P 500 constituent Newell Rubbermaid Inc. (NYSE:NWL) acquired Jarden. Ulta Salon, Cosmetics & Fragrance Inc. (NASD:ULTA) replaced Tenet Healthcare Corp. (NYSE:THC) in the S&P 500."
-2016-04-14,PBH,Prestige Brands,CNL,CLECO,Macquarie Infrastructure Partners acquired Cleco.
-2016-04-06,RH,Restoration Hardware,ATML,Atmel,S&P 500 constituent Microchip Technology Inc. (NASD: MCHP) acquired Atmel.
-2016-04-04,WBMD,webMD Health,SUNE,SunEdison,SunEdison has a market capitalization that is no longer representative of the mid-cap market space.
-2016-04-04,DCT,DCT Industrial Trust,FL,Foot Locker,S&P MidCap 400 constituent Foot Locker Inc. (NYSE:FL) replaced Cameron International Corp. (NYSE:CAM) in the S&P 500. S&P 100 & 500 constituent Schlumberger Ltd (NYSE:SLB) acquired Cameron International.
-,ABMD,Abiomed,HOLX,Hologic,Exelon acquired Pepco Holdings. Hologic moved to S&P 500 to replace Pepco Holdings.
-,ESV,Ensco plc,CNC,Centene,S&P MidCap 400 constituent Centene Corp. (NYSE: CNC) replaced Ensco plc (NYSE: ESV) in the S&P 500.
-,FR,First Industrial Realty Trust,HNT,Health Net,Centene acquired Health Net.
-2016-03-08,NJR,New Jersey Resources,SFG,StanCorp Financial,Meiji Yasuda Life Insurance Co. acquired StanCorp Financial.
-2016-03-07,HR,Healthcare Realty Trust,UDR,"UDR, Inc.",S&P MidCap 400 constituent UDR Inc. (NYSE: UDR) replaced Keurig Green Mountain Inc. (NASD:GMCR) in the S&P 500. JAB Holding Company acquired Keurig Green Mountain.
-2016-03-04,CNX,Consol Energy,SLH,Solera Holdings,Vista Equity Partners acquired Solera.
-2016-03-01,PVTB,PrivateBancorp,SIRO,Sirona Dental Systems,S&P 500 constituent Dentsply International Inc. (NASD:XRAY) acquired Sirona Dental Systems.
-2016-02-25,LNCE,Snyder's-Lance,CRC,California Resources,"Snyder's-Lance acquired Diamond Foods. California Resources had a low stock price, and its low market capitalization ranked it at the bottom of the S&P MidCap 400."
-2016-02-09,FNB,FNB Corporation,RCII,Rent-A-Center,F.N.B. acquired Metro Bancorp.
-2016-02-09,SFM,Sprouts Farmers Market,SWI,SolarWinds,Private equity firms Silver Lake Partners and Thoma Bravo LLC acquired SolarWinds.
-2016-02-01,SCOR,comScore,CC,Chemours,comScore acquired Rentrak Corp. (NASD:RENT). The combined company's market capitalization will be more representative of the mid-cap market space.
-2016-02-01,CW,Curtiss-Wright,FRT,Federal Realty Investment Trust,S&P 500 constituent Avago Technologies Ltd. (NASD:AVGO) acquired Broadcom. S&P MidCap 400 constituent Federal Realty Investment Trust (NYSE:FRT) replaced Broadcom Corp. (NASD:BRCM) in the S&P 500.
-2016-01-27,POOL,Pool Corporation,BMR,BioMed Realty Trust,Private equity firm Blackstone Real Estate Partners acquired BioMed Realty Trust.
-2016-01-19,MSCC,Microsemi,ATW,Atwood Oceanics,Microsemi acquired PMC-Sierra Inc. (NASD: PMCS) and the combined company's market capitalization was more representative of the mid-cap market space. Atwood Oceanics was ranked at the bottom of the S&P MidCap 400 and had a market capitalization more representative of the small-cap market space.
-2016-01-19,EPR,EPR Properties,EXR,Extra Space Storage,S&P 500 constituent ACE Ltd. (NYSE:ACE) acquired Chubb. S&P MidCap 400 constituent Extra Space Storage Inc. (NYSE:EXR) replaced The Chubb Corp. (NYSE:CB) in the S&P 500.
-2016-01-05,FOSL,Fossil Group,TW,Towers Watson,Willis Group merged with Towers Watson. The combined company replaces Fossil Group in the S&P 500.
-2015-12-29,SNX,Synnex,CHD,Church & Dwight,S&P 100 & 500 constituent Intel Corp. (NASD:INTC) acquired Altera. S&P MidCap 400 constituent Church & Dwight Co. (NYSE:CHD) replaced Altera Corp. (NASD:ALTR) in the S&P 500.
-2015-12-14,JCOM,j2 Global,CYT,Cytec Industries,Solvay S.A. acquired Cytec Industries.
-2015-11-30,CSC,Computer Sciences Corp,APOL,Apollo Education,CSRA Inc. will be added to the S&P 500 reflecting its spin-off from Computer Sciences. CSC will be removed from the S&P 500.
-2015-11-18,GNW,Genworth Financial,ROVI,Rovi,Synchrony Financial (NYSE:SYF) replaced Genworth Financial Inc. in the S&P 500.
-2015-11-02,MKTX,MarketAxess Holdings,CYN,City National Corp,Royal Bank of Canada (NYSE:RY) acquired City National.
-2015-07-30,ENH,Endurance Specialty Holdings,TMST,TimkenSteel,Endurance Specialty Holdings acquired Montpelier Re Holdings.
-,JACK,Jack in the Box,AAP,Advance Auto Parts,Dollar Tree has acquired Family Dollar Stores. Advance Auto Parts moves to S&P 500 to replace Family Dollar Stores.
-,WST,West Pharmaceutical Services,ADVS,Advent Software,SS&C Technologies Holdings Inc. (NASD:SSNC) has acquired Advent Software.
-2015-07-01,ATI,Allegheny Technologies,UNT,Unit Corp,S&P 500 constituent NiSource Inc. (NYSE: NI) spun off Columbia Pipeline Group. NiSource will remain in the S&P 500 and Columbia Pipeline will join the S&P 500. Allegheny Technologies and Unit were ranked near or at the bottom of their current indices.
-,CC,Chemours,SMTC,Semtech,S&P 100 & 500 constituent E. I. du Pont de Nemours and Co. (NYSE: DD) spins off Chemours.
-,CABO,Cable One,BTU,Peabody Energy,S&P MidCap 400 constituent Graham Holdings Company (NYSE: GHC) spins off Cable One. Graham Holdings remains in the S&P MidCap 400 following the distribution.
-,EPC,Edgewell Personal Care,HSC,Harsco,"S&P MidCap 400 constituent Energizer Inc. (NYSE: ENR) spins off ""new"" Energizer. Post spin, the parent company will change its name to Edgewell Personal Care Co. and trade under the symbol ""EPC"". It will remain in the S&P MidCap 400 following the distribution."
-2015-06-25,CASY,Casey's General Stores,AOL,AOL Inc,S&P 100 & 500 constituent Verizon Corp. (NYSE: VZ) acquired AOL.
-2015-06-11,WETF,WisdomTree Investments,QRVO,Qorvo,Qorvo Inc. replaced Lorillard Inc. in the S&P 500 due to Lorillard being acquired by Reynolds American Inc.
-2015-06-29,CBRL,Cracker Barrel,DRC,Dresser-Rand Group,Siemens AG acquired Dresser-Rand Group.
-2015-06-10,MANH,Manhattan Associates Inc.,LTM,Life Time Fitness Inc.,Life Time Fitness is now a private company.
-2015-06-01,TLN,Talen Energy,WIN,Windstream,Talen spun off by PPL Corp (NYSE:PPL); Windstream bumped due to market cap rank
-2015-05-29,OZRK,Bank of the Ozarks,XLS,Exelis,S&P 500 constituent Harris Corp. (NYSE:HRS) acquired Exelis.
-2015-04-27,DNKN,Dunkin' Brands Group Inc,RVBD,Riverbed Technology Inc,Riverbed Technology acquired by group led by Thoma Bravo LLC
-2015-04-24,CSAL,Communications Sales & Leasing,CLF,Cliffs Natural Resources,Communications Sales & Leasing spun off by Windstream Holdings; Cliffs Natural Resources removed due to market cap adjustments
-2015-04-07,CNO,CNO Financial Group,SLXP,Salix Pharmaceuticals,Salix Pharmaceuticals acquired by Valeant Pharmaceuticals (NYSE:VRX).
-2014-12-16,KLXI,KLX,CVEO,Civeo,Spin-off.
-2014-12-09,THS,TreeHouse Foods,CNVR,Conversant,Acquisition.
-2014-12-08,IPGP,IPG Photonics,CPWR,Compuware,Acquisition.
-2014-12-04,BMS,Bemis,CNQR,Concur Technologies,Acquisition.
-2014-12-04,TYL,Tyler Technologies,TIBX,TIBCO Software,Acquisition.
-2014-11-28,CRC,California Resources,RYAM,Rayonier Advanced Materials,Acquisition.
-2014-11-24,WNR,Western Refining,BYI,Bally Technologies,Acquisition.
-2014-11-04,JBL,Jabil Circuit,TWTC,TW Telecom,Acquisition.
-2014-10-31,KEYS,Keysight Technologies,UVV,Universal,Spin-off.
-2014-10-31,HYH,Halyard Health,ADTN,ADTRAN,Spin-off.
-2014-10-17,SKT,Tanger Factory Outlet Centers,URS,URS,Market capitalization change.
-2014-09-30,CDK,CDK Global Inc.,BBG,Bill Barrett Corporation,Bill Barrett's market capitalization is below $1.2 billion.
-2014-09-19,GHC,Graham Holdings,URI,United Rentals,Market capitalization change.
-2014-09-19,BTU,Peabody Energy,UHS,Universal Health Services,Market capitalization change.
-2014-09-19,CGNX,Cognex,WABC,Westamerica Bancorporation,Market capitalization change.
-2014-09-03,CNC,Centene,MCRS,MICROS Systems,Market capitalization change.
-2014-08-18,RDC,Rowan,MNK,Mallinckrodt,Market capitalization change.
-2014-08-14,ULTI,The Ultimate Software Group,HSH,The Hillshire Brands,Acquisition.
-2014-07-01,X,United States Steel,MLM,Martin Marietta Materials,Market capitalization change.
-2014-06-30,LHO,LaSalle Hotel Properties,AMG,Affiliated Managers Group,Spin-off.
-2014-06-30,TMST,TimkenSteel,GHL,Greenhill & Co.,Spin-off.
-2014-06-30,BDC,Belden,FNF,Fidelity National Financial,Spin-off.
-2014-06-27,RYAM,Rayonier Advanced Materials,IPI,Intrepid Potash,Acquisition.
-2014-06-20,IGT,International Game Technology,XEC,Cimarex Energy,Market capitalization change.
-2014-06-20,LYV,Live Nation Entertainment,MASI,Masimo,Market capitalization change.
-2014-06-20,ARRS,ARRIS Group,BCO,The Brink's Company,Market capitalization change.
-2014-06-06,TIME,Time Inc.,BOBE,Bob Evans Farms,Spin-off.
-2014-05-30,DNOW,NOW,BGC,General Cable,Spin-off.
-2014-05-30,CVEO,Civeo,MATW,Matthews International,Spin-off.
-2014-05-28,WPG,Washington Prime Group,UTIW,UTi Worldwide,Spin-off.
-2014-04-30,SLM,SLM,ANR,Alpha Natural Resources,Spin-off.
-2014-04-30,POL,PolyOne,UAA,Under Armour,Spin-off.
-2014-04-17,UMPQ,Umpqua Holdings,SGMS,Scientific Games,Acquisition.
-2014-04-01,CLF,Cliff Natural Resources,ESS,Essex Property,Acquisition.
-2014-04-01,FEIC,FEI Company,BRE,BRE Properties,Acquisition.
-2014-03-21,WPX,WPX Energy,GMCR,Keurig Green Mountain,Market capitalization change.
-2014-03-21,KATE,Kate Spade & Company,MATX,Matson,Market capitalization change.
-2014-02-28,KN,Knowles Corporation,AINV,Apollo Investment,Spin-off.
-2014-01-31,OGS,ONE Gas,VCI,Valassis Communications,Spin-off.
-2014-01-28,FTNT,Fortinet,HTSI,Harris Teeter Supermarkets,Acquisition.
-2014-01-28,SIRO,Sirona Dental Systems,HMA,Health Management Associates,Acquisition.
-2014-01-23,ALGN,Align Technology,TSCO,Tractor Supply,Market capitalization change.
-2014-01-02,RNR,RenaissanceRe Holdings,LPS,Lender Processing Services,Acquisition.
-2013-12-23,HAIN,The Hain Celestial Group,NVE,NV Energy,Acquisition.
-2013-12-20,TER,Teradyne,SCHL,Scholastic,Market capitalization change.
-2013-12-20,ANF,Abercrombie & Fitch,ADS,Alliance Data Systems,Market capitalization change.
-2013-12-20,JDSU,JDS Uniphase,MHK,Mohawk Industries,Market capitalization change.
-2013-12-20,ODFL,Old Dominion Freight Line,ACI,Arch Coal,Market capitalization change.
-2013-12-20,BC,Brunswick,RGS,Regis,Market capitalization change.
-2013-11-04,AOS,A.O. Smith,SKS,Saks,Acquisition.
-2013-09-27,SAIC,Science Applications International,BKS,Barnes & Noble,Market capitalization change.
-2013-09-26,CBST,Cubist Pharmaceuticals,SFD,Smithfield Foods,Acquisition.
-2013-09-20,AMD,Advanced Micro Devices,VRTX,Vertex Pharmaceuticals,Market capitalization change.
-2013-09-20,SAI,SAIC,AME,Ametek,Market capitalization change.
-2013-08-30,MUSA,Murphy USA,STRA,Strayer Education,Spin-off.
-2013-07-30,SLXP,Salix Pharmaceuticals,GDI,Gardner Denver,Acquisition.
-2013-06-28,APOL,Apollo Group,FST,Forest Oil,Spin-off.
-2013-06-28,MNK,Mallinckrodt,TLAB,Tellabs,Spin-off.
-2013-06-21,FHN,First Horizon National,QLGC,QLogic,Market capitalization change.
-2013-05-30,DPZ,Domino's Pizza,PXP,Plains Exploration & Production,Acquisition.
-2013-05-23,DF,Dean Foods,KSU,Kansas City Southern,Market capitalization change.
-2013-05-23,WWAV,WhiteWave Foods,KWK,Quicksilver Resources,Market capitalization change.
-2013-05-08,DDD,3D Systems,MAC,The Macerich Company,Market capitalization change.
-2013-05-01,CST,CST Brands,NOG,Northern Oil & Gas,Spin-off.
-2013-04-30,EXP,Eagle Materials,REGN,Regeneron Pharmaceuticals,Market capitalization change.
-2013-02-28,KRC,Kilroy Realty,JEF,Jefferies Group,Market capitalization change.
-2013-02-12,PRI,Primerica,SHAW,The Shaw Group,Acquisition.
-2013-01-29,EXR,Extra Space Storage,RAH,Ralcorp,Market capitalization change.
-2012-12-31,FII,Federated Investors,ESI,ITT Educational Services,Spin-off.
-2012-12-21,UNFI,United Natural Foods,AGP,AMERIGROUP,Acquisition.
-2012-12-11,RRD,R.R. Donnelley,MRX,Medicis Pharmaceutical,Acquisition.
-2012-10-04,CAB,Cabela's,PETM,PetSmart,Market capitalization change.
-2012-10-01,ANR,Alpha Natural Resources,KFY,Korn/Ferry,Market capitalization change.
-2012-10-01,GWR,Genesee & Wyoming,PSS,Collective Brands,Acquisition.
-2012-09-28,LXK,Lexmark,RSH,RadioShack,Spin-off.
-2012-09-28,DV,DeVry,PNR,Pentair,Spin-off.
-2012-08-07,JAH,Jarden,LNCR,Lincare Holdings,Acquisition.
-2012-07-31,SWI,SolarWinds,GPRO,Gen-Probe,Acquisition.
-2012-06-29,ALEX,Alexander & Baldwin,PCX,Patriot Coal,Spin-off.
-2012-06-28,HSH,Hillshire Brands,MNST,Monster Beverage,Spin-off.
-2012-05-15,TPX,Tempur-Pedic International,TNB,Thomas & Betts,Acquisition.
-2012-04-30,SVU,SUPERVALU,AM,American Greetings,Market capitalization change.
-2012-03-26,WXS,Wright Express,SUG,Southern Union,Market capitalization change.
-2012-02-03,POST,Post Holdings,CRK,Comstock Resources,Market capitalization change.
-2012-01-13,CRI,Carter's,NDN,99¢ Only Stores,Market capitalization change.
+# Retrieved 2026-11-10 by scripts/index_event_study.py. date is the effective date;
+# announcement_date comes from the row's cited S&P Dow Jones Indices announcement (URL date or citation date).
+date,added_ticker,added_security,removed_ticker,removed_security,reason,announcement_date
+2026-11-04,GKOS,Glaukos,OKTA,"Okta, Inc.",Market capitalization change.,2026-10-30
+2026-10-06,FORM,FormFactor,TWLO,Twilio,Market capitalization change.,2026-10-01
+2026-10-06,CTVA,Corteva,OLN,Olin Corporation,Market capitalization change.,2026-10-01
+2026-09-21,HUBS,HubSpot,SAM,Boston Beer Company,Market capitalization change.,2026-09-04
+2026-09-21,AGNC,AGNC Investment,CPRI,Capri Holdings,Market capitalization change.,2026-09-04
+2026-09-21,CORT,Corcept Therapeutics,P,Everpure,Market capitalization change.,2026-09-04
+2026-09-21,EAT,Brinker International,ILMN,"Illumina, Inc.",Market capitalization change.,2026-09-04
+2026-08-20,SUI,Sun Communities,WBS,Webster Bank,Banco Santander S.A. acquired Webster Financial.,
+2026-07-24,KRYS,Krystal Biotech,TMHC,Taylor Morrison,S&P 500 & 100 constituent Berkshire Hathaway acquired Taylor Morrison Home.,
+2026-07-22,MOH,Molina Healthcare,NSA,National Storage Affiliates Trust,S&P 500 constituent Public Storage acquired National Storage Affiliates Trust.,
+2026-07-17,BTSG,BrightSpring Health Services,GTLS,Chart Industries,S&P 500 constituent Baker Hughes Co. acquired Chart Industries.,
+2026-07-06,ALSN,Allison Transmission,GT,Goodyear Tire & Rubber,Market capitalization change.,2026-06-30
+2026-07-01,TOST,"Toast, Inc.",BLD,TopBuild Corp.,"QXO, Inc. acquired TopBuild Corp.",
+2026-07-01,IESC,IES Holdings,JHG,Janus Henderson,"Janus Henderson taken private by Trian Fund Management, L.P., General Catalyst Group Management, LLC, and Qatar Investment Authority.",
+2026-06-22,ROKU,"Roku, Inc.",FLEX,Flex Ltd.,Market capitalization change.,2026-06-05
+2026-06-22,CDE,Coeur Mining,BRBR,BellRing Brands,Market capitalization change.,2026-06-05
+2026-06-22,SMTC,Semtech,COTY,Coty,Market capitalization change.,2026-06-05
+2026-06-22,SANM,Sanmina Corporation,CNXC,Concentrix,Market capitalization change.,2026-06-05
+2026-06-22,VIAV,Viavi Solutions,BLKB,Blackbaud,Market capitalization change.,2026-06-05
+2026-06-11,SIRI,SiriusXM,MASI,Masimo,S&P 500 & 100 constituent Danaher Corporation acquired Masimo.,
+2026-05-18,SN,SharkNinja,FLO,Flowers Foods,Market capitalization change.,2026-05-13
+2026-04-09,DOCN,DigitalOcean,CASY,Casey's,Market capitalization change.,2026-04-06
+2026-03-23,SOLS,Solstice Advanced Materials,LITE,Lumentum,Market capitalization change.,2026-03-06
+2026-03-23,SITM,SiTime,COHR,Coherent Corp.,Market capitalization change.,2026-03-06
+2026-03-23,MOG.A,Moog Inc.,SATS,EchoStar,Market capitalization change.,2026-03-06
+2026-03-23,IDCC,InterDigital,GTM,ZoomInfo,Market capitalization change.,2026-03-06
+2026-03-23,VICR,Vicor Corporation,ASGN,ASGN Inc.,Market capitalization change.,2026-03-06
+2026-03-23,CTRE,CareTrust REIT,KMPR,Kemper Corporation,Market capitalization change.,2026-03-06
+2026-02-09,ARWR,Arrowhead Pharmaceuticals,CIEN,Ciena,Market capitalization change.,2026-02-04
+2026-02-02,BROS,Dutch Bros Inc.,PCH,PotlatchDeltic,S&P MidCap 400 constituent Rayonier Inc. acquired PotlatchDeltic.,2026-01-27
+2026-02-02,AEIS,Advanced Energy,CMA,Comerica,S&P 500 constituent Fifth Third Bancorp acquired Comerica.,
+2026-02-02,AHR,American Healthcare REIT,CADE,Cadence Bank,S&P 500 constituent Huntington Bancshares Inc. acquired Cadence Bank.,
+2026-01-30,TTMI,TTM Technologies,CIVI,Civitas Resources,S&P SmallCap 600 constituent SM Energy Company acquired Civitas Resources.,
+2026-01-22,SARO,StandardAero,FYBR,Frontier Communications,S&P 500 & S&P 100 constituent Verizon Communications Inc. acquired Frontier Communications Parent.,
+2026-01-02,PATH,UiPath,SNV,Synovus,S&P MidCap 400 constituent Pinnacle Financial Partners Inc. acquired Synovus Financial Corp.,2025-12-23
+2025-12-22,ULS,UL Solutions,FIX,Comfort Systems USA,Market capitalization change.,2025-12-05
+2025-12-22,PINS,Pinterest,UAA/UA,Under Armour,Market capitalization change.,2025-12-05
+2025-12-22,BAH,Booz Allen Hamilton,POWI,Power Integrations,Market capitalization change.,2025-12-05
+2025-12-22,SPXC,SPX Technologies,PRGO,Perrigo,Market capitalization change.,2025-12-05
+2025-12-22,DY,Dycom Industries,IRDM,Iridium Communications,Market capitalization change.,2025-12-05
+2025-12-22,BWA,BorgWarner,VAC,Marriott Vacations Worldwide,Market capitalization change.,2025-12-05
+2025-12-22,HL,Hecla Mining,NSP,Insperity,Market capitalization change.,2025-12-05
+2025-12-17,CRBG,Corebridge Financial,ALE,"Allete, Inc.",Canada Pension Plan Investment Board and Global Infrastructure Partners acquired Allete.,
+2025-11-13,STRL,Sterling Infrastructure,LNW,Light & Wonder,Light & Wonder delisted from the NASDAQ Stock Exchange but kept its primary listing exclusively in Australia.,2025-11-06
+2025-10-06,BSY,Bentley Systems,WU,Western Union,Market capitalization change.,2025-10-01
+2025-09-22,KTOS,Kratos Defense & Security Solutions,MAN,ManpowerGroup,Market capitalization change.,2025-09-05
+2025-09-22,MP,MP Materials,ACHC,Acadia Healthcare,Market capitalization change.,2025-09-05
+2025-09-22,TRU,TransUnion,WEN,Wendy's,Market capitalization change.,2025-09-05
+2025-09-22,NTNX,Nutanix,EME,Emcor,Market capitalization change.,2025-09-05
+2025-09-12,FTI,TechnipFMC,SKX,Skechers,3G Capital acquired Skechers USA.,
+2025-09-02,ELAN,Elanco,SRPT,Sarepta Therapeutics,Market capitalization change.,2025-08-26
+2025-08-28,TLN,Talen Energy,IBKR,Interactive Brokers,Market capitalization change.,2025-08-25
+2025-08-19,TWLO,Twilio,AMED,Amedisys,S&P 500 and S&P 100 constituent UnitedHealth Group acquired Amedisys.,
+2025-07-18,AVAV,AeroVironment,CHX,ChampionX,S&P 500 constituent Schlumberger Ltd. acquired ChampionX.,
+2025-06-24,APG,APi Group,X,U.S. Steel,Nippon Steel Corp. acquired United States Steel.,
+2025-05-22,PEGA,Pegasystems,JWN,Nordstrom,The Nordstrom family and El Puerto de Liverpool acquired Nordstrom.,
+2025-05-01,OKTA,"Okta, Inc.",BERY,Berry Global,S&P 500 constituent Amcor plc acquired Berry Global Group.,
+2025-03-31,CAVA,Cava Group,ALTR,Altair Engineering,Siemens AG acquired Altair Engineering.,
+2025-03-24,VFC,VF Corporation,TKO,TKO Group Holdings,Market capitalization change.,2025-03-07
+2025-03-24,ALK,Alaska Air Group,WSM,"Williams-Sonoma, Inc.",Market capitalization change.,2025-03-07
+2025-03-24,HIMS,Hims & Hers Health,EXE,Expand Energy,Market capitalization change.,2025-03-07
+2025-03-24,BBWI,"Bath & Body Works, Inc.",CC,Chemours,Market capitalization change.,2025-03-07
+2025-03-24,ATI,ATI Inc.,TDC,Teradata,Market capitalization change.,2025-03-07
+2025-03-24,SATS,EchoStar,NEOG,Neogen,Market capitalization change.,2025-03-07
+2025-03-11,ACI,Albertsons,AZPN,Aspen Technology,S&P 500 constituent Emerson Electric acquired Aspen Technology.,
+2025-03-06,ENTG,Entegris,ALTM,Arcadium Lithium,Rio Tinto acquired Arcadium Lithium.,
+2025-01-27,GWRE,Guidewire Software,ARWR,Arrowhead Pharmaceuticals,Market capitalization change.,2025-01-22
+2025-01-14,CART,Maplebear Inc.,ENOV,Enovis,Market capitalization change.,2025-01-07
+2024-12-23,CMA,Comerica,VSH,Vishay Intertechnology,Market capitalization change.,2024-12-06
+2024-12-23,CRS,Carpenter Technology,CRI,Carter's,Market capitalization change.,2024-12-06
+2024-12-23,BILL,BILL Holdings,LII,Lennox International,Market capitalization change.,2024-12-18
+2024-11-26,MLI,Mueller Industries,TPL,Texas Pacific Land Corporation,Market capitalization change.,2024-11-21
+2024-11-25,FLEX,Flex Ltd.,AZTA,Azenta,Market capitalization change.,2024-11-19
+2024-11-20,FOUR,Shift4,RCM,R1 RCM,"TowerBrook Capital Partners and Clayton, Dubilier & Rice acquired R1 RCM.",
+2024-11-06,CHWY,Chewy,SRCL,Stericycle,"S&P 500 constituent Waste Management, Inc. acquired Stericycle.",
+2024-10-11,DOCU,Docusign,MDU,MDU Resources,Market capitalization change.,2024-10-07
+2024-10-01,ENSG,Ensign Group,SWN,Southwestern Energy,S&P MidCap 400 constituent Chesapeake Energy Corp. acquired Southwestern Energy. The combined company renamed to Expand Energy Corporation.,2024-09-26
+2024-09-23,BIO,Bio-Rad Laboratories,ERIE,Erie Indemnity,Market capitalization change.,2024-09-06
+2024-09-23,CNH,CNH Industrial,MP,MP Materials,Market capitalization change.,2024-09-06
+2024-09-23,WAL,Western Alliance Bancorporation,PGNY,Progyny,Market capitalization change.,2024-09-06
+2024-09-23,PSN,Parsons Corporation,ADNT,Adient,Market capitalization change.,2024-09-06
+2024-09-23,HLNE,Hamilton Lane,WOLF,Wolfspeed,Market capitalization change.,2024-09-06
+2024-09-23,VNOM,Viper Energy,HELE,Helen of Troy Limited,Market capitalization change.,2024-09-06
+2024-09-23,FN,Fabrinet,ZD,Ziff Davis,Market capitalization change.,2024-09-06
+2024-09-23,AAL,American Airlines Group,TGNA,Tegna Inc.,Market capitalization change.,2024-09-06
+2024-07-26,AVTR,Avantor,QDEL,QuidelOrtho,Market capitalization change.,2024-07-23
+2024-07-22,ANF,Abercrombie & Fitch,ETRN,Equitrans Midstream,S&P 500 constituent EQT Corporation acquired Equitrans Midstream.,
+2024-06-28,RYAN,Ryan Specialty,AIRC,Apartment Income REIT,Blackstone Inc. acquired Apartment Income REIT.,
+2024-06-24,TPL,Texas Pacific Land Corporation,WERN,Werner Enterprises,Market capitalization change.,2024-06-07
+2024-06-24,BMRN,BioMarin Pharmaceutical,IART,Integra LifeSciences,Market capitalization change.,2024-06-07
+2024-06-24,WMG,Warner Music Group,PENN,Penn Entertainment,Market capitalization change.,2024-06-07
+2024-06-24,NXT,Nextracker,GO,Grocery Outlet,Market capitalization change.,2024-06-07
+2024-06-24,ALTR,Altair Engineering,LEG,Leggett & Platt,Market capitalization change.,2024-06-07
+2024-06-24,RBA,RB Global,HTZ,Hertz,Market capitalization change.,2024-06-07
+2024-06-24,ILMN,"Illumina, Inc.",GDDY,GoDaddy,Market capitalization change.,2024-06-07
+2024-06-03,SRPT,Sarepta Therapeutics,SWAV,Shockwave Medical,S&P 500 constituent Johnson & Johnson acquired Shockwave Medical.,
+2024-05-03,AAON,AAON,VST,Vistra,Market capitalization change.,2024-05-03
+2024-04-22,DUOL,Duolingo,CABO,Cable One,Market capitalization change.,2024-04-17
+2024-04-03,XRAY,Dentsply Sirona,FOXF,Fox Factory,Market capitalization change.,2024-03-27
+2024-04-01,ROIV,Roivant Sciences,RUN,Sunrun,Market capitalization change.,2024-03-26
+2024-04-01,APPF,AppFolio,NARI,Inari Medical,Market capitalization change.,2024-03-25
+2024-03-18,WHR,Whirlpool,SMCI,Supermicro,Market capitalization change.,2024-03-01
+2024-03-18,ZION,Zions Bancorporation,DECK,Deckers Brands,Market capitalization change.,2024-03-01
+2024-03-18,CYTK,Cytokinetics,CALX,Calix,Market capitalization change.,2024-03-01
+2024-03-18,AIT,Applied Industrial Technologies,MPW,Medical Properties Trust,Market capitalization change.,2024-03-01
+2024-03-01,AMH,American Homes 4 Rent,DOC,Physicians Realty Trust,S&P 500 constituent Healthpeak Properties acquired Physicians Realty Trust.,
+2024-01-23,ELF,e.l.f. Beauty,SRC,Spirit Realty,S&P 500 constituent Realty Income acquired Spirit Realty Capital.,
+2024-01-05,PSTG,Pure Storage,PDCO,Patterson Companies,Market capitalization change.,2024-01-02
+2024-01-02,ALTM,Arcadium Lithium,VYX,NCR Voyix,Market capitalization change.,2023-12-19
+2023-12-18,RMBS,Rambus,JBL,Jabil,Market capitalization change.,2023-12-01
+2023-12-18,FIX,Comfort Systems USA,BLDR,Builders FirstSource,Market capitalization change.,2023-12-01
+2023-12-18,HLI,Houlihan Lokey,MODG,Topgolf Callaway Brands,Market capitalization change.,2023-12-01
+2023-12-18,EQH,Equitable Holdings,VSTS,Vestis,Market capitalization change.,2023-12-01
+2023-11-30,CG,Carlyle Group,ICUI,ICU Medical,Market capitalization change.,2023-11-27
+2023-11-30,WPC,W. P. Carey,WOR,Worthington Industries,Market capitalization change.,2023-11-27
+2023-11-13,CNM,Core & Main,ACIW,ACI Worldwide,Market capitalization change.,2023-11-08
+2023-11-07,BURL,Burlington Stores,ENV,Envestnet,Market capitalization change.,2023-11-02
+2023-10-20,FND,Floor & Decor,VICR,Vicor,Market capitalization change.,2023-10-17
+2023-10-18,ONTO,Onto Innovation,HUBB,Hubbell Incorporated,Market capitalization change.,2023-10-13
+2023-10-12,H,Hyatt,NATI,National Instruments,S&P 500 constituent Emerson Electric acquired National Instruments.,
+2023-10-03,,,KSS,Kohl's,Market capitalization change.,2023-09-28
+2023-10-02,VSTS,Vestis,,,S&P MidCap 400 constituent Aramark spun off Vestis.,2023-09-28
+2023-09-29,CIVI,Civitas Resources,SYNH,Syneos Health,Elliott Investment Management acquired Syneos Health.,
+2023-09-18,RBC,RBC Bearings,HE,Hawaiian Electric Industries,Market capitalization change.,2023-09-01
+2023-09-18,FNF,Fidelity National Financial,FL,Foot Locker,Market capitalization change.,2023-09-01
+2023-09-18,WFRD,Weatherford International,JBLU,JetBlue,Market capitalization change.,2023-09-01
+2023-09-18,ST,Sensata Technologies,TRIP,Tripadvisor,Market capitalization change.,2023-09-01
+2023-09-18,MTN,Vail Resorts,HIW,Highwoods Properties,Market capitalization change.,2023-09-01
+2023-09-18,VST,Vistra Corp,XRX,Xerox,Market capitalization change.,2023-09-01
+2023-09-18,ALLY,Ally Financial,ENR,Energizer,Market capitalization change.,2023-09-01
+2023-09-18,MORN,"Morningstar, Inc.",CATY,Cathay Bank,Market capitalization change.,2023-09-01
+2023-09-18,GDDY,GoDaddy,SXT,Sensient Technologies,Market capitalization change.,2023-09-01
+2023-09-18,GLPI,Gaming and Leisure Properties,PZZA,Papa John's,Market capitalization change.,2023-09-01
+2023-09-18,PR,Permian Resources,OMCL,Omnicell,Market capitalization change.,2023-09-01
+2023-08-22,DLB,Dolby,STAA,STAAR Surgical,Market capitalization change.,2023-08-17
+2023-08-21,CHK,Chesapeake Energy,MRCY,Mercury Systems,Market capitalization change.,2023-08-16
+2023-08-08,ERIE,Erie Indemnity,PDCE,PDC Energy,S&P 500 & 100 constituent Chevron Corp. acquired PDC Energy.,
+2023-08-04,PAG,Penske Automotive,UNVR,Univar Solutions,Apollo Global Management acquired Univar Solutions.,
+2023-07-24,ELS,Equity Lifestyle Properties,LSI,Life Storage,S&P 500 constituent Extra Space Storage acquired Life Storage.,
+2023-06-19,WCC,WESCO International,NAVI,Navient,Market capitalization change.,2023-06-02
+2023-06-19,ZI,ZoomInfo,SITM,SiTime,Market capitalization change.,2023-06-02
+2023-06-19,OVV,Ovintiv,MAC,Macerich,Market capitalization change.,2023-06-02
+2023-06-19,GPK,Graphic Packaging,VSCO (now VSXY)[80],Victoria's Secret,Market capitalization change.,2023-06-02
+2023-06-19,DBX,Dropbox,DEI,Douglas Emmett,Market capitalization change.,2023-06-02
+2023-06-19,CCK,Crown Holdings,FULT,Fulton Financial Corporation,Market capitalization change.,2023-06-02
+2023-06-19,PLNT,Planet Fitness,NGVT,Ingevity Corp.,Market capitalization change.,2023-06-02
+2023-06-19,BWXT,BWX Technologies,SPWR,SunPower,Market capitalization change.,2023-06-02
+2023-06-19,BERY,Berry Global,WLY,John Wiley & Sons,Market capitalization change.,2023-06-02
+2023-06-19,DOCS,Doximity,DAN,Dana Incorporated,Market capitalization change.,2023-06-02
+2023-06-01,KNF,Knife River Corporation,BOH,Bank of Hawaii,S&P MidCap 400 constituent MDU Resources Group Inc. (NYSE:MDU) spun off Knife River Corp. Bank of Hawaii moved due to market capitalization change.,2023-05-25
+2023-05-04,STAG,STAG Industrial,AXON,Axon Enterprise,Market capitalization change.,2023-05-01
+2023-04-05,,,PACW,PacWest Bancorp,Market capitalization change.,2023-03-29
+2023-04-04,CR,Crane (new),,,"S&P MidCap 400 constituent Crane Holdings Co. (NYSE:CR) spun off new Crane. Following the spin-off, the parent Crane Holdings Co. will have a name change to Crane NXT Co., a symbol change to CXT, and will remain in the S&P MidCap 400.",2023-03-29
+2023-03-22,EXPO,Exponent,IAA,"IAA, Inc.",Ritchie Bros. Auctioneers acquired IAA.,
+2023-03-20,AXTA,Axalta,SLG,SL Green Realty,Market capitalization change.,2023-03-03
+2023-03-20,VAL,Valaris,FICO,Fair Isaac,Market capitalization change.,2023-03-03
+2023-03-20,ALV,Autoliv,CBRL,Cracker Barrel,Market capitalization change.,2023-03-03
+2023-03-20,STWD,Starwood Property Trust,VSAT,Viasat,Market capitalization change.,2023-03-03
+2023-03-20,SSB,South State Bank,WAFD,"WaFd, Inc.",Market capitalization change.,2023-03-03
+2023-03-20,CHRD,Chord Energy,DY,Dycom Industries,Market capitalization change.,2023-03-03
+2023-03-20,WMS,Advanced Drainage Systems,KMT,Kennametal,Market capitalization change.,2023-03-03
+2023-03-20,HGV,Hilton Grand Vacations,JBGS,JBG Smith,Market capitalization change.,2023-03-03
+2023-03-20,HTZ,Hertz,PEB,Pebblebrook Hotel Trust,Market capitalization change.,2023-03-03
+2023-03-20,ARMK,Aramark,HBI,Hanesbrands,Market capitalization change.,2023-03-03
+2023-03-20,USFD,US Foods,TNDM,Tandem Diabetes Care,Market capitalization change.,2023-03-03
+2023-03-01,COLB,Columbia Banking System,UMPQ,Umpqua Bank,Columbia Banking System acquired Umpqua Bank.,2023-02-23
+2023-02-23,UFPI,UFP Industries,LHCG,LHC Group,S&P 500 constituent UnitedHealth Group acquired LHC Group.,
+2023-02-06,ADC,Agree Realty,STOR,Store Capital,Store Capital was acquired by GIC and Oak Street Capital.,
+2023-01-05,VNO,Vornado Realty Trust,RXO,RXO,Market capitalization change.,2022-12-28
+2022-12-22,SMCI,Supermicro,STLD,Steel Dynamics,Market capitalization change.,2022-12-19
+2022-12-19,FBIN,Fortune Brands Innovations,FSLR,First Solar,Market capitalization change.,2022-12-12
+2022-12-19,ALGM,Allegro Microsystems,SMTC,Semtech,Market capitalization change.,2022-12-02
+2022-12-19,CUBE,CubeSmart,NUVA,NuVasive,Market capitalization change.,2022-12-02
+2022-12-01,PBF,PBF Energy,NUS,Nu Skin Enterprises,Market capitalization change.,2022-11-28
+2022-12-01,NXST,Nexstar Media Group,SABR,Sabre,Market capitalization change.,2022-11-28
+2022-11-02,,,BFH,Bread Financial,Market capitalization change.,2022-10-27
+2022-11-01,RXO,RXO,,,"S&P MidCap 400 constituent XPO, Inc. spun off RXO.",
+2022-10-20,AR,Antero Resources,Y,Alleghany,S&P 500 constituent Berkshire Hathaway acquired Alleghany.,
+2022-10-18,WLK,Westlake,MLKN,MillerKnoll,Market capitalization change.,2022-10-13
+2022-10-12,LNTH,Lantheus Holdings,TRGP,Targa Resources,Market capitalization change.,2022-10-06
+2022-10-03,FYBR,Frontier Communications,HAIN,Hain Celestial Group,Market capitalization change.,2022-09-27
+2022-10-03,EXLS,EXL Service,EQT,EQT Corporation,Market capitalization change.,2022-09-23
+2022-09-19,PVH,PVH Corp.,HPP,Hudson Pacific Properties,Market capitalization change.,2022-09-02
+2022-09-19,PENN,Penn Entertainment,MCY,Mercury General,Market capitalization change.,2022-09-02
+2022-09-19,DT,Dynatrace,AEO,American Eagle Outfitters,Market capitalization change.,2022-09-02
+2022-09-19,NLY,Annaly Capital Management,MTX,Minerals Technologies,Market capitalization change.,2022-09-02
+2022-08-17,MTSI,MACOM Technology Solutions,SAIL,SailPoint Technologies,Thoma Bravo acquired SailPoint Technologies Holdings.,
+2022-08-10,CELH,Celsius Holdings,ACC,American Campus Communities,Blackstone Inc. acquired American Campus Communities.,
+2022-07-27,MP,MP Materials,SAFM,Sanderson Farms,Cargill and Continental Grain Co. acquired Sanderson Farms.,
+2022-07-26,NOVT,Novanta,SIX,Six Flags,Market capitalization change.,2022-07-21
+2022-07-21,HTA,Healthcare Trust of America,HR,Healthcare Realty Trust,"Healthcare Trust of America acquired Healthcare Realty Trust. Post-merger, Healthcare Trust of America changed its name and symbol to Healthcare Realty Trust Inc. (NYSE: HR).",2022-07-13
+2022-07-20,COKE,Coca-Cola Consolidated,PSB,PS Business Parks,Blackstone Inc. acquired PS Business Parks.,
+2022-07-07,ORA,Ormat Technologies,CCMP,CMC Materials,Entegris acquired CMC Materials.,
+2022-07-06,SWN,Southwestern Energy,CDK,CDK Global,Brookfield Business Partners acquired CDK Global in a tender offer.,
+2022-07-05,OMCL,Omnicell,COHR,Coherent,S&P MidCap 400 constituent II-VI Inc. acquired Coherent.,2022-06-28
+2022-06-29,POR,Portland General Electric,APPS,Digital Turbine,Market capitalization change.,2022-06-24
+2022-06-21,UA/UAA,Under Armour,TRN,Trinity Industries,Market capitalization change.,2022-06-03
+2022-06-21,IPGP,IPG Photonics,YELP,Yelp,Market capitalization change.,2022-06-03
+2022-06-21,SHC,Sotera Health,URBN,Urban Outfitters,Market capitalization change.,2022-06-03
+2022-06-21,SWAV,Shockwave Medical,RAMP,LiveRamp,Market capitalization change.,2022-06-03
+2022-05-19,IRT,IRT Living,MIME,Mimecast,Permira Holdings Ltd. acquired Mimecast.,
+2022-05-03,NARI,Inari Medical,TPH,Tri Pointe Homes,Market capitalization change.,2022-04-28
+2022-04-06,,,PRG,PROG Holdings,Market capitalization change.,2022-03-30
+2022-04-05,ESAB,ESAB,,,S&P MidCap 400 constituent Colfax Corp. spun off ESAB.,2022-03-30
+2022-04-04,MTDR,Matador Resources,CPT,Camden,Market capitalization change.,2022-03-29
+2022-03-30,GTLS,Chart Industries,CONE,CyrusOne,Global Infrastructure Partners acquired CyrusOne.,
+2022-03-14,BRBR,BellRing Brands,CRNC,Cerence,Market capitalization change.,2022-03-04
+2022-03-02,RRC,Range Resources,MOH,Molina Healthcare,Market capitalization change.,2022-02-25
+2022-02-18,ONB,Old National,UE,Urban Edge Properties,Market capitalization change.,2022-02-15
+2022-02-15,PDCE,PDC Energy,NDSN,Nordson,Market capitalization change.,2022-02-10
+2022-02-03,GPS,Gap,JACK,Jack in the Box,Market capitalization change.,2022-01-26
+2022-02-01,EEFT,Euronet Worldwide,CMP,Compass Minerals,Market capitalization change.,2022-01-26
+2022-02-01,WTS,Watts Water Technologies,STL,Sterling Bancorp,Webster Bank acquired Sterling Bancorp.,
+2022-01-04,CALX,Calix,CIT,CIT Group,First Citizens BancShares acquired CIT Group.,
+2021-12-28,VOYA,Voya Financial,COR,CoreSite,S&P 500/100 constituent American Tower acquired CoreSite Realty.,
+2021-12-20,AA,Alcoa,HRC,Hillrom,S&P 500 constituent Baxter International acquired Hill-Rom.,
+2021-12-20,LEG,Leggett & Platt,SBNY,Signature Bank,Market capitalization change.,2021-12-03
+2021-12-20,HBI,Hanesbrands,SEDG,SolarEdge,Market capitalization change.,2021-12-03
+2021-12-20,WU,Western Union,FDS,FactSet,Market capitalization change.,2021-12-03
+2021-12-20,M,Macy's,TR,Tootsie Roll,Market capitalization change.,2021-12-03
+2021-12-20,VICR,Vicor,TDS,Telephone and Data Systems,Market capitalization change.,2021-12-03
+2021-12-20,POWI,Power Integrations,NKTR,Nektar Therapeutics,Market capitalization change.,2021-12-03
+2021-12-02,BRKR,Bruker,KAR,KAR Auction Services,Market capitalization change.,2021-11-24
+2021-11-30,SITM,SiTime,EBS,Emergent BioSolutions,Market capitalization change.,2021-11-22
+2021-11-05,KD,Kyndryl,NTCT,NetScout Systems,S&P 500 and 100 constituent IBM spun off Kyndryl Holdings.,
+2021-10-22,KRG,Kite Realty Group Trust,TREE,LendingTree,Market capitalization change.,2021-10-18
+2021-10-05,SPWR,SunPower,XEC,Cimarex Energy,S&P 500 constituent Cabot Oil & Gas acquired Cimarex Energy.,
+2021-09-20,UNM,Unum,CDAY,Ceridian,Market capitalization change.,2021-09-03
+2021-09-20,NOV,NOV Inc.,BRO,Brown & Brown,Market capitalization change.,2021-09-03
+2021-09-20,PRGO,Perrigo,WW,WW International,Market capitalization change.,2021-09-03
+2021-09-20,TNDM,Tandem Diabetes Care,HCSG,Healthcare Services Group,Market capitalization change.,2021-09-03
+2021-09-07,APPS,Digital Turbine,LGND,Ligand Pharmaceuticals,Market capitalization change.,2021-08-30
+2021-09-03,PFGC,Performance Food Group,THS,TreeHouse Foods,Market capitalization change.,2021-08-30
+2021-08-30,SAIA,Saia,TECH,Bio-Techne,Market capitalization change.,2021-08-24
+2021-08-30,MIME,Mimecast,CNK,Cinemark Holdings,Market capitalization change.,2021-08-24
+2021-08-30,OPCH,Option Care Health,TRMK,Trustmark Corporation,Market capitalization change.,2021-08-24
+2021-08-04,VSCO (now VSXY)[80],Victoria's Secret,INT,World Fuel Services,S&P 500 constituent L Brands spun off Victoria's Secret.,
+2021-08-04,GME,GameStop,WRI,Weingarten Realty,S&P 500 constituent Kimco Realty acquired Weingarten Realty.,
+2021-08-03,,,STRA,"Strategic Education, Inc.",Market capitalization change.,2021-07-27
+2021-08-02,GXO,GXO Logistics,,,"Spun off from XPO, Inc.",
+2021-07-07,CRNC,Cerence,ATGE,Adtalem Global Education,Market capitalization change.,2021-07-01
+2021-07-02,DTM,DT Midstream,PRAH,PRA Health Sciences,ICON plc acquired PRA Health Sciences.,
+2021-06-15,ELY,Callaway Golf,GRUB,Grubhub,Just Eat Takeaway.com NV acquired GrubHub.,
+2021-06-09,TRGP,Targa Resources,CLGX,CoreLogic,Stone Point Capital and Insight Partners acquired CoreLogic.,
+2021-06-09,ENV,Envestnet,TCF,TCF Financial Corporation,S&P 500 constituent Huntington Bancshares acquired TCF Financial Corporation.,
+2021-06-04,HFC,HollyFrontier,SVC,Service Properties Trust,Market capitalization change.,2021-05-27
+2021-06-02,CROX,Crocs,CMD,Cantel Medical Corporation,S&P 500 constituent STERIS plc acquired Cantel Medical.,
+2021-05-17,AZPN,Aspen Technology,AVNS,Avanos Medical,Market capitalization change.,2021-05-10
+2021-05-14,NSA,National Storage Affiliates Trust,CRL,Charles River Laboratories,Charles River Laboratories replaced FLIR Systems in the S&P 500.,
+2021-05-07,RCM,R1 RCM,PRSP,Perspecta Inc.,Veritas Capital acquired Perspecta.,
+2021-05-03,G,Genpact,GNW,Genworth Financial,Market capitalization change.,2021-04-27
+2021-04-20,LSCC,Lattice Semiconductor,PTC,PTC Inc.,PTC replaced Varian Medical Systems in the S&P 500.,
+2021-04-20,PGNY,Progyny Inc.,UFS,Domtar,Market capitalization change.,2021-04-15
+2021-04-12,NVST,Envista Holdings,IDCC,InterDigital,Market capitalization change.,2021-04-06
+2021-03-30,NBIX,Neurocrine Biosciences,OI,O-I Glass,Market capitalization change.,2021-03-24
+2021-03-22,FLS,Flowserve,EPC,Edgewell Personal Care,Market capitalization change.,2021-03-12
+2021-03-22,SLG,SL Green Realty,PENN,Penn National Gaming,Market capitalization change.,2021-03-12
+2021-03-22,XRX,Xerox,GNRC,Generac Holdings,Market capitalization change.,2021-03-12
+2021-03-22,VNT,Vontier,CZR,Caesars Entertainment,Market capitalization change.,2021-03-12
+2021-03-01,CLF,Cleveland-Cliffs,EV,Eaton Vance,S&P 500/100 constituent Morgan Stanley acquired Eaton Vance.,
+2021-02-16,AMKR,Amkor Technology,HNI,HNI Corporation,Market capitalization change.,2021-02-10
+2021-02-12,IRDM,Iridium Communications,MPWR,Monolithic Power Systems,Monolithic Power Systems replaced TechnipFMC in the S&P 500.,
+2021-01-29,STAA,STAAR Surgical,PBH,Prestige Brands,Market capitalization change.,2021-01-25
+2021-01-21,YETI,Yeti Holdings,TRMB,Trimble Inc.,Trimble Inc. replaced Concho Resources in the S&P 500.,
+2021-01-07,CPRI,Capri Holdings,ENPH,Enphase Energy,Market capitalization change.,2020-12-30
+2021-01-07,BRKS,Brooks Automation,WPX,WPX Energy,S&P 500 constituent Devon Energy acquired WPX Energy.,
+2020-12-29,KNSL,Kinsale Capital Group,TCO,Taubman Centers,S&P 500/100 constituent Simon Property Group acquired Taubman Centers.,
+2020-12-21,AIRC,Apartment Income REIT,DNKN,Dunkin' Brands,Inspire Brands acquired Dunkin' Brands Group.,
+2020-12-02,,,AMCX,AMC Networks,Market capitalization change.,2020-12-01
+2020-12-01,CNXC,Concentrix,,,S&P MidCap 400 constituent SYNNEX Corp. spun off Concentrix.,2020-12-01
+2020-11-13,MTG,MGIC Investment Corporation,GEO,GEO Group,Market capitalization change.,2020-11-05
+2020-11-13,HALO,Halozyme,MD,Mednax,Market capitalization change.,2020-11-05
+2020-10-07,NEOG,Neogen,POOL,Pool Corporation,Market capitalization change.,2020-10-01
+2020-10-07,SSD,Simpson Manufacturing,DLPH,Delphi Technologies,S&P 500 constituent BorgWarner acquired Delphi Technologies.,
+2020-10-05,SAIL,SailPoint Technologies,SBH,Sally Beauty Holdings,Market capitalization change.,2020-09-30
+2020-09-21,HRB,H&R Block,ETSY,Etsy,Market capitalization change.,2020-09-04
+2020-09-21,COTY,Coty,TER,Teradyne,Market capitalization change.,2020-09-04
+2020-09-21,KSS,Kohl's,CTLT,Catalent,Market capitalization change.,2020-09-04
+2020-09-21,JAZZ,Jazz Pharmaceuticals,RIG,Transocean,Market capitalization change.,2020-09-04
+2020-09-21,WING,Wingstop,PBF,PBF Energy,Market capitalization change.,2020-09-04
+2020-09-21,MEDP,Medpace,ATI,Allegheny Technologies,Market capitalization change.,2020-09-04
+2020-09-21,FOXF,Fox Factory,CLI,Mack-Cali Realty,Market capitalization change.,2020-09-04
+2020-09-01,LAD,Lithia Motors,LOGM,LogMeIn,Francisco Partners and Elliott Management acquired LogMeIn.,
+2020-08-17,BLDR,Builders FirstSource,CXW,CoreCivic,Market capitalization change.,2020-08-11
+2020-08-03,RUN,Sunrun,LM,Legg Mason,S&P 500 constituent Franklin Resources acquired Legg Mason.,
+2020-08-03,IAA,"IAA, Inc.",DLX,Deluxe Corporation,Market capitalization change.,2020-07-28
+2020-08-03,REXR,Rexford Industrial Realty,CRS,Carpenter Technology,Market capitalization change.,2020-07-28
+2020-07-24,EBS,Emergent BioSolutions,CZR,Caesars Entertainment,S&P MidCap 400 constituent Eldorado Resorts (NASD:ERI) acquired Caesars Entertainment.,
+2020-06-30,BLD,TopBuild Corp.,TECD,Tech Data,Apollo Global Management acquired Tech Data.,
+2020-06-25,GO,Grocery Outlet,EAT,Brinker International,Market capitalization change.,2020-06-22
+2020-06-22,ADS,Alliance Data Systems,TDY,Teledyne Technologies,Market capitalization changes,2020-06-12
+2020-06-22,JWN,Nordstrom,BIO,Bio-Rad Laboratories,Market capitalization changes,2020-06-12
+2020-06-22,HOG,Harley-Davidson,TYL,Tyler Technologies,Market capitalization changes,2020-06-12
+2020-06-22,MIDD,Middleby Corporation,DDS,Dillard's,Market capitalization changes,2020-06-12
+2020-06-22,QDEL,Quidel Corp,DNOW,DNOW Inc.,Market capitalization changes,2020-06-12
+2020-06-22,HXL,Hexcel,CAKE,Cheesecake Factory,Market capitalization changes,2020-06-12
+2020-06-22,UNVR,Univar Solutions,REZI,Resideo Technologies,Market capitalization changes,2020-06-12
+2020-06-22,STRA,Strategic Education,BBBY,Bed Bath & Beyond,Market capitalization changes,2020-06-12
+2020-06-22,QLYS,Qualys Inc,MTDR,Matador Resources,Market capitalization changes,2020-06-12
+2020-06-22,GBCI,Glacier Bancorp,MDRX,Allscripts Healthcare Solutions,Market capitalization changes,2020-06-12
+2020-05-27,HPP,Hudson Pacific Properties,DHC,Diversified Healthcare Trust,Hudson Pacific Properties Inc. (NYSE:HPP) replaced Diversified Healthcare Trust (NASD:DHC).,2020-05-27
+2020-05-26,ESNT,Essent Group Ltd,PTEN,Patterson-UTI Energy,Essent Group Ltd. (NYSE:ESNT) replaced Patterson-UTI Energy Inc. (NASD:PTEN).,2020-05-26
+2020-05-18,DOC,Physicians Realty Trust,WST,West Pharmaceutical Services,Physicians Realty Trust replaced West Pharmaceutical Services.,2020-05-18
+2020-05-06,STOR,Store Capital,DPZ,Domino's Pizza,STORE Capital Corp. (NYSE:STOR) replaced Domino's Pizza.,2020-05-06
+2020-04-27,ENPH,Enphase Energy,CLB,Core Laboratories,S&P 400 to S&P 600 moves,2020-04-27
+2020-04-27,PCTY,Paylocity Holding,MDP,Meredith Corp,S&P 400 to S&P 600 moves,2020-04-27
+2020-04-13,LHCG,LHC Group,CY,Cypress Semiconductor,S&P SmallCap 600 constituent LHC Group Inc. (NASD: LHCG) replaced Cypress Semiconductor Corp. (NASD: CY).,2020-04-13
+2020-02-27,XEC,Cimarex Energy,CHK,Chesapeake Energy,Market capitalization change.,2020-02-27
+2020-02-07,GNRC,Generac Holdings,ALEX,Alexander & Baldwin,Generac Holdings Inc. (NYSE:GNRC) replaced Alexander & Baldwin Inc. (NYSE:ALEX).,2020-02-07
+2020-01-31,TMHC,Taylor Morrison,GDOT,Green Dot Corp,Taylor Morrison Home Corp. (NYSE: TMHC) replaced Green Dot Corp. (NYSE: GDOT).,2020-01-31
+2020-01-29,DAR,Darling Ingredients,LPT,Liberty Property Trust,S&P SmallCap 600 constituent Darling Ingredients Inc. (NYSE: DAR) replaced Liberty Property Trust (NYSE: LPT).,2020-01-29
+2020-01-21,CIT,CIT Group,SKT,Tanger Factory Outlet Centers,"CIT Group Inc. (NYSE:CIT) replaced Tanger Factory Outlet Centers, Inc. (NYSE:SKT).",2020-01-21
+2019-12-26,RH,RH,GWR,Genesee & Wyoming,S&P SmallCap 600 constituent RH (NYSE: RH) replaced Genesee & Wyoming Inc. (NYSE: GWR).,2019-12-26
+2019-12-17,COLM,Columbia Sportswear,UNIT,Uniti Group,Columbia Sportswear Company (NASD: COLM) replaced Uniti Group Inc. (NASD: UNIT).,2019-12-17
+2019-12-13,AMG,Affiliated Managers Group,LYV,Live Nation Entertainment,Market capitalization changes.,2019-12-13
+2019-12-13,TRIP,TripAdvisor,ZBRA,Zebra Technologies,Market capitalization changes.,2019-12-13
+2019-12-13,MAC,Macerich Co.,STE,STERIS plc,Market capitalization changes.,2019-12-13
+2019-12-13,LOPE,Grand Canyon Education,OAS,Oasis Petroleum,Market capitalization changes.,2019-12-13
+2019-12-13,LEA,Lear Corp,SWN,Southwestern Energy,Market capitalization changes.,2019-12-13
+2019-12-13,ARWR,Arrowhead Pharmaceuticals,GVA,Granite Construction,Market capitalization changes.,2019-12-13
+2019-12-10,CHH,Choice Hotels,PLT,Plantronics,Choice Hotels International Inc. (NYSE: CHH) replaced Plantronics Inc. (NYSE: PLT).,2019-12-10
+2019-12-02,CCMP,Cabot Microelectronics,ODFL,Old Dominion Freight Line,S&P SmallCap 600 constituent Cabot Microelectronics Corp. (NASD: CCMP) replaced Old Dominion Freight Line.,2019-12-02
+2019-11-27,RLI,RLI Corp.,WRB,W.R. Berkley,S&P SmallCap 600 constituent RLI Corp. (NYSE:RLI) replaced W.R. Berkley.,2019-11-27
+2019-10-30,CDAY,Ceridian,OII,Oceaneering International,Market capitalization changes.,2019-10-30
+2019-10-30,BJ,BJ's Wholesale Club,CVET,Covetrus,Market capitalization changes.,2019-10-30
+2019-10-24,FCN,FTI Consulting,MDSO,Medidata Solutions,Dassault Systèmes SA is acquiring Medidata Solutions in a transaction expected to be completed on or about that date pending final conditions.,2019-10-24
+2019-10-18,SEDG,SolarEdge,ISCA,International Speedway,NASCAR Holdings Inc. acquired International Speedway.,2019-10-14
+2019-10-08,MRCY,Mercury Systems,VSM,Versum Materials,Merck KGaAis acquiring Versum Materialsin a deal expected to be completed on or about that date pending final conditions.,2019-10-02
+2019-10-03,NKTR,Nektar Therapeutics,BID,Sotheby's,Market capitalization change.,2019-09-26
+2019-09-26,JEF,Jefferies Financial Group,NVR,NVR,Market capitalization changes.,2019-09-20
+2019-09-26,IIVI,II-VI,CPE,Callon Petroleum,Market capitalization changes.,2019-09-20
+2019-09-18,PK,Park Hotels & Resorts,INGN,Inogen,Market capitalization changes.,2019-09-12
+2019-09-23,SIGI,Selective Insurance Group Inc.,SIG,Signet Jewelers Ltd,Market capitalization changes,2019-09-06
+2019-09-23,RGEN,Repligen,RRC,Range Resources Corp,Market capitalization changes,2019-09-06
+2019-09-23,FCFS,FirstCash,TUP,Tupperware Brands Corp,Market capitalization changes,2019-09-06
+2019-09-23,ETSY,Etsy,MIK,The Michaels Companies,Market capitalization changes,2019-09-06
+2019-09-23,PPC,Pilgrim's Pride,QEP,QEP Resources,Market capitalization changes,2019-09-06
+2019-09-23,KAR,KAR Auction Services,VAL,Valaris Limited,Market capitalization changes,2019-09-06
+2019-09-23,AM,Antero Midstream,MDR,McDermott International,Market capitalization changes,2019-09-06
+2019-09-23,OC,Owens Corning,CARS,Cars.com,Market capitalization changes,2019-09-06
+2019-09-23,PEN,"Penumbra, Inc.",MNK,Mallinckrodt,Market capitalization changes,2019-09-06
+,GRUB,Grubhub,LDOS,Leidos Holdings,Market capitalization,
+,FL,Foot Locker,IEX,IDEX Corp.,Market capitalization,
+2019-08-01,TTEK,Tetra Tech,CHFC,Chemical Financial,Chemical Financial Corp. (NASD: CHFC) acquired TCF Financial Corporation and was renamed TCF Financial Corporation,
+2019-07-09,SRC,Spirit Realty,SM,SM Energy,Market capitalization,2019-07-01
+2019-07-01,AAXN,Axon Enterprise,MKTX,MarketAxess,MarketAxess Holdings Inc. (NASD:MKTX) will replace L3 Technologies Inc. (NYSE:LLL) in the S&P 500.,2019-06-24
+2019-06-07,MAT,Mattel,BMS,Bemis Company,Amcor Limited (ASX: AMC) is merging with Bemis.,2019-06-03
+2019-06-04,FLR,Fluor,RLGY,Realogy,Fluor has a market capitalization more representative of the mid-cap market space.,2019-05-30
+2019-05-07,EGP,EastGroup Properties,ULTI,Ultimate Software Group,Hellman & Friedman acquired Ultimate Software Group.,2019-05-01
+,SMTC,Semtech,ARRS,Arris International,CommScope Holding Company Inc.(NASD:COMM) acquired ARRIS International.,
+,PSB,PS Business Parks,RDC,Rowan Companies,S&P MidCap 400 constituent Ensco plc (NYSE:ESV) is acquiring Rowan Companies.,
+2019-04-03,BHF,Brighthouse Financial,PBI,Pitney Bowes,Pitney Bowes will replace Carbo Ceramics Inc. (NYSE:CRR) in the S&P SmallCap 600.,2019-03-26
+2019-04-01,TREX,"Trex Company, Inc.",IDTI,Integrated Device Technology,Renesas Electronics Corp. acquired Integrated Device Technology.,
+2019-03-22,FFIN,First Financial,MBFI,MB Financial,Fifth Third Bancorp (NASD: FITB) is acquiring MB Financial.,2019-03-18
+,CFX,Colfax,BIG,Big Lots,Colfax Corp. (NYSE:CFX) will replace and Big Lots Inc. (NYSE:BIG) in the S&P MidCap 400.,
+,NGVT,Ingevity,ESL,Esterline Technologies,TransDigm Group Inc. (NYSE:TDG) is acquiring Esterline Technologies.,
+,XPO,"XPO, Inc.",DO,Diamond Offshore Drilling,Diamond Offshore Drilling will replace Maiden Holding Ltd. (NASD:MHLD) in the S&P SmallCap 600.,
+,GT,Goodyear Tire & Rubber,WAB,Wabtec,The Goodyear Tire & Rubber will replace Wabtec in the S&P MidCap 400.,
+2019-02-21,AMED,Amedisys,AHL,Aspen Insurance Holdings,Apollo Global Management (NYSE: APO) is acquiring Aspen Insurance Holdings.,2019-02-14
+2019-02-11,CVET,Covetrus,DNB,Dun & Bradstreet Corp,Cannae Holdings Inc. (CNNE) is acquiring Dun & Bradstreet.,
+2019-02-06,BRX,Brixmor Property Group,VVC,Vectren,CenterPoint Energy Inc. (NYSE:CNP)is acquiring Vectren.,2019-01-31
+2019-02-04,CZR,Caesars Entertainment,DRQ,Dril-Quip,Dril-Quip will replace Essendant Inc. (NASD:ESND) in the S&P SmallCap 600.,2019-01-29
+2019-01-18,GDOT,Green Dot,TFX,Teleflex,TeleflexInc.(NYSE:TFX) will replace PG&E Corp.(NYSE:PCG) in the S&P 500.,2019-01-15
+2018-12-12,YELP,Yelp,GPOR,Gulfport Energy Corp,Gulfport Energy Corp.(NASD:GPOR) will replace OclaroInc. (NASD: OCLR) in the S&P SmallCap 600.,2018-12-06
+2018-12-10,OLED,Universal Display,NBR,Nabors Industries,Nabors Industries Ltd. (NYSE: NBR) will replace Sonic Corp. (NASD: SONC) in the S&P SmallCap 600.,2018-12-04
+,PEB,Pebblebrook Hotel Trust,LHO,LaSalle Hotel Properties,Pebblebrook Hotel Trust is acquiring LaSalle Hotel Properties.,
+,SRCL,Stericycle,EGN,Energen,Stericycle replaced Energen Corp. (NYSE:EGN) in the S&P MidCap 400.,
+,CACI,CACI International,LW,Lamb Weston Holdings,CACI International Inc. replaced Lamb Weston Holdings in the S&P MidCap 400.,
+2018-11-14,,,SPN,Superior Energy Services,Superior Energy Services Inc. (NYSE: SPN) was removed from the S&P MidCap 400 and added to the S&P SmallCap 600.,2018-10-30
+,LGND,Ligand Pharmaceuticals,KEYS,Keysight Technologies,Keysight replaced CA Inc. in the S&P 500.,
+,EQT,EQT Corporation,JKHY,Jack Henry & Associates,EQT replaced Jack Henry & Associates in the S&P MidCap 400.,
+,ETRN,Equitrans Midstream,,,Equitrans Midstream Corp. was added to the S&P MidCap 400.,
+2018-11-12,MTZ,MasTec,UNFI,United Natural Foods,United Natural Foods will replace MiMedx Group Inc. (NASD: MDXG) in the S&P SmallCap 600.,
+2018-11-06,NSP,Insperity,LPNT,LifePoint Health Inc.,Insperity will replace LifePointHealth Inc.,2018-11-13
+2018-10-11,ASGN,ASGN Inc.,FTNT,Fortinet,Fortinet replaced Envision Healthcare Corp. in the S&P 500.,
+2018-10-10,PENN,Penn National Gaming,CVG,Convergys,S&P MidCap 400 constituent SYNNEX Corporation acquired Convergys.,
+2018-09-20,RLGY,Realogy,EDR,Education Realty Trust,Greystar Real Estate Partners acquired Education Realty Trust.,
+2018-09-18,WTW,Weight Watchers,KLXI,KLX Inc.,S&P 500 constituent Boeing acquired KLX.,
+2018-09-17,HQY,HealthEquity,WCG,WellCare,"WellCare Health Plans, Inc. replaced XL Group (NYSE: XL) in the S&P 500.",2018-09-11
+2018-09-04,VAC,Marriott Vacations Worldwide,ILG,"ILG, Inc.",Marriott Vacations Worldwide acquired ILG.,2018-08-28
+2018-08-22,ADNT,Adient,DCT,DCT Industrial Trust,S&P 500 constituent ProLogis Inc. acquired DCT Industrial Trust.,
+2018-08-20,ERI,Eldorado Resorts,PAY,VeriFone,Francisco Partners acquired VeriFone Systems.,
+2018-08-01,WWE,World Wrestling Entertainment,QCP,Quality Care Properties,S&P 500 constituent Welltower Inc. (NYSE:WELL) acquired Quality Care Properties.,
+2018-07-11,VC,Visteon,WGL,WGL Holdings,AltaGas Ltd. (TSX:ALA) acquired WGL Holdings.,
+2018-07-02,EXEL,Exelixis,CPRT,Copart,Copart replaced Dr Pepper Snapple Group Inc. (NYSE: DPS) in the S&P 500.,
+2018-06-18,AYI,Acuity Brands,HFC,HollyFrontier,Market capitalization changes,
+2018-06-18,RRC,Range Resources,BR,Broadridge Financial Solutions,Market capitalization changes,
+2018-06-18,CHE,Chemed Corp.,ENDP,Endo International,Market capitalization changes,
+2018-06-18,HAE,Haemonetics,CTB,Cooper Tire & Rubber Co.,Market capitalization changes,
+2018-06-11,OLLI,Ollie's Bargain Outlet,OA,Orbital ATK,S&P 500 constituent Northrop Grumman Corp. (NYSE: NOC) acquired Orbital ATK.,
+2018-06-05,NAVI,Navient Corp.,WR,Westar Energy (renamed Evergy),Navient had a market capitalization closer to the mid-cap market space.,
+2018-06-05,IART,Integra LifeSciences,GXP,Great Plains Energy,Westar Energy acquired Great Plains Energy which moved the combined company to the S&P 500.,
+2018-05-31,WYND,Wyndham Destinations,MSCC,Microsemi,S&P 500 constituent Microchip Technology Inc. (NASD:MCHP) acquired Microsemi.,
+2018-05-31,PRAH,PRA Health Sciences,ABMD,Abiomed,ABIOMED Inc. replaced Wyndham Worldwide Corp. (NYSE:WYN) in the S&P 500.,2018-05-25
+2018-05-10,APY,Apergy Corp.,DDD,3D Systems,S&P 500 constituent Dover Corp. (NYSE: DOV) spun off Apergy.,2018-05-02
+2018-05-10,MDR,McDermott International,DBD,Diebold Nixdorf,McDermott International merged with Chicago Bridge & Iron Company N.V. (NYSE: CBI).,2018-05-03
+2018-05-02,NVT,nVent Electric,KN,Knowles Corporation,S&P 500 constituent Pentair plc (NYSE: PNR) spun off nVent Electric.,
+2018-05-01,OAS,Oasis Petroleum,WPG,Washington Prime Group,Market capitalization changes,2018-04-26
+2018-04-19,FIVE,Five Below,DST,DST Systems,SS&C Technologies Holdings Inc. (NASD: SSNC) acquired DST Systems.,2018-04-16
+2018-04-04,LITE,Lumentum,MSCI,MSCI Inc,MSCI Inc. replaced CSRA Inc. (NYSE: CSRA) in the S&P 500.,
+2018-03-26,EVR,Evercore,LNCE,Snyder's-Lance,S&P 500 constituent Campbell's (NYSE:CPB) acquired Snyder's-Lance.,
+2018-03-19,SIG,Signet Jewelers,TTWO,Take-Two Interactive,Market capitalization changes,
+2018-03-19,PDCO,Patterson Companies,SIVB,SVB Financial,Market capitalization changes,
+2018-03-19,CHK,Chesapeake Energy,DF,Dean Foods,Market capitalization changes,
+2018-03-19,CMD,Cantel Medical,AVP,Avon Products,Market capitalization changes,
+2018-03-19,ICUI,ICU Medical,OMI,Owens & Minor,Market capitalization changes,
+2018-03-08,TREE,LendingTree,BIVV,Bioverativ,Sanofi acquired Bioverativ.,
+2018-03-07,ALE,ALLETE Inc.,IPGP,IPG Photonics,IPG Photonics Corp. replaced Scripps Networks Interactive Inc. (NASD: SNI) in the S&P 500.,
+2018-02-13,BYD,Boyd Gaming,CAA,CalAtlantic Homes,S&P 500 constituent Lennar acquired CalAtlantic.,
+2018-02-05,HCSG,Healthcare Services Group,BWLD,Buffalo Wild Wings,Arby's Restaurant Group acquired Buffalo Wild Wings.,
+2018-01-03,SGMS,Scientific Games,HII,Huntington Ingalls,Huntington Ingalls Industries Inc. replaced C. R. Bard Inc. (NYSE:BCR) in the S&P 500.,2017-12-28
+2018-01-02,EHC,Encompass Health Corp.,HLS,HealthSouth,S&P 400 constituent HealthSouth (NYSE: HLS) renamed Encompass Health and changed to new symbol.,2018-01-02
+2018-01-02,IBKR,Interactive Brokers,HSNI,HSN Inc,S&P 600 constituent Interactive Brokers Group Inc. replaced Home Shopping Network Inc. (HSN) after Liberty Interactive Corp acquired HSN.,2017-12-20
+2017-12-06,DLPH,Delphi Technologies,FTR,Frontier Communications,"S&P 500 constituent Delphi Automotive plc (NYSE: DLPH), to be renamed Aptiv plc and trade under new symbol APTV, spun off Delphi Technologies.",
+2017-11-22,MKSI,MKS Instruments,BRCD,Brocade Communications,S&P 500 constituent Broadcom Limited acquired Brocade Communications Systems.,
+2017-10-02,SIX,Six Flags,PRXL,PAREXEL,Pamplona Capital Management acquired PAREXEL.,
+2017-10-02,STL,Sterling Bancorp,OIS,Oil States International,Sterling Bancorp acquired Astoria Financial.,
+2017-09-26,SAFM,Sanderson Farms,CAB,Cabela's,Bass Pro Shops acquired Cabela's.,
+2017-09-18,ILG,"ILG, Inc.",CDNS,Cadence Design Systems,Cadence Design Systems replaced Staples Inc. in the S&P 500.,
+2017-09-18,BCO,Brink's,WOOF,VCA Inc.,Mars Inc. acquired VCA.,
+2017-09-18,CPE,Callon Petroleum,WBMD,WebMD,Internet Brands acquired WebMD Health.,
+2017-08-17,SBRA,Sabra Health Care REIT,CCP,Care Capital Properties,Sabra Health Care REIT acquired Care Capital Properties.,2017-08-10
+2017-08-10,COR,CoreSite Realty,NSR,Neustar,NeuStar was acquired by a private investment group led by Golden Gate Capital.,2017-08-07
+2017-08-08,AN,AutoNation,FCN,FTI Consulting,Brighthouse Financial Inc. (NASD: BHF) replaced AutoNation in the S&P 500.,2017-07-31
+2017-07-26,MNK,Mallinckrodt,RMD,ResMed,Market capitalization changes,
+2017-07-26,MUR,Murphy Oil,PKG,Packaging Corporation of America,Market capitalization changes,
+2017-07-26,BBBY,Bed Bath & Beyond,AOS,A.O. Smith,Market capitalization changes,
+2017-07-26,RIG,Transocean,DRE,Duke Realty,Market capitalization changes,
+2017-07-19,JBGS,JBG Smith,CHS,Chico's FAS,S&P 500 constituent Vornado Realty Trust (NYSE:VNO) spun off JBG SMITH Properties.,
+2017-07-12,KNX,Knight Transportation,KATE,Kate Spade & Company,"S&P 500 constituent Coach, Inc. (NYSE:COH) acquired Kate Spade.",
+2017-07-12,CLB,Core Laboratories,PNRA,Panera Bread,JAB Holdings B.V. acquired Panera Bread.,
+2017-06-29,BLKB,Blackbaud,CST,CST Brands,Alimentation Couche-Tard acquired CST Brands.,
+2017-06-26,MDSO,Medidata Solutions,PVTB,PrivateBancorp,Canadian Imperial Bank of Commerce acquired PrivateBancorp.,
+2017-06-19,PNFP,Pinnacle Financial Partners,RE,Everest Re,Everest Re Group Ltd replaced Mead Johnson Nutrition Co. in the S&P 500.,
+2017-06-19,TDC,Teradata,ALGN,Align Technology,Market capitalization changes,
+2017-06-19,R,Ryder System,ANSS,ANSYS Inc,Market capitalization changes,
+2017-06-02,CARS,Cars.com,TIME,Time Inc.,TEGNA spun off Cars.com.,
+2017-06-02,TGNA,"Tegna, Inc.",JCP,J. C. Penney,IHS Markit Ltd. (NASD:INFO) replaced TEGNA Inc. in the S&P 500.,
+2017-06-02,MTDR,Matador Resources,WNR,Western Refining,S&P 500 constituent Tesoro Corp. (NYSE:TSO) acquired Western Refining.,
+2017-06-02,HOMB,Home BancShares,VAL,Valspar,S&P 500 constituent The Sherwin-Williams Co. (NYSE:SHW) acquired Valspar.,
+2017-05-16,VVV,Valvoline Inc,NE,Noble Corporation,S&P MidCap 400 constituent Ashland Global Holdings Inc. (NYSE:ASH) spun off its remaining stake in Valvoline.,2017-05-08
+2017-04-28,PBF,PBF Energy,WDR,Waddell & Reed,Waddell & Reed Financial replaced Stillwater Mining Co. (NYSE: SWC) in the S&P SmallCap 600.,2017-04-25
+2017-04-19,SABR,Sabre Corp,BEAV,B/E Aerospace,S&P 500 constituent Rockwell Collins Inc. (NYSE:COL) acquired B/E Aerospace.,
+2017-04-12,UBSI,United Bankshares,WWAV,WhiteWave Foods,Danone SA acquired WhiteWave Foods.,
+2017-04-06,ACHC,Acadia Healthcare,JOY,Joy Global,Komatsu Limited acquired Joy Global.,
+2017-04-05,DNB,Dun & Bradstreet,IT,Gartner,Gartner Inc. replaced The Dun & Bradstreet Corp. in the S&P 500.,2017-03-29
+2017-04-05,INCR,INC Research,CEB,CEB Inc.,Gartner acquired CEB.,2017-03-29
+2017-04-04,SWN,Southwestern Energy,CSC,Computer Sciences Corp.,Computer Sciences Corp. replaced Southwestern Energy Co. in the S&P 500.,
+2017-04-03,WTFC,Wintrust Financial,MENT,Mentor Graphics,Siemens Industry Inc. acquired Mentor Graphics.,2017-03-29
+2017-03-29,TCBI,Texas Capital Bancshares,ENH,Endurance Specialty Holdings,SOMPO Holdings Inc. acquired Endurance Specialty Holdings.,
+2017-03-29,MIK,The Michaels Companies,WETF,WisdomTree Investments,WisdomTree Investments moved to the S&P SmallCap 600.,
+2017-03-20,URBN,Urban Outfitters,AMD,Advanced Micro Devices,Market capitalization changes,2017-03-10
+2017-03-20,FTR,Frontier Communications,RJF,Raymond James Financial,Market capitalization changes,2017-03-10
+2017-03-20,FSLR,First Solar,ARE,Alexandria Real Estate Equities,Market capitalization changes,2017-03-10
+2017-03-20,TTWO,Take-Two Interactive,FOSL,Fossil Group,Market capitalization changes,2017-03-10
+2017-03-20,MASI,Masimo,DNR,Denbury Resources,Market capitalization changes,2017-03-10
+2017-03-20,COHR,"Coherent, Inc.",VSTO,Vista Outdoor,Market capitalization changes,2017-03-10
+2017-03-16,GEO,GEO Group,SNPS,Synopsys,Synopsys Inc. replaced Harman International Industries Inc. (NYSE:HAR) in the S&P 500.,
+2017-03-02,ENDP,Endo International,REG,Regency Centers,Regency Centers acquired Equity One. S&P MidCap 400 constituent Regency Centers Corp. (NYSE:REG) replaced Endo International plc (NASD:ENDP) in the S&P 500.,
+2017-03-02,NUS,Nu Skin,EQY,Equity One,Equity One acquired by Regency Centers.,
+2017-03-01,PBI,Pitney Bowes,CBOE,CBOE Holdings,"CBOE acquired Bats Global Markets Inc. (BATS:BATS). Post acquisition, CBOE Holdings Inc. (NASD:CBOE) will replace Pitney Bowes Inc. (NYSE:PBI) in the S&P 500.",
+2017-03-01,CONE,CyrusOne,CLC,CLARCOR Inc.,S&P 500 constituent Parker-Hannifin Corp. (NYSE:PH) acquired CLARCOR.,
+2017-02-28,DDS,Dillard's,ISIL,Intersil,Renesas Electronics acquired Intersil.,
+2017-02-13,CTB,Cooper Tire & Rubber,SCOR,comScore,NASDAQ announced that comScore will be delisted from its exchange due to non-compliance.,
+2017-02-03,BIVV,Bioverativ,RH,Restoration Hardware,S&P 100 & 500 constituent Biogen Inc. (NASD: BIIB) spun off Bioverativ. RH replaced Ciber Inc. (NYSE:CBR) in the S&P SmallCap 600.,
+2017-02-02,LOGM,LogMeIn,TGI,Triumph Group,"S&P 500 constituent Citrix Systems (NASD: CTXS) spun-off GetGo Inc., which was immediately acquired by LogMeIn.",
+2017-01-04,CC,Chemours,IDXX,IDEXX Laboratories,"S&P 100 & 500 constituent Abbott Laboratories (NYSE:ABT) acquired St. Jude Medical. S&P MidCap 400 constituent IDEXX Laboratories, Inc. (NASD:IDXX) replaced St. Jude Medical, Inc. (NYSE:STJ) in the S&P 500.",
+,UMBF,UMB Financial,IM,Ingram Micro,Tianjin Tianhai Investment Company Ltd acquired Ingram Micro.,
+,GMED,Globus Medical,TLN,Talen Energy,Riverstone Holdings LLC acquired Talen Energy.,
+,OI,Owens-Illinois,MAA,Mid-America Apartments,OI replaces MAA. Owens-Illinois is ranked near the bottom of the S&P 500 and has a market capitalization more representative of the mid-cap market space.,
+,PZZA,Papa John's Intl,PPS,Post Properties,"S&P SmallCap 600 constituent Papa John's International Inc. (NASD: PZZA) will replace Post Properties Inc. (NYSE: PPS) in the S&P MidCap 400, and Wingstop Inc. (NASD: WING) will replace Papa John's International in the S&P SmallCap 600. Mid-America Apartment Communities is acquiring Post Properties",
+,LM,Legg Mason,AMSG,AmSurg Corp,"AmSurg Corp. (NASD: AMSG) will replace Legg Mason Inc. (NYSE: LM) in the S&P 500, and Legg Mason will replace AmSurg in the S&P MidCap 400. AmSurg is acquiring Envision Healthcare Holdings Inc. (NYSE: EVHC). Post merger, AmSurg will change its name to Envision Healthcare Corporation. Legg Mason is ranked near the bottom of the S&P 500 and has a market capitalization more representative of the mid-cap market space.",
+2016-11-28,LFUS,Littelfuse,LXK,Lexmark International,Apex Technology and PAG Asia Capital acquired Lexmark International.,
+2016-11-10,LW,Lamb Weston Holdings,ASNA,Ascena Retail Group,S&P 500 constituent ConAgra Foods Inc. (NYSE: CAG) spun off Lamb Weston Holdings.,
+2016-11-03,HLS,HealthSouth,RAX,Rackspace,Apollo Global Management LLC acquired Rackspace Hosting.,
+2016-11-01,QCP,Quality Care Properties,GES,Guess? Inc,S&P 500 constituent HCP Inc. (NYSE: HCP) is spinning off Quality Care Properties.,
+2016-10-05,CUZ,Cousins Properties,CYH,Community Health Systems,Cousins Properties is acquiring Parkway Properties. Community Health Systems is ranked near the bottom of the S&P MidCap 400.,
+2016-10-03,VSM,Versum Materials,ANF,Abercrombie & Fitch,S&P 500 constituent Air Products and Chemicals Inc. (NYSE: APD) is spinning off Versum Materials. Air Products and Chemicals will remain in the S&P 500 post spin-off.,
+2016-09-30,DO,Diamond Offshore Drilling,PLCM,Polycom,"Siris Capital Group acquired Polycom. Coty, Inc. replaces Diamond Offshore in the S&P 500 index.",
+2016-09-27,SBH,Sally Beauty,RRD,RR Donnelley,"R.R. Donnelly & Sons is spinning off certain operations and assets. Post spin-offs, the R.R. Donnelly & Sons stub will be more representative of the small-cap market space.",
+,NWE,NorthWestern,COO,The Cooper Companies,The Cooper Companies Inc. (NYSE: COO) replaces Starwood Hotels & Resorts Worldwide Inc. (NYSE: HOT) in the S&P 500. S&P 500 constituent Marriott International Inc. (NASD: MAR) acquires Starwood.,
+,NUVA,NuVasive,FEIC,FEI Company,S&P 500 constituent Thermo Fisher Scientific Inc. (NYSE: TMO) acquired FEI.,
+2016-09-21,CRUS,Cirrus Logic,FCS,Fairchild Semiconductor,ON Semiconductor (NASD: ON) acquired Fairchild Semiconductor.,
+2016-09-16,CAR,Avis Budget Group,STR,Questar,"S&P 500 constituent Dominion Resources, Inc. (NYSE: D) is acquiring Questar in a deal expected to be completed soon pending final approvals.",
+2016-09-02,MPWR,Monolithic Power Systems,MTD,Mettler-Toledo,S&P MidCap 400 constituent Mettler-Toledo International Inc. (NYSE: MTD) replaced Johnson Controls Inc. (NYSE: JCI) in the S&P 500. S&P 500 constituent Tyco International plc (NYSE: TYC) acquired Johnson Controls in a merger of equals.,
+2016-09-01,CHFC,Chemical Financial (later TCF Financial Corporation),SVU,SuperValu,Chemical Financial acquired Talmer Bancorp.,
+2016-08-26,ENS,EnerSys,DWA,DreamWorks Animation,S&P 500 constituent Comcast Corp (NASD: CMCSA) acquired DreamWorks Animation.,
+2016-08-19,DY,Dycom Industries,FMER,FirstMerit,S&P 500 constituent Huntington Bancshares Inc. (NASD:HBAN) acquired FirstMerit.,
+2016-07-29,MBFI,MB Financial,FNFG,First Niagara Bank,S&P 500 constituent KeyCorp acquired First Niagara Bank.,
+2016-06-30,EME,Emcor,ALB,Albemarle Corporation,Emera Inc. (TSX: EMA) is acquiring TECO Energy in a deal expected to be completed on or about that date pending final conditions.,
+2016-06-30,SWX,Southwest Gas,LNT,Alliant Energy,S&P 100 & 500 constituent Southern Co. (NYSE:SO) is acquiring AGL Resources.,
+2016-06-24,CHDN,Churchill Downs,FBHS,Fortune Brands Home & Security,S&P MidCap 400 constituent Fortune Brands Home & Security Inc. (NYSE:FBHS) replaced Cablevision Systems Corp. (NYSE:CVC) in the S&P 500 index. Altice NV acquired Cablevision.,
+,HELE,Helen of Troy,WCN,Waste Connections,"Progressive Waste Solutions Ltd. (TSX:BIN, NYSE: BIN) and Waste Connections are merging to form a new company called Waste Connections. ""New"" Waste Connections will be considered to be domiciled in Canada for index purposes and will be ineligible for continued inclusion in the S&P MidCap 400.",
+,BRCD,Brocade Communications,MDC,MDC Holdings,Brocade Communications Systems is acquiring Ruckus Wireless. MDC has a market capitalization more representative of the small-cap market space.,
+2016-05-27,EDR,Education Realty Trust,AJG,Arthur J. Gallagher & Co.,Coca-Cola Enterprises has merged with Coca-Cola Iberian Partners SA and Coca-Cola Erfrischungsgetränke AG to form a new company called Coca-Cola European Partners Plc.,
+2016-05-23,MPW,Medical Properties Trust,LKQ,LKQ Corp,S&P MidCap 400 constituent LKQ Corp. (NASD:LKQ) will replace Airgas Inc. (NYSE:ARG) in the S&P 500. Air Liquide SA acquired Airgas.,
+2016-05-12,TXRH,Texas Roadhouse,ALK,Alaska Air Group,S&P 500 constituent Western Digital Corp. (NASD:WDC) is acquiring SanDisk Corp. in a deal expected to be completed on or about that date pending final conditions.,
+2016-05-03,VSAT,ViaSat,AYI,Acuity Brands,"S&P MidCap 400 constituent Acuity Brands, Inc. (NYSE: AYI) will replace The ADT Corp. (NYSE: ADT) in the S&P 500. Apollo Global Management, LLC acquired The ADT Corp.",
+2016-04-22,GME,GameStop,GPN,Global Payments Inc,"Global Payments is acquiring Heartland Payment Systems. Post-merger, Global Payment's market capitalization will be more representative of the large cap market space. GameStop is ranked near the bottom of the S&P 500 and has a market capitalization that is more representative of the mid-cap market space.",
+2016-04-18,THC,Tenet Healthcare,JAH,Jarden,"S&P 500 constituent Newell Rubbermaid Inc. (NYSE:NWL) acquired Jarden. Ulta Salon, Cosmetics & Fragrance Inc. (NASD:ULTA) replaced Tenet Healthcare Corp. (NYSE:THC) in the S&P 500.",
+2016-04-14,PBH,Prestige Brands,CNL,CLECO,Macquarie Infrastructure Partners acquired Cleco.,
+2016-04-06,RH,Restoration Hardware,ATML,Atmel,S&P 500 constituent Microchip Technology Inc. (NASD: MCHP) acquired Atmel.,
+2016-04-04,WBMD,webMD Health,SUNE,SunEdison,SunEdison has a market capitalization that is no longer representative of the mid-cap market space.,
+2016-04-04,DCT,DCT Industrial Trust,FL,Foot Locker,S&P MidCap 400 constituent Foot Locker Inc. (NYSE:FL) replaced Cameron International Corp. (NYSE:CAM) in the S&P 500. S&P 100 & 500 constituent Schlumberger Ltd (NYSE:SLB) acquired Cameron International.,
+,ABMD,Abiomed,HOLX,Hologic,Exelon acquired Pepco Holdings. Hologic moved to S&P 500 to replace Pepco Holdings.,
+,ESV,Ensco plc,CNC,Centene,S&P MidCap 400 constituent Centene Corp. (NYSE: CNC) replaced Ensco plc (NYSE: ESV) in the S&P 500.,
+,FR,First Industrial Realty Trust,HNT,Health Net,Centene acquired Health Net.,
+2016-03-08,NJR,New Jersey Resources,SFG,StanCorp Financial,Meiji Yasuda Life Insurance Co. acquired StanCorp Financial.,
+2016-03-07,HR,Healthcare Realty Trust,UDR,"UDR, Inc.",S&P MidCap 400 constituent UDR Inc. (NYSE: UDR) replaced Keurig Green Mountain Inc. (NASD:GMCR) in the S&P 500. JAB Holding Company acquired Keurig Green Mountain.,
+2016-03-04,CNX,Consol Energy,SLH,Solera Holdings,Vista Equity Partners acquired Solera.,
+2016-03-01,PVTB,PrivateBancorp,SIRO,Sirona Dental Systems,S&P 500 constituent Dentsply International Inc. (NASD:XRAY) acquired Sirona Dental Systems.,
+2016-02-25,LNCE,Snyder's-Lance,CRC,California Resources,"Snyder's-Lance acquired Diamond Foods. California Resources had a low stock price, and its low market capitalization ranked it at the bottom of the S&P MidCap 400.",
+2016-02-09,FNB,FNB Corporation,RCII,Rent-A-Center,F.N.B. acquired Metro Bancorp.,
+2016-02-09,SFM,Sprouts Farmers Market,SWI,SolarWinds,Private equity firms Silver Lake Partners and Thoma Bravo LLC acquired SolarWinds.,
+2016-02-01,SCOR,comScore,CC,Chemours,comScore acquired Rentrak Corp. (NASD:RENT). The combined company's market capitalization will be more representative of the mid-cap market space.,
+2016-02-01,CW,Curtiss-Wright,FRT,Federal Realty Investment Trust,S&P 500 constituent Avago Technologies Ltd. (NASD:AVGO) acquired Broadcom. S&P MidCap 400 constituent Federal Realty Investment Trust (NYSE:FRT) replaced Broadcom Corp. (NASD:BRCM) in the S&P 500.,
+2016-01-27,POOL,Pool Corporation,BMR,BioMed Realty Trust,Private equity firm Blackstone Real Estate Partners acquired BioMed Realty Trust.,
+2016-01-19,MSCC,Microsemi,ATW,Atwood Oceanics,Microsemi acquired PMC-Sierra Inc. (NASD: PMCS) and the combined company's market capitalization was more representative of the mid-cap market space. Atwood Oceanics was ranked at the bottom of the S&P MidCap 400 and had a market capitalization more representative of the small-cap market space.,
+2016-01-19,EPR,EPR Properties,EXR,Extra Space Storage,S&P 500 constituent ACE Ltd. (NYSE:ACE) acquired Chubb. S&P MidCap 400 constituent Extra Space Storage Inc. (NYSE:EXR) replaced The Chubb Corp. (NYSE:CB) in the S&P 500.,
+2016-01-05,FOSL,Fossil Group,TW,Towers Watson,Willis Group merged with Towers Watson. The combined company replaces Fossil Group in the S&P 500.,
+2015-12-29,SNX,Synnex,CHD,Church & Dwight,S&P 100 & 500 constituent Intel Corp. (NASD:INTC) acquired Altera. S&P MidCap 400 constituent Church & Dwight Co. (NYSE:CHD) replaced Altera Corp. (NASD:ALTR) in the S&P 500.,
+2015-12-14,JCOM,j2 Global,CYT,Cytec Industries,Solvay S.A. acquired Cytec Industries.,
+2015-11-30,CSC,Computer Sciences Corp,APOL,Apollo Education,CSRA Inc. will be added to the S&P 500 reflecting its spin-off from Computer Sciences. CSC will be removed from the S&P 500.,
+2015-11-18,GNW,Genworth Financial,ROVI,Rovi,Synchrony Financial (NYSE:SYF) replaced Genworth Financial Inc. in the S&P 500.,
+2015-11-02,MKTX,MarketAxess Holdings,CYN,City National Corp,Royal Bank of Canada (NYSE:RY) acquired City National.,
+2015-07-30,ENH,Endurance Specialty Holdings,TMST,TimkenSteel,Endurance Specialty Holdings acquired Montpelier Re Holdings.,
+,JACK,Jack in the Box,AAP,Advance Auto Parts,Dollar Tree has acquired Family Dollar Stores. Advance Auto Parts moves to S&P 500 to replace Family Dollar Stores.,
+,WST,West Pharmaceutical Services,ADVS,Advent Software,SS&C Technologies Holdings Inc. (NASD:SSNC) has acquired Advent Software.,
+2015-07-01,ATI,Allegheny Technologies,UNT,Unit Corp,S&P 500 constituent NiSource Inc. (NYSE: NI) spun off Columbia Pipeline Group. NiSource will remain in the S&P 500 and Columbia Pipeline will join the S&P 500. Allegheny Technologies and Unit were ranked near or at the bottom of their current indices.,
+,CC,Chemours,SMTC,Semtech,S&P 100 & 500 constituent E. I. du Pont de Nemours and Co. (NYSE: DD) spins off Chemours.,
+,CABO,Cable One,BTU,Peabody Energy,S&P MidCap 400 constituent Graham Holdings Company (NYSE: GHC) spins off Cable One. Graham Holdings remains in the S&P MidCap 400 following the distribution.,
+,EPC,Edgewell Personal Care,HSC,Harsco,"S&P MidCap 400 constituent Energizer Inc. (NYSE: ENR) spins off ""new"" Energizer. Post spin, the parent company will change its name to Edgewell Personal Care Co. and trade under the symbol ""EPC"". It will remain in the S&P MidCap 400 following the distribution.",
+2015-06-25,CASY,Casey's General Stores,AOL,AOL Inc,S&P 100 & 500 constituent Verizon Corp. (NYSE: VZ) acquired AOL.,
+2015-06-11,WETF,WisdomTree Investments,QRVO,Qorvo,Qorvo Inc. replaced Lorillard Inc. in the S&P 500 due to Lorillard being acquired by Reynolds American Inc.,
+2015-06-29,CBRL,Cracker Barrel,DRC,Dresser-Rand Group,Siemens AG acquired Dresser-Rand Group.,
+2015-06-10,MANH,Manhattan Associates Inc.,LTM,Life Time Fitness Inc.,Life Time Fitness is now a private company.,
+2015-06-01,TLN,Talen Energy,WIN,Windstream,Talen spun off by PPL Corp (NYSE:PPL); Windstream bumped due to market cap rank,
+2015-05-29,OZRK,Bank of the Ozarks,XLS,Exelis,S&P 500 constituent Harris Corp. (NYSE:HRS) acquired Exelis.,
+2015-04-27,DNKN,Dunkin' Brands Group Inc,RVBD,Riverbed Technology Inc,Riverbed Technology acquired by group led by Thoma Bravo LLC,
+2015-04-24,CSAL,Communications Sales & Leasing,CLF,Cliffs Natural Resources,Communications Sales & Leasing spun off by Windstream Holdings; Cliffs Natural Resources removed due to market cap adjustments,
+2015-04-07,CNO,CNO Financial Group,SLXP,Salix Pharmaceuticals,Salix Pharmaceuticals acquired by Valeant Pharmaceuticals (NYSE:VRX).,
+2014-12-16,KLXI,KLX,CVEO,Civeo,Spin-off.,2014-12-09
+2014-12-09,THS,TreeHouse Foods,CNVR,Conversant,Acquisition.,2014-12-02
+2014-12-08,IPGP,IPG Photonics,CPWR,Compuware,Acquisition.,2014-12-02
+2014-12-04,BMS,Bemis,CNQR,Concur Technologies,Acquisition.,2014-12-01
+2014-12-04,TYL,Tyler Technologies,TIBX,TIBCO Software,Acquisition.,2014-12-01
+2014-11-28,CRC,California Resources,RYAM,Rayonier Advanced Materials,Acquisition.,2014-11-20
+2014-11-24,WNR,Western Refining,BYI,Bally Technologies,Acquisition.,2014-11-20
+2014-11-04,JBL,Jabil Circuit,TWTC,TW Telecom,Acquisition.,2014-10-29
+2014-10-31,KEYS,Keysight Technologies,UVV,Universal,Spin-off.,2014-10-27
+2014-10-31,HYH,Halyard Health,ADTN,ADTRAN,Spin-off.,2014-10-27
+2014-10-17,SKT,Tanger Factory Outlet Centers,URS,URS,Market capitalization change.,2014-10-10
+2014-09-30,CDK,CDK Global Inc.,BBG,Bill Barrett Corporation,Bill Barrett's market capitalization is below $1.2 billion.,
+2014-09-19,GHC,Graham Holdings,URI,United Rentals,Market capitalization change.,2014-09-19
+2014-09-19,BTU,Peabody Energy,UHS,Universal Health Services,Market capitalization change.,2014-09-19
+2014-09-19,CGNX,Cognex,WABC,Westamerica Bancorporation,Market capitalization change.,2014-09-19
+2014-09-03,CNC,Centene,MCRS,MICROS Systems,Market capitalization change.,2014-08-27
+2014-08-18,RDC,Rowan,MNK,Mallinckrodt,Market capitalization change.,2014-08-14
+2014-08-14,ULTI,The Ultimate Software Group,HSH,The Hillshire Brands,Acquisition.,2014-08-11
+2014-07-01,X,United States Steel,MLM,Martin Marietta Materials,Market capitalization change.,2014-06-27
+2014-06-30,LHO,LaSalle Hotel Properties,AMG,Affiliated Managers Group,Spin-off.,2014-06-24
+2014-06-30,TMST,TimkenSteel,GHL,Greenhill & Co.,Spin-off.,2014-06-24
+2014-06-30,BDC,Belden,FNF,Fidelity National Financial,Spin-off.,2014-06-24
+2014-06-27,RYAM,Rayonier Advanced Materials,IPI,Intrepid Potash,Acquisition.,2014-06-24
+2014-06-20,IGT,International Game Technology,XEC,Cimarex Energy,Market capitalization change.,2014-06-12
+2014-06-20,LYV,Live Nation Entertainment,MASI,Masimo,Market capitalization change.,2014-06-12
+2014-06-20,ARRS,ARRIS Group,BCO,The Brink's Company,Market capitalization change.,2014-06-12
+2014-06-06,TIME,Time Inc.,BOBE,Bob Evans Farms,Spin-off.,2014-06-02
+2014-05-30,DNOW,NOW,BGC,General Cable,Spin-off.,2014-05-22
+2014-05-30,CVEO,Civeo,MATW,Matthews International,Spin-off.,2014-05-22
+2014-05-28,WPG,Washington Prime Group,UTIW,UTi Worldwide,Spin-off.,2014-05-22
+2014-04-30,SLM,SLM,ANR,Alpha Natural Resources,Spin-off.,2014-04-24
+2014-04-30,POL,PolyOne,UAA,Under Armour,Spin-off.,2014-04-24
+2014-04-17,UMPQ,Umpqua Holdings,SGMS,Scientific Games,Acquisition.,2014-04-14
+2014-04-01,CLF,Cliff Natural Resources,ESS,Essex Property,Acquisition.,2014-03-26
+2014-04-01,FEIC,FEI Company,BRE,BRE Properties,Acquisition.,2014-03-26
+2014-03-21,WPX,WPX Energy,GMCR,Keurig Green Mountain,Market capitalization change.,2014-03-14
+2014-03-21,KATE,Kate Spade & Company,MATX,Matson,Market capitalization change.,2014-03-14
+2014-02-28,KN,Knowles Corporation,AINV,Apollo Investment,Spin-off.,2014-02-24
+2014-01-31,OGS,ONE Gas,VCI,Valassis Communications,Spin-off.,2014-01-27
+2014-01-28,FTNT,Fortinet,HTSI,Harris Teeter Supermarkets,Acquisition.,2014-01-23
+2014-01-28,SIRO,Sirona Dental Systems,HMA,Health Management Associates,Acquisition.,2014-01-24
+2014-01-23,ALGN,Align Technology,TSCO,Tractor Supply,Market capitalization change.,2014-01-16
+2014-01-02,RNR,RenaissanceRe Holdings,LPS,Lender Processing Services,Acquisition.,2013-12-27
+2013-12-23,HAIN,The Hain Celestial Group,NVE,NV Energy,Acquisition.,2013-12-19
+2013-12-20,TER,Teradyne,SCHL,Scholastic,Market capitalization change.,2013-12-11
+2013-12-20,ANF,Abercrombie & Fitch,ADS,Alliance Data Systems,Market capitalization change.,2013-12-11
+2013-12-20,JDSU,JDS Uniphase,MHK,Mohawk Industries,Market capitalization change.,2013-12-11
+2013-12-20,ODFL,Old Dominion Freight Line,ACI,Arch Coal,Market capitalization change.,2013-12-11
+2013-12-20,BC,Brunswick,RGS,Regis,Market capitalization change.,2013-12-11
+2013-11-04,AOS,A.O. Smith,SKS,Saks,Acquisition.,2013-10-30
+2013-09-27,SAIC,Science Applications International,BKS,Barnes & Noble,Market capitalization change.,2013-09-26
+2013-09-26,CBST,Cubist Pharmaceuticals,SFD,Smithfield Foods,Acquisition.,2013-09-26
+2013-09-20,AMD,Advanced Micro Devices,VRTX,Vertex Pharmaceuticals,Market capitalization change.,2013-09-19
+2013-09-20,SAI,SAIC,AME,Ametek,Market capitalization change.,2013-09-19
+2013-08-30,MUSA,Murphy USA,STRA,Strayer Education,Spin-off.,2013-08-22
+2013-07-30,SLXP,Salix Pharmaceuticals,GDI,Gardner Denver,Acquisition.,2013-07-23
+2013-06-28,APOL,Apollo Group,FST,Forest Oil,Spin-off.,2013-06-20
+2013-06-28,MNK,Mallinckrodt,TLAB,Tellabs,Spin-off.,2013-06-20
+2013-06-21,FHN,First Horizon National,QLGC,QLogic,Market capitalization change.,2013-06-14
+2013-05-30,DPZ,Domino's Pizza,PXP,Plains Exploration & Production,Acquisition.,2013-05-22
+2013-05-23,DF,Dean Foods,KSU,Kansas City Southern,Market capitalization change.,2013-05-16
+2013-05-23,WWAV,WhiteWave Foods,KWK,Quicksilver Resources,Market capitalization change.,2013-05-16
+2013-05-08,DDD,3D Systems,MAC,The Macerich Company,Market capitalization change.,2013-05-03
+2013-05-01,CST,CST Brands,NOG,Northern Oil & Gas,Spin-off.,2013-04-24
+2013-04-30,EXP,Eagle Materials,REGN,Regeneron Pharmaceuticals,Market capitalization change.,2013-04-24
+2013-02-28,KRC,Kilroy Realty,JEF,Jefferies Group,Market capitalization change.,2013-02-21
+2013-02-12,PRI,Primerica,SHAW,The Shaw Group,Acquisition.,2013-02-07
+2013-01-29,EXR,Extra Space Storage,RAH,Ralcorp,Market capitalization change.,2013-01-23
+2012-12-31,FII,Federated Investors,ESI,ITT Educational Services,Spin-off.,2012-12-20
+2012-12-21,UNFI,United Natural Foods,AGP,AMERIGROUP,Acquisition.,2012-12-17
+2012-12-11,RRD,R.R. Donnelley,MRX,Medicis Pharmaceutical,Acquisition.,2012-12-05
+2012-10-04,CAB,Cabela's,PETM,PetSmart,Market capitalization change.,2012-10-01
+2012-10-01,ANR,Alpha Natural Resources,KFY,Korn/Ferry,Market capitalization change.,2012-09-28
+2012-10-01,GWR,Genesee & Wyoming,PSS,Collective Brands,Acquisition.,2012-09-28
+2012-09-28,LXK,Lexmark,RSH,RadioShack,Spin-off.,2012-09-28
+2012-09-28,DV,DeVry,PNR,Pentair,Spin-off.,2012-09-28
+2012-08-07,JAH,Jarden,LNCR,Lincare Holdings,Acquisition.,2012-08-01
+2012-07-31,SWI,SolarWinds,GPRO,Gen-Probe,Acquisition.,2012-07-25
+2012-06-29,ALEX,Alexander & Baldwin,PCX,Patriot Coal,Spin-off.,2012-06-21
+2012-06-28,HSH,Hillshire Brands,MNST,Monster Beverage,Spin-off.,2012-06-21
+2012-05-15,TPX,Tempur-Pedic International,TNB,Thomas & Betts,Acquisition.,2012-05-10
+2012-04-30,SVU,SUPERVALU,AM,American Greetings,Market capitalization change.,2012-04-23
+2012-03-26,WXS,Wright Express,SUG,Southern Union,Market capitalization change.,2012-03-20
+2012-02-03,POST,Post Holdings,CRK,Comstock Resources,Market capitalization change.,2012-01-30
+2012-01-13,CRI,Carter's,NDN,99¢ Only Stores,Market capitalization change.,2012-01-09
