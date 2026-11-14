@@ -57,3 +57,4 @@ htmlcov/
 
 # mypy
 .mypy_cache/
+data/raw/event_study_prices.csv.gz
