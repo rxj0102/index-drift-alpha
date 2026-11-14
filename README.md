@@ -54,7 +54,7 @@ HFT penetration in mid-cap passive flows.
 > crowded to the point of negative expected value net of execution costs. The practice
 > of buying stocks the moment they are announced for addition to the S&P 500 (and selling
 > them on the effective date) was documented by Shleifer (1986) and Chen, Noronha &
-> Singal (2004). By 2015, the front-running was so severe that the "index premium"
+> Singal (2004). By 2015, the front-running was so severe that the *index premium*
 > had inverted in large-cap indices - latecomers were left holding expensive shares
 > that experienced a predictable post-addition reversal.
 >
@@ -364,19 +364,19 @@ Citation metadata is in `CITATION.cff`. GitHub turns it into a Cite this reposit
 
 ## Academic References
 
-* **Shleifer, A. (1986).** "Do Demand Curves for Stocks Slope Down?" *Journal of Finance*,
+* **Shleifer, A. (1986).** *Do Demand Curves for Stocks Slope Down?* *Journal of Finance*,
   41(3), 579–590. [Foundational paper on S&P 500 addition price effects.]
 
-* **Chen, H., Noronha, G., & Singal, V. (2004).** "The Price Response to S&P 500 Index
-  Additions and Deletions: Evidence of Asymmetry and a New Explanation." *Journal of Finance*,
+* **Chen, H., Noronha, G., & Singal, V. (2004).** *The Price Response to S&P 500 Index
+  Additions and Deletions: Evidence of Asymmetry and a New Explanation.* *Journal of Finance*,
   59(4), 1901–1930. [Documents losses to index fund investors from front-running.]
 
-* **Petajisto, A. (2011).** "The Index Premium and Its Hidden Cost for Index Funds."
+* **Petajisto, A. (2011).** *The Index Premium and Its Hidden Cost for Index Funds.*
   *Journal of Empirical Finance*, 18(2), 271–288. [Quantifies the index premium as a
   recurring drag on passive fund performance.]
 
-* **Wurgler, J., & Zhuravskaya, E. (2002).** "Does Arbitrage Flatten Demand Curves for
-  Stocks?" *Journal of Business*, 75(4), 583–608. [Why addition effects are larger for
+* **Wurgler, J., & Zhuravskaya, E. (2002).** *Does Arbitrage Flatten Demand Curves for
+  Stocks?* *Journal of Business*, 75(4), 583–608. [Why addition effects are larger for
   stocks with no close substitutes - relevant to the mid-cap vs. large-cap comparison.]
 
 ---
