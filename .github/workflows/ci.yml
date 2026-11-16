@@ -1,12 +1,10 @@
-name: ci
-
+name: tests
 on:
   push:
     branches: [main]
   pull_request:
-
 jobs:
-  test:
+  pytest:
     runs-on: ubuntu-latest
     env:
       MPLBACKEND: Agg
@@ -18,5 +16,9 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
-      - name: README event study matches results/
-        run: python scripts/index_event_study.py --check
+      - name: Rerun the study and confirm the committed results reproduce
+        run: |
+          cp results/metrics.json /tmp/committed.json
+          python scripts/reproduce.py
+          python scripts/compare_metrics.py /tmp/committed.json results/metrics.json
+      - run: python scripts/render_readme.py --check
