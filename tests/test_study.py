@@ -11,14 +11,16 @@ from src import events, study
 def tables():
     ch = pd.DataFrame({
         "date": pd.to_datetime(["2021-03-22", "2021-03-22", "2021-06-01", "2021-06-01", "2015-05-01", "2030-01-01"]),
-        "added_ticker": ["NEW", "UP6", "X1", "X2", None, "LATE"],
+        "added_ticker": ["NEW", "UP6", "X1", "DN5", None, "LATE"],
         "removed_ticker": ["DN6", "UP5", "GONE", "OTH", "OLD", None],
         "reason": ["Market capitalization change.", "x", "GONE was acquired by BIG.", "x", "x", "x"],
         "announcement_date": pd.to_datetime(["2021-03-12", "2021-03-12", None, "2021-05-27", None, None]),
     })
     s6 = pd.DataFrame({"date": pd.to_datetime(["2021-03-22", "2021-03-19"]), "added_ticker": ["DN6", "ZZ"],
                        "removed_ticker": ["QQ", "UP6"]})
-    s5 = pd.DataFrame({"Symbol": ["UP5"], "Date added": pd.to_datetime(["2021-03-22"])})
+    s5 = pd.DataFrame({"ticker": ["UP5", "DN5", "NEW"],
+                       "start_date": pd.to_datetime(["2021-03-22", "2010-01-04", "2024-01-02"]),
+                       "end_date": pd.to_datetime([None, "2021-06-01", None])})
     return ch, s6, s5
 
 
@@ -30,6 +32,7 @@ def test_classification():
     assert ev.loc["UP5", "group"] == "deletion_to_sp500"
     assert ev.loc["GONE", "group"] == "deletion_mna"
     assert ev.loc["OTH", "group"] == "deletion_other"
+    assert ev.loc["DN5", "group"] == "addition_from_sp500"           # left the S&P 500 the same day
     assert "LATE" not in ev.index                                    # outside the event window
     assert ev["event_id"].is_unique and ev.loc["NEW", "event_id"] == "20210322-NEW-a"
 
@@ -37,7 +40,8 @@ def test_classification():
 def test_reference_tables_build():
     ev = events.build_events(*events.load_reference())
     assert len(ev) > 1000 and ev["event_id"].is_unique
-    assert set(ev["group"]) == {"addition_new", "addition_from_sp600", "deletion_to_sp600", "deletion_to_sp500",
+    assert set(ev["group"]) == {"addition_new", "addition_from_sp600", "addition_from_sp500", "deletion_to_sp600",
+                                "deletion_to_sp500",
                                 "deletion_mna", "deletion_other"}
     assert ev["date"].between(events.EVENT_START, events.EVENT_END).all()
 

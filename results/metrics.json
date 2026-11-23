@@ -17,119 +17,119 @@
   },
   "groups": {
     "addition_new": {
-      "n_events": 211,
-      "n_with_prices": 171,
-      "n_with_announcement": 132,
+      "n_events": 182,
+      "n_with_prices": 149,
+      "n_with_announcement": 110,
       "PRE": {
-        "mean": 0.00654534,
-        "t": 0.786884,
-        "p": 0.433249,
-        "n_dates": 99,
-        "n_events": 171,
+        "mean": 0.0090727,
+        "t": 1.03017,
+        "p": 0.305572,
+        "n_dates": 95,
+        "n_events": 149,
         "median_event": 0.028801,
-        "share_positive": 0.619883
+        "share_positive": 0.624161
       },
       "NEAR": {
-        "mean": 0.0454176,
-        "t": 6.85403,
-        "p": 6.42083e-10,
-        "n_dates": 99,
-        "n_events": 171,
-        "median_event": 0.021053,
-        "share_positive": 0.631579
+        "mean": 0.0496809,
+        "t": 7.28343,
+        "p": 9.87018e-11,
+        "n_dates": 95,
+        "n_events": 149,
+        "median_event": 0.027891,
+        "share_positive": 0.691275
       },
       "DAY0": {
-        "mean": -0.0036013,
-        "t": -1.46177,
-        "p": 0.147003,
-        "n_dates": 99,
-        "n_events": 171,
-        "median_event": -0.003211,
-        "share_positive": 0.421053
+        "mean": -0.00377353,
+        "t": -1.46623,
+        "p": 0.145923,
+        "n_dates": 95,
+        "n_events": 149,
+        "median_event": -0.004388,
+        "share_positive": 0.402685
       },
       "POST": {
-        "mean": 0.00573053,
-        "t": 0.703997,
-        "p": 0.483104,
-        "n_dates": 99,
-        "n_events": 171,
+        "mean": 0.00441084,
+        "t": 0.518466,
+        "p": 0.605351,
+        "n_dates": 95,
+        "n_events": 149,
         "median_event": 0.006206,
-        "share_positive": 0.526316
+        "share_positive": 0.530201
       },
       "BEFORE": {
-        "mean": 0.00253521,
-        "t": 0.33038,
-        "p": 0.742175,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": 0.0072655,
-        "share_positive": 0.537879
+        "mean": 0.00331099,
+        "t": 0.418482,
+        "p": 0.677089,
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": 0.0068415,
+        "share_positive": 0.536364
       },
       "DAY_BEFORE": {
-        "mean": -0.00406333,
-        "t": -1.21321,
-        "p": 0.229442,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": 0.0016615,
-        "share_positive": 0.545455
+        "mean": -0.00495917,
+        "t": -1.39449,
+        "p": 0.168313,
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": 0.0015175,
+        "share_positive": 0.527273
       },
       "OVERNIGHT": {
-        "mean": 0.0575004,
-        "t": 13.9197,
+        "mean": 0.0664146,
+        "t": 17.6182,
         "p": 0.0,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": 0.0503705,
-        "share_positive": 0.871212
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": 0.0547795,
+        "share_positive": 0.972727
       },
       "INTRADAY": {
-        "mean": 0.00205855,
-        "t": 0.655134,
-        "p": 0.514693,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": -0.00198402,
-        "share_positive": 0.44697,
+        "mean": 0.00283258,
+        "t": 0.792099,
+        "p": 0.431424,
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": -0.00207539,
+        "share_positive": 0.427273,
         "p_holm": 1.0
       },
       "RUNUP": {
-        "mean": -0.00481498,
-        "t": -1.0648,
-        "p": 0.290907,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": -0.004251,
-        "share_positive": 0.454545,
+        "mean": -0.00527387,
+        "t": -1.04937,
+        "p": 0.298216,
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": -0.0015195,
+        "share_positive": 0.481818,
         "p_holm": 1.0
       },
       "AFTER": {
-        "mean": -0.00295619,
-        "t": -0.338428,
-        "p": 0.736132,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": 0.0009745,
-        "share_positive": 0.507576,
+        "mean": -0.00591581,
+        "t": -0.626854,
+        "p": 0.533133,
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": -0.006429,
+        "share_positive": 0.472727,
         "p_holm": 1.0
       },
       "FROM_OPEN": {
-        "mean": -0.00275644,
-        "t": -0.464949,
-        "p": 0.643522,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": -0.0121741,
-        "share_positive": 0.386364
+        "mean": -0.00244129,
+        "t": -0.363476,
+        "p": 0.717527,
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": -0.0116691,
+        "share_positive": 0.409091
       },
       "REACTION": {
-        "mean": 0.059559,
-        "t": 11.5694,
+        "mean": 0.0692471,
+        "t": 13.6505,
         "p": 0.0,
-        "n_dates": 66,
-        "n_events": 132,
-        "median_event": 0.0416435,
-        "share_positive": 0.886364
+        "n_dates": 61,
+        "n_events": 110,
+        "median_event": 0.0489785,
+        "share_positive": 0.972727
       }
     },
     "addition_from_sp600": {
@@ -246,6 +246,119 @@
         "n_events": 53,
         "median_event": -0.0336001,
         "share_positive": 0.132075
+      }
+    },
+    "addition_from_sp500": {
+      "n_events": 29,
+      "n_with_prices": 22,
+      "n_with_announcement": 22,
+      "PRE": {
+        "mean": 0.0221402,
+        "t": 1.43634,
+        "p": 0.178729,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.0252595,
+        "share_positive": 0.590909
+      },
+      "NEAR": {
+        "mean": -0.0206812,
+        "t": -5.15368,
+        "p": 0.000316427,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": -0.0210095,
+        "share_positive": 0.227273
+      },
+      "DAY0": {
+        "mean": 0.00544278,
+        "t": 1.17197,
+        "p": 0.265967,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.001504,
+        "share_positive": 0.545455
+      },
+      "POST": {
+        "mean": 0.00411262,
+        "t": 0.329982,
+        "p": 0.747612,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.002861,
+        "share_positive": 0.5
+      },
+      "BEFORE": {
+        "mean": 0.0252905,
+        "t": 1.12413,
+        "p": 0.28489,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.0202565,
+        "share_positive": 0.545455
+      },
+      "DAY_BEFORE": {
+        "mean": 0.0061904,
+        "t": 1.1607,
+        "p": 0.270336,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.004191,
+        "share_positive": 0.636364
+      },
+      "OVERNIGHT": {
+        "mean": -0.00367306,
+        "t": -1.65103,
+        "p": 0.126963,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": -0.0011205,
+        "share_positive": 0.363636
+      },
+      "INTRADAY": {
+        "mean": 0.000549228,
+        "t": 0.134223,
+        "p": 0.89565,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.00127757,
+        "share_positive": 0.545455
+      },
+      "RUNUP": {
+        "mean": -0.0142021,
+        "t": -1.65012,
+        "p": 0.127153,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": -0.008038,
+        "share_positive": 0.318182
+      },
+      "AFTER": {
+        "mean": 0.0095554,
+        "t": 0.892103,
+        "p": 0.391435,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": 0.0083145,
+        "share_positive": 0.681818
+      },
+      "FROM_OPEN": {
+        "mean": -0.0136529,
+        "t": -1.73988,
+        "p": 0.109744,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": -0.0136328,
+        "share_positive": 0.272727
+      },
+      "REACTION": {
+        "mean": -0.00312383,
+        "t": -0.594751,
+        "p": 0.564044,
+        "n_dates": 12,
+        "n_events": 22,
+        "median_event": -0.00466263,
+        "share_positive": 0.454545
       }
     },
     "deletion_to_sp600": {
@@ -365,229 +478,229 @@
       }
     },
     "deletion_to_sp500": {
-      "n_events": 43,
-      "n_with_prices": 43,
-      "n_with_announcement": 36,
+      "n_events": 54,
+      "n_with_prices": 50,
+      "n_with_announcement": 43,
       "PRE": {
-        "mean": 0.0108128,
-        "t": 0.833224,
-        "p": 0.410213,
-        "n_dates": 37,
-        "n_events": 43,
-        "median_event": 0.010066,
-        "share_positive": 0.55814
+        "mean": 0.0278327,
+        "t": 2.13544,
+        "p": 0.0392313,
+        "n_dates": 39,
+        "n_events": 50,
+        "median_event": 0.017324,
+        "share_positive": 0.6
       },
       "NEAR": {
-        "mean": 0.0134177,
-        "t": 1.59458,
-        "p": 0.11955,
-        "n_dates": 37,
-        "n_events": 43,
-        "median_event": 0.00421,
-        "share_positive": 0.511628
+        "mean": 0.0104437,
+        "t": 1.25744,
+        "p": 0.216268,
+        "n_dates": 39,
+        "n_events": 50,
+        "median_event": -0.001777,
+        "share_positive": 0.48
       },
       "DAY0": {
-        "mean": 0.00859565,
-        "t": 2.31235,
-        "p": 0.0265888,
-        "n_dates": 37,
-        "n_events": 43,
-        "median_event": 0.008807,
-        "share_positive": 0.604651
+        "mean": 0.00528969,
+        "t": 1.35006,
+        "p": 0.184983,
+        "n_dates": 39,
+        "n_events": 50,
+        "median_event": 0.00343,
+        "share_positive": 0.56
       },
       "POST": {
-        "mean": -0.00399767,
-        "t": -0.298983,
-        "p": 0.766673,
-        "n_dates": 37,
-        "n_events": 43,
-        "median_event": -0.003403,
-        "share_positive": 0.44186
+        "mean": -0.00463666,
+        "t": -0.402438,
+        "p": 0.689617,
+        "n_dates": 39,
+        "n_events": 50,
+        "median_event": -0.0033615,
+        "share_positive": 0.46
       },
       "BEFORE": {
-        "mean": -0.00296309,
-        "t": -0.227082,
-        "p": 0.821953,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": -0.017874,
-        "share_positive": 0.444444
+        "mean": 0.00590889,
+        "t": 0.504183,
+        "p": 0.617697,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": -0.011186,
+        "share_positive": 0.488372
       },
       "DAY_BEFORE": {
-        "mean": -0.00920556,
-        "t": -1.63651,
-        "p": 0.112541,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": -0.0073175,
-        "share_positive": 0.444444
+        "mean": -0.00850601,
+        "t": -1.61976,
+        "p": 0.115413,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": -0.008087,
+        "share_positive": 0.44186
       },
       "OVERNIGHT": {
-        "mean": 0.0101101,
-        "t": 2.57571,
-        "p": 0.0153659,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": 0.0072135,
-        "share_positive": 0.75
+        "mean": 0.0109796,
+        "t": 2.912,
+        "p": 0.00660145,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": 0.007322,
+        "share_positive": 0.697674
       },
       "INTRADAY": {
-        "mean": -0.00112732,
-        "t": -0.207151,
-        "p": 0.83734,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": -0.00315327,
-        "share_positive": 0.472222
+        "mean": -0.00327318,
+        "t": -0.625375,
+        "p": 0.536302,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": -0.00669912,
+        "share_positive": 0.372093
       },
       "RUNUP": {
-        "mean": 0.00620483,
-        "t": 0.712988,
-        "p": 0.481551,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": 0.004004,
-        "share_positive": 0.583333
+        "mean": 0.00574184,
+        "t": 0.66831,
+        "p": 0.508881,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": 0.003265,
+        "share_positive": 0.534884
       },
       "AFTER": {
-        "mean": 0.00829161,
-        "t": 0.489698,
-        "p": 0.628031,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": 0.00664,
-        "share_positive": 0.527778
+        "mean": 0.00325285,
+        "t": 0.233062,
+        "p": 0.817246,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": 0.007523,
+        "share_positive": 0.534884
       },
       "FROM_OPEN": {
-        "mean": 0.0050775,
-        "t": 0.482402,
-        "p": 0.633142,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": 0.00556356,
-        "share_positive": 0.527778
+        "mean": 0.00246866,
+        "t": 0.238845,
+        "p": 0.812798,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": -0.00751032,
+        "share_positive": 0.465116
       },
       "REACTION": {
-        "mean": 0.00898273,
-        "t": 1.3074,
-        "p": 0.201347,
-        "n_dates": 30,
-        "n_events": 36,
-        "median_event": 0.00481432,
-        "share_positive": 0.583333
+        "mean": 0.00770642,
+        "t": 1.17151,
+        "p": 0.250319,
+        "n_dates": 32,
+        "n_events": 43,
+        "median_event": 0.00443526,
+        "share_positive": 0.534884
       }
     },
     "deletion_other": {
-      "n_events": 27,
-      "n_with_prices": 15,
-      "n_with_announcement": 15,
+      "n_events": 16,
+      "n_with_prices": 8,
+      "n_with_announcement": 8,
       "PRE": {
-        "mean": 0.0407528,
-        "t": 1.00114,
-        "p": 0.34037,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": 0.055401,
-        "share_positive": 0.6
+        "mean": -0.026433,
+        "t": -0.313457,
+        "p": 0.769599,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.016012,
+        "share_positive": 0.375
       },
       "NEAR": {
-        "mean": 0.0113967,
-        "t": 0.550598,
-        "p": 0.593995,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": 0.008419,
-        "share_positive": 0.6
+        "mean": 0.0240466,
+        "t": 0.616615,
+        "p": 0.570853,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": 0.0600015,
+        "share_positive": 0.875
       },
       "DAY0": {
-        "mean": -0.0062585,
-        "t": -0.510132,
-        "p": 0.621029,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": -0.006387,
-        "share_positive": 0.266667
+        "mean": 0.00443835,
+        "t": 0.236429,
+        "p": 0.824714,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.00464,
+        "share_positive": 0.25
       },
       "POST": {
-        "mean": 0.0245489,
-        "t": 0.715684,
-        "p": 0.49056,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": 0.009797,
-        "share_positive": 0.533333
+        "mean": 0.00994025,
+        "t": 0.0985424,
+        "p": 0.926242,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.0087325,
+        "share_positive": 0.5
       },
       "BEFORE": {
-        "mean": 0.0239881,
-        "t": 1.16996,
-        "p": 0.269144,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": 0.024075,
-        "share_positive": 0.666667
+        "mean": 0.0624784,
+        "t": 1.25856,
+        "p": 0.276639,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": 0.0088245,
+        "share_positive": 0.625
       },
       "DAY_BEFORE": {
-        "mean": 0.0123522,
-        "t": 1.42533,
-        "p": 0.18452,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": 0.006886,
-        "share_positive": 0.6
+        "mean": 0.0556007,
+        "t": 2.88649,
+        "p": 0.0447205,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": 0.025782,
+        "share_positive": 0.75
       },
       "OVERNIGHT": {
-        "mean": -0.0043595,
-        "t": -0.525947,
-        "p": 0.61039,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": -0.002965,
-        "share_positive": 0.4
+        "mean": -0.0376756,
+        "t": -2.91101,
+        "p": 0.0436342,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.0160295,
+        "share_positive": 0.375
       },
       "INTRADAY": {
-        "mean": -0.0449389,
-        "t": -4.25678,
-        "p": 0.0016715,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": -0.0329353,
-        "share_positive": 0.0
+        "mean": -0.0877026,
+        "t": -3.61741,
+        "p": 0.0224087,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.0518769,
+        "share_positive": 0.125
       },
       "RUNUP": {
-        "mean": 0.0452123,
-        "t": 1.78982,
-        "p": 0.103757,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": 0.035193,
-        "share_positive": 0.6
+        "mean": 0.0733353,
+        "t": 2.42562,
+        "p": 0.0723225,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": 0.07813,
+        "share_positive": 0.875
       },
       "AFTER": {
-        "mean": 0.0182904,
-        "t": 0.43924,
-        "p": 0.669827,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": -0.006013,
-        "share_positive": 0.466667
+        "mean": 0.0143786,
+        "t": 0.120415,
+        "p": 0.90996,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.026618,
+        "share_positive": 0.375
       },
       "FROM_OPEN": {
-        "mean": 0.000273435,
-        "t": 0.0109517,
-        "p": 0.991477,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": -0.00899923,
-        "share_positive": 0.4
+        "mean": -0.0143672,
+        "t": -0.310464,
+        "p": 0.771713,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": 0.0644459,
+        "share_positive": 0.625
       },
       "REACTION": {
-        "mean": -0.0492984,
-        "t": -3.03456,
-        "p": 0.0125789,
-        "n_dates": 11,
-        "n_events": 15,
-        "median_event": -0.0256927,
-        "share_positive": 0.2
+        "mean": -0.125378,
+        "t": -3.57457,
+        "p": 0.0232804,
+        "n_dates": 5,
+        "n_events": 8,
+        "median_event": -0.0686579,
+        "share_positive": 0.125
       }
     },
     "early_additions": {
@@ -820,6 +933,7 @@
   "labels": {
     "addition_new": "New additions",
     "addition_from_sp600": "Moved up from the S&P 600",
+    "addition_from_sp500": "Moved down from the S&P 500",
     "deletion_to_sp600": "Moved down to the S&P 600",
     "deletion_to_sp500": "Moved up to the S&P 500",
     "deletion_other": "Other deletions",
@@ -830,20 +944,20 @@
     "lo": -5,
     "hi": 8,
     "addition_new": [
-      -0.00440813,
-      -0.00382647,
-      -0.00411542,
-      0.000257644,
+      -0.00290441,
+      -0.00224222,
+      -0.000485764,
+      0.00178406,
       0.0,
-      0.048391,
-      0.0461336,
-      0.0462386,
-      0.0449263,
-      0.0466148,
-      0.045785,
-      0.0457188,
-      0.0423893,
-      0.0412188
+      0.0586917,
+      0.0566333,
+      0.0565237,
+      0.0544071,
+      0.0556283,
+      0.0556703,
+      0.0563717,
+      0.0525065,
+      0.0524782
     ],
     "addition_from_sp600": [
       0.0294598,
