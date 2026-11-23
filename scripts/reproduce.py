@@ -19,6 +19,7 @@ sys.path.insert(0, str(ROOT))
 from src import events, study  # noqa: E402
 
 LABEL = {"addition_new": "New additions", "addition_from_sp600": "Moved up from the S&P 600",
+         "addition_from_sp500": "Moved down from the S&P 500",
          "deletion_to_sp600": "Moved down to the S&P 600", "deletion_to_sp500": "Moved up to the S&P 500",
          "deletion_other": "Other deletions", "early_additions": "All additions, 2012 to 2019",
          "early_deletions": "All deletions, 2012 to 2019"}
